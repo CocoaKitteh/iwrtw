@@ -1,0 +1,16 @@
+|rInit
++Menu
+	|rmPreTitleIdk
+	|rTitle
+	|rMenu
+	|rOptions
++Game
+	|rSample
+	|rSampleTriggers
+	|rSampleBoss
+	|rSampleClear
+	|rTemplate
+	|rmStage1
+	|rmAvoidance
+	|rmBoss1
+	|rmStage2

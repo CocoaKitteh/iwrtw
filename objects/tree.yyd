@@ -1,0 +1,129 @@
++World
+	|World
+	|VolumeCheck
+	|Title
+	|Menu
+	|Options
+	|MusicPlayer
+	|Camera
+	|PreTitleShming
+	|Flashbang
+	|BossParticle
+	|ParticleSpawner
+	|GustavBG
+	|Star
+	|StarEffect
+	|StarSpawner
+	|Boss1Indicator
+	|Power
++Player
+	|PlayerStart
+	|Player
+	|Bullet
+	|BloodEmitter
+	|Blood
+	|GameOver
+	|Head
+	|Arm
+	|Foot
+	|Gun
++Blocks
+	|Block
+	|BlockMoving
+	|BlockMini
+	|Platform
+	|SaveBlocker
+	|TileDisplay
+	|SolidTileDisplay
+	+Slopes
+		|Slope
+		|SlopeTopRight
+		|SlopeBottomRight
+		|SlopeTopLeft
+		|SlopeBottomLeft
++Killers
+	|PlayerKiller
+	|SpikeUp
+	|SpikeRight
+	|SpikeDown
+	|SpikeLeft
+	|MiniSpikeUp
+	|MiniSpikeRight
+	|MiniSpikeDown
+	|MiniSpikeLeft
+	|KillerBlock
+	|Cherry
+	|Emeny
+	|SpikeUpMoveUpDown
+	|SpikeThatDestroysItselfWhenItGoesOutOfTheRoomWhyAmINamingItThisItsWayTooFuckingLongThisSucksBruh
+	|BG3AhhShuriken
+	|NotReallyAKillerButWhatever
+	+Bosses
+		+Boss 1
+			|Boss1
+			|BigBulletBoomBoom
+			|BigBulletPewPew
+		+Boss 2
+			|CherryDirectionShmingWhatchamacallit
+			|CherryDirectionShmingWhatchamacallitSpawner
+	|SuperIdol
+	|DieMonster
++Saves
+	|SaveMedium
+	|SaveMediumFlip
+	|SaveHard
+	|SaveBoss
+	|SaveHardFlip
+	|SaveVeryHard
+	|SaveVeryHardFlip
++Gimmicks
+	+Water
+		|Water
+		|WaterRefreshing
+		|WaterGroundJump
+		|WaterCatharsis
+	+Blocks
+		|BlockFake
+		|BlockInvisible
+		|IceBlock
+		|ConveyorLeft
+		|ConveyorRight
+	|PlatformTouch
+	|VineLeft
+	|VineRight
+	|JumpRefresher
+	|GravityUp
+	|GravityDown
+	|Sign
++Triggers
+	|Trigger
+	|TriggerManager
+	|ButtonLeft
+	|ButtonRight
+	|TriggerMaker
+	|TriggerMove
+	|TriggerMoveDir
+	|TriggerMoveTo
+	|TriggerPath
+	|TriggerGravity
+	|TriggerSound
+	|TriggerFade
+	|TriggerStretch
+	|TriggerRotate
+	|TriggerString
+	|TriggerTrigger
+	|BroIsDeadassMakingAWholeNewTriggerForASingleObjectLmfao
++Warps
+	|RoomChanger
+	|Warp
++Items
+	|Item
+	|BossItem
+	|GameClear
++Sample
+	+Boss
+		|objSampleBoss
+		|objSampleBossCherry
+		|objSampleBossWarp
+		|objSampleBossItem
+	|SampleStretchingBlock
