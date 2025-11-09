@@ -13,6 +13,7 @@ max_air_jumps = 1;
 max_vspeed = 9;
 run_speed = 3;
 shoot_timer=4
+fart=1
 
 // State
 frozen = false;
@@ -109,6 +110,7 @@ applies_to=self
 */
 /// Actions
 shoot_timer-=1
+fart=irandom(254)
 
 if !frozen {
     if input_check_pressed(key_jump) {

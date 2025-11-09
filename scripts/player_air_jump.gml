@@ -10,4 +10,7 @@ else {
     air_jumps = max(air_jumps, 0);
 }
 
-sound_play("player_air_jump");
+if(fart==254)
+    sound_play("qwertyuiopasdfghjklzxcvbnm")
+else
+    sound_play("player_air_jump");
