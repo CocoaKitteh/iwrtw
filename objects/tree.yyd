@@ -67,8 +67,10 @@
 			|BigBulletBoomBoom
 			|BigBulletPewPew
 		+Boss 2
-			|CherryDirectionShmingWhatchamacallit
-			|CherryDirectionShmingWhatchamacallitSpawner
+			|Boss2
+			|OrbDirectionShmingWhatchamacallit
+			|Orb
+			|OrbTrail
 +Saves
 	|SaveMedium
 	|SaveMediumFlip

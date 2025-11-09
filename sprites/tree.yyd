@@ -84,6 +84,7 @@
 	|sprEVILEDGEEnemyIdle
 	|sprEVILEDGEEnemyJump
 	|sprEVILEDGEEnemyHitbox
+	|sprOrb
 	+Cherry colors
 		|sprCherryOrange
 		|sprCherryYellow
