@@ -110,7 +110,7 @@ sprTriggerMakerBlue
 sprTriggerMakerViolet
 sprTriggerMakerMagenta
 sprTriggerMakerPink
-sprEVILAndFUCKEDUPKid
+sprEVILEDGEEnemyIdle
 sprPower
 sprGrenade
 sprExplosion
@@ -136,3 +136,9 @@ sprSuedShootA
 sprSuedShootB
 sprSuperIdol
 sprDieMonster
+sprKidPortrait
+sprSuedPortrait
+sprDialogBox
+HIM
+sprEVILEDGEEnemyJump
+sprEVILEDGEEnemyHitbox

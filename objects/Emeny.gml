@@ -4,7 +4,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-image_speed=0.2
+image_speed=0.1
 t=0
 hp=20
 jump_timer=0
@@ -25,7 +25,7 @@ if(instance_exists(Player)){
     }
 
     if(t mod 4==1 and t<30){
-        c=instance_create(x,y-2,Cherry)
+        c=instance_create(x-27*image_xscale,y-4,Cherry)
         c.speed=12
         c.direction=point_direction(c.x,c.y,Player.x,Player.y)
         c.sprite_index=sprBullet
@@ -35,7 +35,7 @@ if(instance_exists(Player)){
     }
 
     if(t mod 18==1 and t>100 and t<230){
-        c=instance_create(x,y-2,Cherry)
+        c=instance_create(x-27*image_xscale,y-4,Cherry)
         c.speed=12
         c.direction=point_direction(c.x,c.y,Player.x,Player.y)
         c.sprite_index=sprBullet
@@ -48,9 +48,9 @@ if(instance_exists(Player)){
         t=0
 
     if(Player.x<x)
-        image_xscale=-1
-    else
         image_xscale=1
+    else
+        image_xscale=-1
 
     if(jump_timer>=65){
         vspeed=-8.5
@@ -60,21 +60,6 @@ if(instance_exists(Player)){
 
 if(hp<=0){
     sound_play("death")
-    h = instance_create(x, y, Head);
-    h.speed = random(8);
-    h.direction = random(360);
-    h.image_xscale = image_xscale;
-    g = instance_create(x, y, Gun);
-    g.speed = random(8);
-    g.direction = random(360);
-    for(i = 0; i < 2; i += 1) {
-        a = instance_create(x, y, Arm);
-        a.speed = random(8);
-        a.direction = random(360);
-        f = instance_create(x, y, Foot);
-        f.speed = random(8);
-        f.direction = random(360);
-    }
     instance_create(x,y,BloodEmitter)
     instance_destroy()
 }
@@ -85,14 +70,18 @@ action_id=603
 applies_to=self
 */
 if(place_meeting(x,y+1,Block)){
-    sprite_index=sprPlayerIdle
-    image_speed=0.2
+    sprite_index=sprEVILEDGEEnemyIdle
+    image_speed=0.1
 } else {
-    if(vspeed>=0.05)
-        sprite_index=sprPlayerFall
-    if(vspeed<-0.05)
-        sprite_index=sprPlayerJump
-    image_speed=0.5
+    if(vspeed>=0.05){
+        sprite_index=sprEVILEDGEEnemyJump
+        image_index=1
+    }
+    if(vspeed<-0.05){
+        sprite_index=sprEVILEDGEEnemyJump
+        image_index=0
+    }
+    image_speed=0
 }
 #define Collision_Block
 /*"/*'/**//* YYD ACTION

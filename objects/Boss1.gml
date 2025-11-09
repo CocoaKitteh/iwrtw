@@ -4,6 +4,8 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+instance_create(16,368,DialogBox)
+active=false
 switching=false
 timer=200
 offset=0
@@ -162,99 +164,101 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-if(!switching)
-    timer+=1
+if(active){
+    if(!switching)
+        timer+=1
 
-if(timer>=250 and phase!=2){
-    alarm[0]=0
-    alarm[1]=0
-    alarm[2]=0
-    alarm[6]=0
-    alarm[5]=100
-    if(x>400)
-        path_start(ptBoss1,8,0,false)
-    else
-        path_start(ptBoss1Rev,8,0,false)
-    timer=0
-    switching=true
-    attacking=false
-}
-
-if(hp<=100)
-    phase=2
-
-if(phase==2 and timer>=0){
-    alarm[0]=0
-    alarm[1]=0
-    alarm[2]=0
-    alarm[5]=0
-    alarm[6]=0
-    alarm[3]=100
-    alarm[4]=100
-    switching=true
-    timer=-1
-    sprite_index=sprSuedIdle
-    sound_play("b1p2")
-    instance_create(x,y,Power)
-}
-
-if(instance_exists(Power)){
-    Power.x=x
-    Power.y=y
-}
-
-if(distance_to_object(Player)<=96){
-    repeat(100){
-        s=instance_create(x,y,Cherry)
-        s.speed=15
-        s.direction=random(360)
-        s.sprite_index=sprBullet
-        s.image_speed=1
-        s.image_xscale=2
-        s.image_yscale=2
+    if(timer>=250 and phase!=2){
+        alarm[0]=0
+        alarm[1]=0
+        alarm[2]=0
+        alarm[6]=0
+        alarm[5]=100
+        if(x>400)
+            path_start(ptBoss1,8,0,false)
+        else
+            path_start(ptBoss1Rev,8,0,false)
+        timer=0
+        switching=true
+        attacking=false
     }
-    sound_play("player_shoot")
-}
 
-if(distance_to_object(Player)>96){
-    if(y<=439)
-        sprite_index=sprSuedJump
-    else {
-        if(!attacking)
-            sprite_index=sprSuedIdle
-        if(instance_exists(Player)){
-            if(Player.x>x)
-                image_xscale=-1
-            else
-                image_xscale=1
+    if(hp<=100)
+        phase=2
+
+    if(phase==2 and timer>=0){
+        alarm[0]=0
+        alarm[1]=0
+        alarm[2]=0
+        alarm[5]=0
+        alarm[6]=0
+        alarm[3]=100
+        alarm[4]=100
+        switching=true
+        timer=-1
+        sprite_index=sprSuedIdle
+        sound_play("b1p2")
+        instance_create(x,y,Power)
+    }
+
+    if(instance_exists(Power)){
+        Power.x=x
+        Power.y=y
+    }
+
+    if(distance_to_object(Player)<=96){
+        repeat(100){
+            s=instance_create(x,y,Cherry)
+            s.speed=15
+            s.direction=random(360)
+            s.sprite_index=sprBullet
+            s.image_speed=1
+            s.image_xscale=2
+            s.image_yscale=2
         }
+        sound_play("player_shoot")
     }
-} else
-    sprite_index=sprEvilFuckedupUhhShotGunHahaLolLMAOHAHALeedHe254Ok
 
-if(!instance_exists(Player)){
-    alarm[0]=0
-    alarm[1]=0
-    alarm[2]=0
-    alarm[3]=0
-    alarm[4]=0
-    alarm[5]=0
-    alarm[6]=0
-    timer=-1
-}
+    if(distance_to_object(Player)>96){
+        if(y<=439)
+            sprite_index=sprSuedJump
+        else {
+            if(!attacking)
+                sprite_index=sprSuedIdle
+            if(instance_exists(Player)){
+                if(Player.x>x)
+                    image_xscale=-1
+                else
+                    image_xscale=1
+            }
+        }
+    } else
+        sprite_index=sprEvilFuckedupUhhShotGunHahaLolLMAOHAHALeedHe254Ok
 
-if(hp<=0){
-    with(ParticleSpawner)
+    if(!instance_exists(Player)){
+        alarm[0]=0
+        alarm[1]=0
+        alarm[2]=0
+        alarm[3]=0
+        alarm[4]=0
+        alarm[5]=0
+        alarm[6]=0
+        timer=-1
+    }
+
+    if(hp<=0){
+        with(ParticleSpawner)
+            instance_destroy()
+        with(StarSpawner)
+            instance_destroy()
+        w=instance_create(400,304,Warp)
+        w.room_to=rmStage2
+        w.autosave=true
+        instance_create(x,y,BloodEmitter)
+        sound_play("qwertyuiopasdfghjklzxcvbnm")
+        music_stop()
         instance_destroy()
-    with(StarSpawner)
-        instance_destroy()
-    w=instance_create(400,304,Warp)
-    w.room_to=rmStage2
-    w.autosave=true
-    instance_create(x,y,BloodEmitter)
-    sound_play("qwertyuiopasdfghjklzxcvbnm")
-    music_stop()
-    instance_destroy()
+    }
 }
 #define Collision_Bullet
 /*"/*'/**//* YYD ACTION
@@ -262,7 +266,8 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-hp-=1
+if(active)
+    hp-=1
 sound_play("boss_hit")
 instance_destroy_other()
 #define Other_7

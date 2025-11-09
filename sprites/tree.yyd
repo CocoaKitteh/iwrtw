@@ -12,6 +12,7 @@
 	|sprGustavBG
 	|sprStar
 	|sprIndicator
+	|sprDialogBox
 	+Trigger makers
 		|sprTriggerMaker
 		|sprTriggerMakerRed
@@ -26,6 +27,10 @@
 		|sprTriggerMakerViolet
 		|sprTriggerMakerMagenta
 		|sprTriggerMakerPink
+	+Portraits
+		|sprKidPortrait
+		|sprSuedPortrait
+		|HIM
 +Player
 	|sprPlayerIdle
 	|sprPlayerRun
@@ -39,7 +44,6 @@
 	|sprBullet
 	|sprBlood
 	|sprGameOver
-	|sprEVILAndFUCKEDUPKid
 	|sprHead
 	|sprArm
 	|sprFoot
@@ -75,6 +79,11 @@
 	|sprKillerBlock
 	|sprCherry
 	|sprBG3AhhShuriken
+	|sprSuperIdol
+	|sprDieMonster
+	|sprEVILEDGEEnemyIdle
+	|sprEVILEDGEEnemyJump
+	|sprEVILEDGEEnemyHitbox
 	+Cherry colors
 		|sprCherryOrange
 		|sprCherryYellow
@@ -96,8 +105,6 @@
 		|sprEvilFuckedupUhhShotGunHahaLolLMAOHAHALeedHe254Ok
 		|sprSuedShootA
 		|sprSuedShootB
-	|sprSuperIdol
-	|sprDieMonster
 +Saves
 	|sprSaveMask
 	|sprSaveMedium

@@ -16,6 +16,7 @@
 	|StarSpawner
 	|Boss1Indicator
 	|Power
+	|DialogBox
 +Player
 	|PlayerStart
 	|Player
@@ -58,6 +59,8 @@
 	|SpikeThatDestroysItselfWhenItGoesOutOfTheRoomWhyAmINamingItThisItsWayTooFuckingLongThisSucksBruh
 	|BG3AhhShuriken
 	|NotReallyAKillerButWhatever
+	|SuperIdol
+	|DieMonster
 	+Bosses
 		+Boss 1
 			|Boss1
@@ -66,8 +69,6 @@
 		+Boss 2
 			|CherryDirectionShmingWhatchamacallit
 			|CherryDirectionShmingWhatchamacallitSpawner
-	|SuperIdol
-	|DieMonster
 +Saves
 	|SaveMedium
 	|SaveMediumFlip
