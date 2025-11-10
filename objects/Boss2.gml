@@ -41,7 +41,7 @@ for(i=0;i<360;i+=360/12){
     c.angle=i+dir
     c.distance=0
     c.angspd=0.75*rev
-    c.disspd=6
+    c.disspd=4
 }
 
 sound_play("PIM")
@@ -66,7 +66,7 @@ for(i=0;i<360;i+=360/12){
     c.angle=i+dir
     c.distance=0
     c.angspd=0.75*-rev
-    c.disspd=6
+    c.disspd=4
 }
 
 instance_create(0,0,ScreenShake)
