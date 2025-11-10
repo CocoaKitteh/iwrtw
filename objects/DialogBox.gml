@@ -5,7 +5,7 @@ action_id=603
 applies_to=self
 */
 count=0
-chosen_dialog=irandom(1)
+chosen_dialog=irandom(3)
 txt=""
 cur_text=""
 spr=0
@@ -20,6 +20,7 @@ applies_to=self
 */
 Player.frozen=false
 Boss1.active=true
+Boss2.active=true
 #define Draw_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -44,8 +45,13 @@ actual_timer+=1
 if(string_length(cur_text)<string_length(txt) and actual_timer>=2){
     cur_text+=string_char_at(txt,string_length(cur_text)+1)
     actual_timer=0
-    sound_stop("qwertyuiopasdfghjklzxcvbnm")
-    sound_play("qwertyuiopasdfghjklzxcvbnm")
+    if(room==rmBoss1 and chosen_dialog==3){
+        sound_stop("maybe")
+        sound_play("maybe")
+    } else {
+        sound_stop("qwertyuiopasdfghjklzxcvbnm")
+        sound_play("qwertyuiopasdfghjklzxcvbnm")
+    }
 }
 
 draw_self()
@@ -129,16 +135,81 @@ at position 10: Variable name expected.
                     spr=sprKidPortrait
                     break
             }
+        } else if(chosen_dialog==2){
+            switch(count){
+                case 0:
+                    txt="i used to be a cherry before..."
+                    spr=sprSuedPortrait
+                    break
+
+                case 1:
+                    txt="but now... i have evolved..."
+                    spr=sprSuedPortrait
+                    break
+
+                case 2:
+                    txt="i have FLESH"
+                    spr=sprSuedPortrait
+                    break
+
+                case 3:
+                    txt="metamorphosis"
+                    spr=sprKidPortrait
+                    break
+            }
+        } else if(chosen_dialog==3){
+            txt="maybe its the way youre dressed"
+            spr=sprSuedPortrait
         }
         if(chosen_dialog==0){
             if(count>1)
                 instance_destroy()
-        }
-        else if(chosen_dialog==1){
+        } else if(chosen_dialog==1){
             if(count>9)
+                instance_destroy()
+        } else if(chosen_dialog==2){
+            if(count>3)
+                instance_destroy()
+        } else if(chosen_dialog==3){
+            if(count>0)
                 instance_destroy()
         }
         break
+
+    case rmBoss2:
+        switch(count){
+            case 0:
+                txt="hello"
+                spr=sprSuedPortrait
+                break
+
+            case 1:
+                txt="how are you"
+                spr=sprSuedPortrait
+                break
+
+            case 2:
+                txt="i am under the water"
+                spr=sprSuedPortrait
+                break
+
+            case 3:
+                txt="please help me"
+                spr=sprSuedPortrait
+                break
+
+            case 4:
+                txt="here too much raining uuuuu"
+                spr=sprSuedPortrait
+                break
+
+            case 5:
+                txt="what"
+                spr=sprKidPortrait
+                break
+        }
+        if(count>5)
+            instance_destroy()
 }
 
 draw_sprite(spr,0,x+32,y+32)

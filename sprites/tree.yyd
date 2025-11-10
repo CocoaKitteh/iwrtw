@@ -70,6 +70,7 @@
 +Killers
 	|sprSpikeUp
 	|sprSpikeRight
+	|sprSpikeCentered
 	|sprSpikeDown
 	|sprSpikeLeft
 	|sprMiniSpikeUp

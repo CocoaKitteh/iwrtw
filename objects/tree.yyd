@@ -28,6 +28,7 @@
 	|Arm
 	|Foot
 	|Gun
+	|PlayerShming
 +Blocks
 	|Block
 	|BlockMoving
@@ -71,6 +72,7 @@
 			|OrbDirectionShmingWhatchamacallit
 			|Orb
 			|OrbTrail
+			|ScreenShake
 +Saves
 	|SaveMedium
 	|SaveMediumFlip
