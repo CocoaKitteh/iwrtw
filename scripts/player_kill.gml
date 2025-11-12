@@ -25,6 +25,7 @@ with(Player) {
     sound_kind_pause(1)
     sound_kind_stop(0)
     sound_play("player_death");
+    sound_play("ahh")
 
     instance_create(0, 0, GameOver);
     instance_destroy();

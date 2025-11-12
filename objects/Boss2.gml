@@ -5,6 +5,7 @@ action_id=603
 applies_to=self
 */
 instance_create(16,368,DialogBox)
+weaoweaoweaow=0
 hp=400
 phase=1
 active=false
@@ -16,13 +17,11 @@ superspinshming=0
 spin=0
 offset=0
 rev=1
-image_speed=1/15
-image_xscale=3
-image_yscale=3
 music_play("b2",true)
 instance_create(0,0,Flashbang)
 sound_volume("b1start",0.5)
 sound_play("b1start")
+alarm[6]=1
 #define Alarm_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -102,7 +101,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-spin+=21
+spin+=26
 
 c1=instance_create(x,y,Cherry)
 c1.direction=spin
@@ -129,7 +128,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-spin+=11
+spin+=14
 s=instance_create(x,y,Orb)
 s.speed=5
 s.direction=spin
@@ -166,6 +165,19 @@ switching=false
 alarm[choose(0,2,3,4)]=1
 sound_play("block_change")
 attacking=true
+#define Alarm_6
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+/// bubbles!!!!! :3c
+// (am i the only one who shminks the word bubble sounds cute)
+
+b=instance_create(irandom(800),608,Bubble)
+b.vspeed=random_range(-2,-4)
+b.hspeed=random_range(-1,1)
+alarm[6]=3
 #define Step_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -250,11 +262,16 @@ if(active){
         w.room_to=rmStage2
         w.autosave=true
         instance_create(x,y,BloodEmitter)
-        sound_play("qwertyuiopasdfghjklzxcvbnm")
+        instance_create(0,0,ScreenShake)
+        sound_play("death")
+        sound_play("OOAA")
         music_stop()
         instance_destroy()
     }
 }
+
+weaoweaoweaow+=1
+y+=sin(weaoweaoweaow/20)/2
 #define Collision_Bullet
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -273,4 +290,3 @@ applies_to=self
 */
 draw_self()
 draw_healthbar(4,4,796,28,hp/4,c_white,c_red,c_lime,180,true,true)
-draw_text(32,32,instance_count)

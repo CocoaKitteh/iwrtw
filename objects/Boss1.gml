@@ -255,7 +255,9 @@ if(active){
         w.room_to=rmStage2
         w.autosave=true
         instance_create(x,y,BloodEmitter)
-        sound_play("qwertyuiopasdfghjklzxcvbnm")
+        instance_create(0,0,ScreenShake)
+        sound_play("death")
+        sound_play("OOAA")
         music_stop()
         instance_destroy()
     }

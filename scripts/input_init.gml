@@ -28,7 +28,7 @@ input_define(key_down,    "Down Button",    vk_down,  true);
 input_define(key_jump,    "Jump Button",    vk_shift, true);
 input_define(key_shoot,   "Shoot Button",   ord("Z"), true);
 input_define(key_restart, "Restart Button", ord("R"), true);
-input_define(key_skip,    "Skip Button",    ord("S"), true);
+input_define(key_skip,    "Save/Skip Button",    ord("S"), true);
 input_define(key_suicide, "Suicide Button", ord("Q"), true);
 input_define(key_pause,   "Pause Button",   ord("P"), true);
 

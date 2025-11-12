@@ -49,8 +49,8 @@ if(string_length(cur_text)<string_length(txt) and actual_timer>=2){
         sound_stop("maybe")
         sound_play("maybe")
     } else {
-        sound_stop("qwertyuiopasdfghjklzxcvbnm")
-        sound_play("qwertyuiopasdfghjklzxcvbnm")
+        sound_stop("dialog")
+        sound_play("dialog")
     }
 }
 
@@ -180,27 +180,27 @@ at position 10: Variable name expected.
         switch(count){
             case 0:
                 txt="hello"
-                spr=sprSuedPortrait
+                spr=sprMessiPortrait
                 break
 
             case 1:
                 txt="how are you"
-                spr=sprSuedPortrait
+                spr=sprMessiPortrait
                 break
 
             case 2:
                 txt="i am under the water"
-                spr=sprSuedPortrait
+                spr=sprMessiPortrait
                 break
 
             case 3:
                 txt="please help me"
-                spr=sprSuedPortrait
+                spr=sprMessiPortrait
                 break
 
             case 4:
                 txt="here too much raining uuuuu"
-                spr=sprSuedPortrait
+                spr=sprMessiPortrait
                 break
 
             case 5:

@@ -13,6 +13,7 @@
 	|sprStar
 	|sprIndicator
 	|sprDialogBox
+	|sprBubble
 	+Trigger makers
 		|sprTriggerMaker
 		|sprTriggerMakerRed
@@ -30,6 +31,7 @@
 	+Portraits
 		|sprKidPortrait
 		|sprSuedPortrait
+		|sprMessiPortrait
 		|HIM
 +Player
 	|sprPlayerIdle
@@ -107,6 +109,8 @@
 		|sprEvilFuckedupUhhShotGunHahaLolLMAOHAHALeedHe254Ok
 		|sprSuedShootA
 		|sprSuedShootB
+	+Boss 2
+		|sprMessi
 +Saves
 	|sprSaveMask
 	|sprSaveMedium

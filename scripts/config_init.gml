@@ -14,7 +14,7 @@ show_volume_check = true;
 config_read();
 
 // Default option values. Not strictly necessary for options that start at 0/false.
-config_default("music_volume", 15);
+config_default("music_volume", 25);
 config_default("sound_volume", 25);
 config_default("fullscreen", false);
 config_default("smoothing", false);
