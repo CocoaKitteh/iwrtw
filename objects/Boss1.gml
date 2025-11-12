@@ -12,7 +12,7 @@ offset=0
 phase=1
 attacking=false
 music_play("b1",true)
-initial_hp=400
+initial_hp=500
 hp=initial_hp
 dir=0
 dir2=0
@@ -183,7 +183,7 @@ if(active){
         attacking=false
     }
 
-    if(hp<=100)
+    if(hp<=150)
         phase=2
 
     if(phase==2 and timer>=0){
@@ -287,4 +287,4 @@ action_id=603
 applies_to=self
 */
 draw_self()
-draw_healthbar(4,4,796,28,hp/4,c_white,c_red,c_lime,180,true,true)
+draw_healthbar(4,4,796,28,hp/5,c_white,c_red,c_lime,180,true,true)

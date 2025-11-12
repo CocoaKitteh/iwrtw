@@ -6,7 +6,7 @@ applies_to=self
 */
 instance_create(16,368,DialogBox)
 weaoweaoweaow=0
-hp=400
+hp=500
 phase=1
 active=false
 switching=false
@@ -214,7 +214,7 @@ if(active){
         }
     }
 
-    if(hp==300 and phase==1){
+    if(hp==375 and phase==1){
         repeat(3){
             c=instance_create(x,y,Cherry)
             c.speed=1
@@ -225,7 +225,7 @@ if(active){
         phase=2
     }
 
-    if(hp==200 and phase==2){
+    if(hp==250 and phase==2){
         repeat(3){
             c=instance_create(x,y,Cherry)
             c.speed=1
@@ -236,7 +236,7 @@ if(active){
         phase=3
     }
 
-    if(hp==100 and phase==3){
+    if(hp==125 and phase==3){
         repeat(3){
             c=instance_create(x,y,Cherry)
             c.speed=1
@@ -289,4 +289,4 @@ action_id=603
 applies_to=self
 */
 draw_self()
-draw_healthbar(4,4,796,28,hp/4,c_white,c_red,c_lime,180,true,true)
+draw_healthbar(4,4,796,28,hp/5,c_white,c_red,c_lime,180,true,true)
