@@ -5,6 +5,8 @@ action_id=603
 applies_to=self
 */
 instance_create(16,368,DialogBox)
+attack=-1
+cur_attack=-1
 weaoweaoweaow=0
 hp=500
 phase=1
@@ -28,6 +30,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=0
 alarm_timer+=25
 rev*=-1
 dir=irandom(360)
@@ -77,6 +80,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=2
 offset+=40
 
 if(offset>40)
@@ -101,6 +105,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=3
 spin+=26
 
 c1=instance_create(x,y,Cherry)
@@ -128,6 +133,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=4
 spin+=14
 s=instance_create(x,y,Orb)
 s.speed=5
@@ -162,7 +168,9 @@ action_id=603
 applies_to=self
 */
 switching=false
-alarm[choose(0,2,3,4)]=1
+while(attack==cur_attack)
+    attack=choose(0,2,3,4)
+alarm[attack]=1
 sound_play("block_change")
 attacking=true
 #define Alarm_6
@@ -258,11 +266,10 @@ if(active){
     }
 
     if(hp<=0){
-        w=instance_create(400,304,Warp)
-        w.room_to=rmStage2
-        w.autosave=true
         instance_create(x,y,BloodEmitter)
         instance_create(0,0,ScreenShake)
+        with(SolidTileDisplay)
+            instance_destroy()
         sound_play("death")
         sound_play("OOAA")
         music_stop()

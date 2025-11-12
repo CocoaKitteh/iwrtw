@@ -5,6 +5,8 @@ action_id=603
 applies_to=self
 */
 instance_create(16,368,DialogBox)
+attack=-1
+cur_attack=-1
 active=false
 switching=false
 timer=200
@@ -30,6 +32,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=0
 instance_create(x-52*image_xscale,y-60,BigBulletBoomBoom)
 sprite_index=sprSuedShootB
 image_speed=0.5
@@ -43,6 +46,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=1
 if(instance_exists(Player)){
     bb=instance_create(x-65*image_xscale,y-37,BigBulletPewPew)
     bb.speed=3
@@ -59,6 +63,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=2
 rand=irandom(360)
 for(i=0;i<360;i+=360/16){
     b1=instance_create(x-65*image_xscale,y-37,Cherry)
@@ -131,7 +136,9 @@ action_id=603
 applies_to=self
 */
 switching=false
-alarm[choose(0,1,2,6)]=1
+while(attack==cur_attack)
+    attack=choose(0,1,2,6)
+alarm[attack]=1
 sound_play("block_change")
 attacking=true
 #define Alarm_6
@@ -140,6 +147,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+cur_attack=6
 dir+=11
 dir2+=13
 b1=instance_create(x-65*image_xscale,y-37,Cherry)
