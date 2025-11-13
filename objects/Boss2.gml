@@ -19,7 +19,6 @@ superspinshming=0
 spin=0
 offset=0
 rev=1
-music_play("b2",true)
 instance_create(0,0,Flashbang)
 sound_volume("b1start",0.5)
 sound_play("b1start")
@@ -193,6 +192,9 @@ action_id=603
 applies_to=self
 */
 if(active){
+    if(!sound_isplaying("b2"))
+        music_play("b2",true)
+
     if(!switching)
         timer+=1
 
@@ -224,7 +226,7 @@ if(active){
 
     if(hp==375 and phase==1){
         repeat(3){
-            c=instance_create(x,y,Cherry)
+            c=instance_create(x,y,IGottaStopCloningObjectsLikeThisBruh)
             c.speed=1
             c.direction=irandom(360)
             c.bounce=true
@@ -235,7 +237,7 @@ if(active){
 
     if(hp==250 and phase==2){
         repeat(3){
-            c=instance_create(x,y,Cherry)
+            c=instance_create(x,y,IGottaStopCloningObjectsLikeThisBruh)
             c.speed=1
             c.direction=irandom(360)
             c.bounce=true
@@ -246,7 +248,7 @@ if(active){
 
     if(hp==125 and phase==3){
         repeat(3){
-            c=instance_create(x,y,Cherry)
+            c=instance_create(x,y,IGottaStopCloningObjectsLikeThisBruh)
             c.speed=1
             c.direction=irandom(360)
             c.bounce=true

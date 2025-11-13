@@ -12,6 +12,7 @@
 	|sprGustavBG
 	|sprStar
 	|sprIndicator
+	|sprDieMonster
 	|sprDialogBox
 	|sprBubble
 	+Trigger makers
@@ -33,6 +34,7 @@
 		|sprSuedPortrait
 		|sprMessiPortrait
 		|HIM
+		|sprGoodCoderPortrait
 +Player
 	|sprPlayerIdle
 	|sprPlayerRun
@@ -83,7 +85,6 @@
 	|sprCherry
 	|sprBG3AhhShuriken
 	|sprSuperIdol
-	|sprDieMonster
 	|sprEVILEDGEEnemyIdle
 	|sprEVILEDGEEnemyJump
 	|sprEVILEDGEEnemyHitbox

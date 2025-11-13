@@ -4,6 +4,10 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+if(instance_exists(Bullet)){
+    with(Bullet)
+        instance_destroy()
+}
 instance_create(16,368,DialogBox)
 attack=-1
 cur_attack=-1
@@ -13,11 +17,11 @@ timer=200
 offset=0
 phase=1
 attacking=false
-music_play("b1",true)
 initial_hp=500
 hp=initial_hp
 dir=0
-dir2=0
+dir2=120
+dir3=240
 instance_create(0,0,Flashbang)
 instance_create(0,0,ParticleSpawner)
 instance_create(0,0,StarSpawner)
@@ -148,18 +152,24 @@ action_id=603
 applies_to=self
 */
 cur_attack=6
-dir+=11
-dir2+=13
+dir+=16
+dir2+=19
+dir3+=22
 b1=instance_create(x-65*image_xscale,y-37,Cherry)
-b1.speed=6
+b1.speed=4
 b1.direction=dir
 b1.sprite_index=sprBullet
 b1.image_speed=1
 b2=instance_create(x-65*image_xscale,y-37,Cherry)
-b2.speed=8
+b2.speed=5
 b2.direction=dir2
 b2.sprite_index=sprBullet
 b2.image_speed=1
+b3=instance_create(x-65*image_xscale,y-37,Cherry)
+b3.speed=6
+b3.direction=dir3
+b3.sprite_index=sprBullet
+b3.image_speed=1
 sound_play("player_shoot")
 sprite_index=sprSuedShootA
 image_speed=1
@@ -173,6 +183,9 @@ action_id=603
 applies_to=self
 */
 if(active){
+    if(!sound_isplaying("b1"))
+        music_play("b1",true)
+
     if(!switching)
         timer+=1
 
@@ -263,6 +276,11 @@ if(active){
             instance_destroy()
         background_index[0]=bgStage1
         background_index[1]=noone
+        instance_create(0,0,Flashbang)
+        if(instance_exists(Cherry)){
+            with(Cherry)
+                instance_destroy()
+        }
         instance_create(x,y,BloodEmitter)
         instance_create(0,0,ScreenShake)
         sound_play("death")

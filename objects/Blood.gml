@@ -14,10 +14,9 @@ inst = noone;
 offset_dist = 0;
 offset_angle = 0;
 
-stick_to_count = 3;
+stick_to_count = 2;
 stick_to[0] = Block;
-stick_to[1] = PlayerKiller;
-stick_to[2] = Platform;
+stick_to[1] = Platform;
 #define Step_2
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -56,9 +55,6 @@ else {
         gravity = grav;
     }
 }
-
-if(place_meeting(x,y,SpikeUpMoveUpDown))
-    depth=1100
 #define Other_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
