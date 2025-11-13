@@ -1,7 +1,6 @@
 //gm82 fields begin
-room_to=rmPreStage3A
-x_to=0
-y_to=1175
+room_to=rmWROOOOOOONG
+x_to=400
+y_to=304
 type=type_outside
-autosave=true
 //gm82 fields end
