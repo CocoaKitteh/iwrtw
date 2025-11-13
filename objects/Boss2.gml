@@ -183,7 +183,7 @@ applies_to=self
 // (am i the only one who shminks the word bubble sounds cute)
 
 b=instance_create(irandom(800),608,Bubble)
-b.vspeed=random_range(-2,-4)
+b.vspeed=random_range(-3,-6)
 b.hspeed=random_range(-1,1)
 alarm[6]=3
 #define Step_0

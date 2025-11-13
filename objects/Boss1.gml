@@ -259,9 +259,10 @@ if(active){
             instance_destroy()
         with(StarSpawner)
             instance_destroy()
-        w=instance_create(400,304,Warp)
-        w.room_to=rmStage2
-        w.autosave=true
+        with(SolidTileDisplay)
+            instance_destroy()
+        background_index[0]=bgStage1
+        background_index[1]=noone
         instance_create(x,y,BloodEmitter)
         instance_create(0,0,ScreenShake)
         sound_play("death")
