@@ -1,0 +1,90 @@
+11/14/2025 14:44:31.037: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:31.037: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  graphics-hook.dll loaded against process: g.exe
+11/14/2025 14:44:31.038: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:31.038: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:31.038: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  (half life scientist) everything..  seems to be in order
+11/14/2025 14:44:31.038: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:32.749: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  Hooked IDXGISwapChain::Present
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  Hooked IDXGISwapChain::ResizeBuffers
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  Hooked IDXGISwapChain1::Present1
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  Hooked DXGI
+11/14/2025 14:44:32.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:32.756: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:32.756: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  Found D3D11 11.0 device on swap chain
+11/14/2025 14:44:32.756: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:32.757: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:32.757: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  DXGI_SWAP_CHAIN_DESC:
+    BufferDesc.Width: 800
+    BufferDesc.Height: 608
+    BufferDesc.RefreshRate.Numerator: 60
+    BufferDesc.RefreshRate.Denominator: 1
+    BufferDesc.Format: 28
+    BufferDesc.ScanlineOrdering: 0
+    BufferDesc.Scaling: 0
+    SampleDesc.Count: 1
+    SampleDesc.Quality: 0
+    BufferUsage: 96
+    BufferCount: 2
+    Windowed: 1
+    SwapEffect: 4
+    Flags: 205011/14/2025 14:44:32.757: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:32.758: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:32.758: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  d3d11 shared texture capture successful
+11/14/2025 14:44:32.758: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.738: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.738: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  ----------------- d3d11 capture freed ----------------
+11/14/2025 14:44:33.738: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.749: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.749: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  Found D3D11 11.0 device on swap chain
+11/14/2025 14:44:33.749: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  DXGI_SWAP_CHAIN_DESC:
+    BufferDesc.Width: 828
+    BufferDesc.Height: 660
+    BufferDesc.RefreshRate.Numerator: 60
+    BufferDesc.RefreshRate.Denominator: 1
+    BufferDesc.Format: 28
+    BufferDesc.ScanlineOrdering: 0
+    BufferDesc.Scaling: 0
+    SampleDesc.Count: 1
+    SampleDesc.Quality: 0
+    BufferUsage: 96
+    BufferCount: 2
+    Windowed: 1
+    SwapEffect: 4
+    Flags: 205011/14/2025 14:44:33.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  d3d11 shared texture capture successful
+11/14/2025 14:44:33.750: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.754: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.754: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  ----------------- d3d11 capture freed ----------------
+11/14/2025 14:44:33.754: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  Found D3D11 11.0 device on swap chain
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  DXGI_SWAP_CHAIN_DESC:
+    BufferDesc.Width: 1920
+    BufferDesc.Height: 1080
+    BufferDesc.RefreshRate.Numerator: 60
+    BufferDesc.RefreshRate.Denominator: 1
+    BufferDesc.Format: 28
+    BufferDesc.ScanlineOrdering: 0
+    BufferDesc.Scaling: 0
+    SampleDesc.Count: 1
+    SampleDesc.Quality: 0
+    BufferUsage: 96
+    BufferCount: 2
+    Windowed: 1
+    SwapEffect: 4
+    Flags: 205011/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  [OBS] 
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  d3d11 shared texture capture successful
+11/14/2025 14:44:33.763: C:\ProgramData\obs-studio-hook\graphics-hook32.dll                      :  

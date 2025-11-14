@@ -1,0 +1,59 @@
+#define Create_0
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+t=0
+alarm[0]=15
+alarm[1]=30
+alarm[2]=220
+image_speed=1/15
+#define Alarm_0
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+hspeed=0
+#define Alarm_1
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+t+=1
+
+if(t<10){
+    if(instance_exists(Player)){
+        b=instance_create(x,y,Cherry)
+        b.sprite_index=sprBullet
+        b.image_speed=1
+        b.speed=8
+        b.direction=point_direction(x,y,Player.x,Player.y)
+        b.image_xscale=2
+        b.image_yscale=2
+    }
+
+    sound_play("player_shoot")
+}
+
+if(t>20)
+    t=0
+
+alarm[1]=4
+#define Alarm_2
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+alarm[1]=0
+hspeed=spd
+#define Other_0
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+instance_destroy()

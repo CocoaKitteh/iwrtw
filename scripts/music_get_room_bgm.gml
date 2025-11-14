@@ -9,6 +9,7 @@ switch(room) {
         return "guy_rock";
 
     case rSampleBoss:
+    case rmWROOOOOOONG:
         // objSampleBoss starts the room music. We don't want it stopped here.
         return music_no_change;
 
@@ -20,6 +21,13 @@ switch(room) {
 
     case rmStage2:
         return "s2"
+
+    case rmStage3:
+        return "s3"
+
+    case rmStage4A:
+    case rmStage4B:
+        return "s4"
 
     default:
         return music_none;

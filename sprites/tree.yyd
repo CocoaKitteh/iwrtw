@@ -35,6 +35,7 @@
 		|sprMessiPortrait
 		|HIM
 		|sprGoodCoderPortrait
+	|sprThisWasSupposedToBeATruckAtFirstButVerveEngineIsFuckingDogshitAndDoesntLetYouUseMovingBlocksIfTheHitboxesArentRectangles
 +Player
 	|sprPlayerIdle
 	|sprPlayerRun

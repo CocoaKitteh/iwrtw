@@ -18,6 +18,7 @@
 	|Power
 	|DialogBox
 	|Bubble
+	|NotATruck
 +Player
 	|PlayerStart
 	|Player
@@ -35,6 +36,7 @@
 	|BlockMoving
 	|BlockMini
 	|Platform
+	|Stage4Platform
 	|SaveBlocker
 	|TileDisplay
 	|SolidTileDisplay
@@ -52,6 +54,8 @@
 	|SpikeLeft
 	|MiniSpikeUp
 	|MiniSpikeRight
+	|MinecartSpikeRight
+	|MinecartSpikeLeft
 	|MiniSpikeDown
 	|MiniSpikeLeft
 	|KillerBlock
@@ -64,6 +68,13 @@
 	|NotReallyAKillerButWhatever
 	|SuperIdol
 	|DieMonster
+	|CherryDirectionShmingWhatchamacallit
+	|Stage3EnemyA
+	|Stage3EnemyB
+	|Stage3EnemyC
+	|Stage3EnemyD
+	|Stage3EnemyE
+	|Stage3MiniBoss
 	+Bosses
 		+Boss 1
 			|Boss1
