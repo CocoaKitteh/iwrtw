@@ -90,6 +90,7 @@
 	|sprEVILEDGEEnemyJump
 	|sprEVILEDGEEnemyHitbox
 	|sprOrb
+	|sprTheShming
 	+Cherry colors
 		|sprCherryOrange
 		|sprCherryYellow
@@ -113,6 +114,8 @@
 		|sprSuedShootB
 	+Boss 2
 		|sprMessi
+	+Boss 4
+		|sprBroSkippedBoss3
 +Saves
 	|sprSaveMask
 	|sprSaveMedium

@@ -17,7 +17,7 @@ switch(room) {
         return "s1"
 
     case rmAvoidance:
-        return "HEWINS"
+        return "superidol"
 
     case rmStage2:
         return "s2"
@@ -27,6 +27,7 @@ switch(room) {
 
     case rmStage4A:
     case rmStage4B:
+    case rmStage4C:
         return "s4"
 
     default:

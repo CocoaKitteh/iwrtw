@@ -75,6 +75,8 @@
 	|Stage3EnemyD
 	|Stage3EnemyE
 	|Stage3MiniBoss
+	|CherryWheelShmingClockwise
+	|CherryWheelShmingCounterClockwise
 	+Bosses
 		+Boss 1
 			|Boss1
@@ -86,6 +88,8 @@
 			|Orb
 			|OrbTrail
 			|ScreenShake
+		+Boss 4
+			|BroSkippedBoss3
 +Saves
 	|SaveMedium
 	|SaveMediumFlip
@@ -132,6 +136,7 @@
 	|TriggerTrigger
 	|BroIsDeadassMakingAWholeNewTriggerForASingleObjectLmfao
 	|HWAAA
+	|Stage4PlatformSpeedChanger
 +Warps
 	|RoomChanger
 	|Warp

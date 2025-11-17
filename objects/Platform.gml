@@ -39,6 +39,18 @@ if speed != 0 {
 }
 
 platform_floor_prev = ternary(global.grav == 1, bbox_top, bbox_bottom);
+#define Collision_Stage4PlatformSpeedChanger
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+if(vspeed==-2)
+    vspeed=-1
+else
+    vspeed=-2
+
+instance_destroy_other()
 #define Other_4
 /*"/*'/**//* YYD ACTION
 lib_id=1

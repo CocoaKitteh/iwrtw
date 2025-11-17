@@ -4,7 +4,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-image_speed=1/15
+image_speed=1/5
 image_xscale=6
 image_yscale=6
 hspeed=-4
@@ -64,7 +64,6 @@ applies_to=self
 if(hp<=0){
     sound_play("death")
     instance_create(0,0,Flashbang)
-    NotATruck.image_speed=0
     with(Cherry)
         instance_destroy()
     instance_create(x,y,BloodEmitter)

@@ -1,4 +1,4 @@
 //gm82 fields begin
-spd=-4
+spd=-6
 //gm82 fields end
 visible=false

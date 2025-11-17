@@ -7,7 +7,7 @@ applies_to=self
 alarm[0]=15
 alarm[1]=30
 alarm[2]=220
-image_speed=1/15
+image_speed=1/5
 #define Alarm_0
 /*"/*'/**//* YYD ACTION
 lib_id=1

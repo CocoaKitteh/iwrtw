@@ -13,12 +13,6 @@ else
 if(room==rmPreStage4)
     hspeed=6
 t=0
-#define Alarm_0
-/*"/*'/**//* YYD ACTION
-lib_id=1
-action_id=603
-applies_to=self
-*/
 #define Step_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -29,19 +23,18 @@ if(room==rmPreStage3){
     if(place_meeting(x,y-1,Player)){
         t+=1
         Player.frozen=true
+        if(instance_exists(SolidTileDisplay)){
+            with(SolidTileDisplay)
+                instance_destroy()
+        }
     }
 
     if(t>=25){
         image_speed=0.5
-        if(hspeed<4)
+        if(hspeed<6)
             hspeed+=0.1
-        if(hspeed>4)
-            hspeed=4
-    }
-
-    if(instance_exists(SolidTileDisplay)){
-        with(SolidTileDisplay)
-            instance_destroy()
+        if(hspeed>6)
+            hspeed=6
     }
 } else if(room==rmStage3){
     if(instance_exists(Player)){

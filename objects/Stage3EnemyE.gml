@@ -7,7 +7,7 @@ applies_to=self
 spin=0
 hspeed=-4
 alarm[0]=1
-image_speed=1/15
+image_speed=1/5
 #define Alarm_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
