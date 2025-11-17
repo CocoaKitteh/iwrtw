@@ -4,6 +4,7 @@
 	|sprMusic
 	|sprCamera
 	|sprKiller
+	|sprWarningWhichIsLiterallyTheSameAsThePlayerKillerSpriteButWhoGivesAShit
 	|sprUltraGay
 	|sprThisMf
 	|sprFire
@@ -15,6 +16,7 @@
 	|sprDieMonster
 	|sprDialogBox
 	|sprBubble
+	|sprThisWasSupposedToBeATruckAtFirstButVerveEngineIsFuckingDogshitAndDoesntLetYouUseMovingBlocksIfTheHitboxesArentRectangles
 	+Trigger makers
 		|sprTriggerMaker
 		|sprTriggerMakerRed
@@ -35,7 +37,8 @@
 		|sprMessiPortrait
 		|HIM
 		|sprGoodCoderPortrait
-	|sprThisWasSupposedToBeATruckAtFirstButVerveEngineIsFuckingDogshitAndDoesntLetYouUseMovingBlocksIfTheHitboxesArentRectangles
+		|sprBalenciagaPortrait
+		|sprLuffy
 +Player
 	|sprPlayerIdle
 	|sprPlayerRun
@@ -91,6 +94,8 @@
 	|sprEVILEDGEEnemyHitbox
 	|sprOrb
 	|sprTheShming
+	|sprRedBall4
+	|sprLaser
 	+Cherry colors
 		|sprCherryOrange
 		|sprCherryYellow
@@ -116,6 +121,7 @@
 		|sprMessi
 	+Boss 4
 		|sprBroSkippedBoss3
+		|sprBoss4Dead
 +Saves
 	|sprSaveMask
 	|sprSaveMedium

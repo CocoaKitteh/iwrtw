@@ -8,10 +8,13 @@ if(instance_exists(Bullet)){
     with(Bullet)
         instance_destroy()
 }
-instance_create(16,368,DialogBox)
 attack=-1
 cur_attack=-1
-active=false
+if(room==rmBoss1){
+    active=false
+    instance_create(16,368,DialogBox)
+} else
+    active=true
 switching=false
 timer=200
 offset=0

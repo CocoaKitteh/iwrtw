@@ -18,7 +18,8 @@ if(control){
     distance+=disspd
     angle+=angspd
 }
-instance_create(x,y,OrbTrail)
+o=instance_create(x,y,OrbTrail)
+o.sprite_index=sprite_index
 #define Other_0
 /*"/*'/**//* YYD ACTION
 lib_id=1

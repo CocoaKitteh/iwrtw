@@ -77,6 +77,8 @@
 	|Stage3MiniBoss
 	|CherryWheelShmingClockwise
 	|CherryWheelShmingCounterClockwise
+	|Warning
+	|Laser
 	+Bosses
 		+Boss 1
 			|Boss1
@@ -90,6 +92,7 @@
 			|ScreenShake
 		+Boss 4
 			|BroSkippedBoss3
+			|Boss4Dead
 +Saves
 	|SaveMedium
 	|SaveMediumFlip

@@ -22,6 +22,7 @@ applies_to=self
 Player.frozen=false
 Boss1.active=true
 Boss2.active=true
+BroSkippedBoss3.active=true
 #define Draw_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -263,6 +264,86 @@ im a good coder im a good coder im a good coder"
             if(count>1)
                 instance_destroy()
         }
+        break
+
+    case rmBoss4:
+        switch(count){
+            case 0:
+                txt="so... you have finally made it, huh?"
+                spr=sprBalenciagaPortrait
+                snd="dialog"
+                break
+
+            case 1:
+                txt="yeah it seems like i made it here in..."
+                spr=sprKidPortrait
+                snd="dialog"
+                break
+
+            case 2:
+                txt="one piece..."
+                spr=sprLuffy
+                snd="dialog"
+                break
+
+            case 3:
+                txt="im afraid to inform you, your journey ends here"
+                spr=sprBalenciagaPortrait
+                snd="dialog"
+                break
+
+            case 4:
+                txt="i mean yeah duh its the final stage"
+                spr=sprKidPortrait
+                snd="dialog"
+                break
+
+            case 5:
+                txt="also can i be honest for a sec"
+                spr=sprKidPortrait
+                snd="dialog"
+                break
+
+            case 6:
+                txt="this place reeks lol"
+                spr=sprKidPortrait
+                snd="dialog"
+                break
+
+            case 7:
+                txt="you FOOL!"
+                spr=sprBalenciagaPortrait
+                snd="dialog"
+                break
+
+            case 8:
+                txt="what makes you think you have the right to
+talk to me like that??"
+                spr=sprBalenciagaPortrait
+                snd="dialog"
+                break
+
+            case 9:
+                txt="DONT YOU KNOW WHO I AM???"
+                spr=sprBalenciagaPortrait
+                snd="dialog"
+                break
+
+            case 10:
+                txt="no not really"
+                spr=sprKidPortrait
+                snd="dialog"
+                break
+
+            case 11:
+                txt="whatever fuck you bro lets just get this
+over with"
+                spr=sprBalenciagaPortrait
+                snd="dialog"
+                break
+        }
+        if(count>11)
+            instance_destroy()
         break
 }
 

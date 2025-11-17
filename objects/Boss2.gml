@@ -4,13 +4,16 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-instance_create(16,368,DialogBox)
 attack=-1
 cur_attack=-1
 weaoweaoweaow=0
 hp=500
 phase=1
-active=false
+if(room==rmBoss2){
+    active=false
+    instance_create(16,368,DialogBox)
+} else
+    active=true
 switching=false
 attacking=false
 alarm_timer=0
