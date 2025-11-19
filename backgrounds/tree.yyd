@@ -7,10 +7,9 @@
 	|bgBoss22WaitNoNotBossTwentyTwoWhatTheFuck
 	|bgStage3
 	|bgStage3Ground
-	|bgIdkManWhatever
 +Tiles
 	|bDefaultTiles
 	|bTree
 	|tlEDGEScreen
 	|tlQDarxW
-	|background14
+	|tlIdkManWhatever

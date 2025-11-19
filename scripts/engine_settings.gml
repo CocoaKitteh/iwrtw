@@ -6,7 +6,7 @@
 // Debug keybinds are listed in the debug overlay activated with backspace.
 global.debug = true;
 // Set to noone to use no debug key, e.g. yoyoyo engine behavior.
-global.debug_key = vk_control;
+global.debug_key = noone;
 
 // Game properties
     // The title of your game, used in the window bar and the default title screen.
