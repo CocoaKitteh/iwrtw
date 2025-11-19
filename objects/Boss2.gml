@@ -23,6 +23,8 @@ spin=0
 offset=0
 rev=1
 instance_create(0,0,Flashbang)
+b=instance_create(-32,512,Block)
+b.image_yscale=2
 sound_volume("b1start",0.5)
 sound_play("b1start")
 alarm[6]=1
@@ -268,6 +270,13 @@ if(active){
         alarm[4]=0
         alarm[5]=0
         timer=-1
+    }
+
+    if(instance_exists(Player)){
+        if(Player.x<x)
+            image_xscale=1
+        else
+            image_xscale=-1
     }
 
     if(hp<=0){
