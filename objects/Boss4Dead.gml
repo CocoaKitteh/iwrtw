@@ -20,7 +20,10 @@ if(t>=200 and visible){
 }
 
 if(t>=400){
-    w=instance_create(Player.x-16,Player.y-16,Warp)
-    w.room_to=rSampleClear
-    w.autosave=true
+    if(Player.frozen)
+        Player.frozen=false
+    if(instance_exists(SolidTileDisplay)){
+        with(SolidTileDisplay)
+            instance_destroy()
+    }
 }

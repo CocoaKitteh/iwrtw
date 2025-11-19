@@ -29,7 +29,7 @@ applies_to=self
 */
 if(active){
     if(instance_exists(Player)){
-        if(!sound_isplaying("b4"))
+        if(!sound_isplaying("b4") and room==rmBoss4)
             music_play("b4",true)
         if(Player.x<x)
             image_xscale=1

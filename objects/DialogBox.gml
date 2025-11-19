@@ -35,8 +35,11 @@ if(input_check_pressed(key_jump)){
     count+=1
 }
 
-if(input_check_pressed(key_skip) and timer_because_for_some_reason_this_shit_doesnt_work_properly>=1)
+if(input_check_pressed(key_skip) and timer_because_for_some_reason_this_shit_doesnt_work_properly>=1){
+    txt=""
+    cur_text=""
     count=-1
+}
 
 if(count<0)
     instance_destroy()
@@ -52,6 +55,14 @@ if(string_length(cur_text)<string_length(txt) and actual_timer>=2){
 }
 
 draw_self()
+
+if(room==rmBoss4){
+    if(count==0 or count==1 or count==4 or count==5)
+        font=ftWingdings
+    else
+        font=fTitleSmall
+} else
+    font=fTitleSmall
 
 switch(room){
     case rmBoss1:
@@ -180,7 +191,7 @@ at position 10: Variable name expected.
             txt="maybe its the way youre dressed"
             spr=sprSuedPortrait
             snd="maybe"
-            if(count>1)
+            if(count>0)
                 instance_destroy()
         }
         break
@@ -269,87 +280,71 @@ im a good coder im a good coder im a good coder"
     case rmBoss4:
         switch(count){
             case 0:
-                txt="so... you have finally made it, huh?"
+                txt="hi im mr. penis"
                 spr=sprBalenciagaPortrait
                 snd="dialog"
                 break
 
             case 1:
-                txt="yeah it seems like i made it here in..."
-                spr=sprKidPortrait
-                snd="dialog"
-                break
-
-            case 2:
-                txt="one piece..."
-                spr=sprLuffy
-                snd="dialog"
-                break
-
-            case 3:
-                txt="im afraid to inform you, your journey ends here"
+                txt="one might even say...
+mr. cock"
                 spr=sprBalenciagaPortrait
                 snd="dialog"
                 break
 
-            case 4:
-                txt="i mean yeah duh its the final stage"
+            case 2:
+                txt="what"
                 spr=sprKidPortrait
+                snd="dialog"
+                break
+
+            case 3:
+                txt="is bro good"
+                spr=sprKidPortrait
+                snd="dialog"
+                break
+
+            case 4:
+                txt="but heres one thing for
+you to know"
+                spr=sprBalenciagaPortrait
                 snd="dialog"
                 break
 
             case 5:
-                txt="also can i be honest for a sec"
-                spr=sprKidPortrait
+                txt="do not call me mr.
+pussy... if you value
+your life"
+                spr=sprBalenciagaPortrait
                 snd="dialog"
                 break
 
             case 6:
-                txt="this place reeks lol"
+                txt="do you speak english"
                 spr=sprKidPortrait
                 snd="dialog"
                 break
 
             case 7:
-                txt="you FOOL!"
+                txt="no"
                 spr=sprBalenciagaPortrait
                 snd="dialog"
                 break
 
             case 8:
-                txt="what makes you think you have the right to
-talk to me like that??"
-                spr=sprBalenciagaPortrait
-                snd="dialog"
-                break
-
-            case 9:
-                txt="DONT YOU KNOW WHO I AM???"
-                spr=sprBalenciagaPortrait
-                snd="dialog"
-                break
-
-            case 10:
-                txt="no not really"
+                txt="damn"
                 spr=sprKidPortrait
                 snd="dialog"
                 break
-
-            case 11:
-                txt="whatever fuck you bro lets just get this
-over with"
-                spr=sprBalenciagaPortrait
-                snd="dialog"
-                break
         }
-        if(count>11)
+        if(count>8)
             instance_destroy()
         break
 }
 
 draw_sprite(spr,0,x+32,y+32)
 draw_set_color(c_white)
-draw_set_font(fTitleSmall)
+draw_set_font(font)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 draw_text(x+192,y+32,cur_text)

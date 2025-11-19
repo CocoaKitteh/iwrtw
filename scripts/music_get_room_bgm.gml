@@ -29,6 +29,9 @@ switch(room) {
     case rmStage4B:
     case rmStage4C:
         return "s4"
+    
+    case rSampleClear:
+        return "laresaka"
 
     default:
         return music_none;

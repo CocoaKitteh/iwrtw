@@ -10,7 +10,7 @@ global.debug_key = vk_control;
 
 // Game properties
     // The title of your game, used in the window bar and the default title screen.
-    global.game_title = "I Wanna Ultra Gay";
+    global.game_title = "I Wanna Restore The World";
     // The room you get loaded in on a new save file.
     global.first_room = rmStage1;
     // Size of the game window.

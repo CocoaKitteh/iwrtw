@@ -186,7 +186,7 @@ action_id=603
 applies_to=self
 */
 if(active){
-    if(!sound_isplaying("b1"))
+    if(!sound_isplaying("b1")  and room==rmBoss1)
         music_play("b1",true)
 
     if(!switching)
