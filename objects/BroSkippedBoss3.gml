@@ -4,6 +4,10 @@ lib_id=1
 action_id=603
 applies_to=self
 */
+if(instance_exists(Bullet)){
+    with(Bullet)
+        instance_destroy()
+}
 t=0
 t2=0
 spin=0
@@ -46,43 +50,34 @@ if(active){
             }
 
             if(t>=110 and t<125 and t mod 2==0){
-                b=instance_create(x,y,Orb)
-                b.image_xscale=2
-                b.image_yscale=2
-                b.sprite_index=sprBullet
-                b.image_speed=1
-                b.speed=10
-                b.direction=point_direction(x,y,Player.x,Player.y)
-                sound_stop("player_shoot")
-                sound_play("player_shoot")
+                d=instance_create(x,y,Boss4Dagger)
+                d.speed=12
+                d.direction=point_direction(x,y,Player.x,Player.y)+random_range(-1,1)
+                d.image_angle=d.direction
+                sound_stop("PIM")
+                sound_play("PIM")
             }
 
             if(t>=135 and t<150 and t mod 2==0){
-                b=instance_create(x,y,Orb)
-                b.image_xscale=2
-                b.image_yscale=2
-                b.sprite_index=sprBullet
-                b.image_speed=1
-                b.speed=10
-                b.direction=point_direction(x,y,Player.x,Player.y)
-                sound_stop("player_shoot")
-                sound_play("player_shoot")
+                d=instance_create(x,y,Boss4Dagger)
+                d.speed=12
+                d.direction=point_direction(x,y,Player.x,Player.y)+random_range(-1,1)
+                d.image_angle=d.direction
+                sound_stop("PIM")
+                sound_play("PIM")
             }
 
             if(t>=160 and t<175 and t mod 2==0){
-                b=instance_create(x,y,Orb)
-                b.image_xscale=2
-                b.image_yscale=2
-                b.sprite_index=sprBullet
-                b.image_speed=1
-                b.speed=10
-                b.direction=point_direction(x,y,Player.x,Player.y)
-                sound_stop("player_shoot")
-                sound_play("player_shoot")
+                d=instance_create(x,y,Boss4Dagger)
+                d.speed=12
+                d.direction=point_direction(x,y,Player.x,Player.y)+random_range(-1,1)
+                d.image_angle=d.direction
+                sound_stop("PIM")
+                sound_play("PIM")
             }
 
             if(t>=200 and t<350 and t mod 5==0){
-                spin-=35.5
+                spin-=13.5
                 o=instance_create(x,y,Orb)
                 o.sprite_index=sprRedBall4
                 o.speed=8
@@ -284,6 +279,10 @@ if(active){
             }
             if(instance_exists(Laser)){
                 with(Laser)
+                    instance_destroy()
+            }
+            if(instance_exists(Bullet)){
+                with(Bullet)
                     instance_destroy()
             }
             d=instance_create(x,y,Boss4Dead)

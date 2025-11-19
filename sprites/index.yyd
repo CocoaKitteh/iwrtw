@@ -21,10 +21,10 @@ sprSaveMask
 sprBlood
 sprBlockMiniMask
 sprPlatform
-sprSpikeUp
-sprSpikeRight
-sprSpikeDown
-sprSpikeLeft
+sprSpikeUpStage4
+sprSpikeRightStage4
+sprSpikeDownStage4
+sprSpikeLeftStage4
 sprMiniSpikeUp
 sprMiniSpikeRight
 sprMiniSpikeDown
@@ -157,3 +157,8 @@ sprWarningWhichIsLiterallyTheSameAsThePlayerKillerSpriteButWhoGivesAShit
 sprBalenciagaPortrait
 sprLuffy
 sprBoss4Dead
+sprSpikeUp
+sprSpikeRight
+sprSpikeDown
+sprSpikeLeft
+sprBoss4Dagger

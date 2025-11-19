@@ -6,6 +6,7 @@ applies_to=self
 */
 o=instance_create(x,y,OrbTrail)
 o.sprite_index=sprite_index
+o.image_angle=image_angle
 #define Other_0
 /*"/*'/**//* YYD ACTION
 lib_id=1

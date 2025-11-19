@@ -93,6 +93,8 @@
 		+Boss 4
 			|BroSkippedBoss3
 			|Boss4Dead
+			|Boss4Dagger
+			|DaggerTrail
 +Saves
 	|SaveMedium
 	|SaveMediumFlip

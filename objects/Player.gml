@@ -409,6 +409,14 @@ applies_to=self
 */
 if(other.image_xscale>=1)
     player_kill()
+#define Collision_Boss4Dagger
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+if(!other.stopped)
+    player_kill()
 #define Other_4
 /*"/*'/**//* YYD ACTION
 lib_id=1

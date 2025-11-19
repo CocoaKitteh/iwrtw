@@ -77,10 +77,14 @@
 		|sprSlopeBottomLeft
 +Killers
 	|sprSpikeUp
+	|sprSpikeUpStage4
 	|sprSpikeRight
+	|sprSpikeRightStage4
 	|sprSpikeCentered
 	|sprSpikeDown
+	|sprSpikeDownStage4
 	|sprSpikeLeft
+	|sprSpikeLeftStage4
 	|sprMiniSpikeUp
 	|sprMiniSpikeRight
 	|sprMiniSpikeDown
@@ -96,6 +100,7 @@
 	|sprTheShming
 	|sprRedBall4
 	|sprLaser
+	|sprBoss4Dagger
 	+Cherry colors
 		|sprCherryOrange
 		|sprCherryYellow
