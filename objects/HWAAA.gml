@@ -21,6 +21,6 @@ action_id=603
 applies_to=self
 */
 sound_pitch("HWAAA",1.5)
-sound_play("HWAAA")
+sound_play_single("HWAAA")
 sound_pitch("HWAAA",1)
 instance_destroy()

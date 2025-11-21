@@ -148,7 +148,7 @@ if vine_direction != 0 {
         if input_check(key_jump) {
             hspeed = 15;
             vspeed = -9 * global.grav;
-            sound_play("player_wall_jump");
+            sound_play_single("player_wall_jump");
         }
         else {
             hspeed = 3;

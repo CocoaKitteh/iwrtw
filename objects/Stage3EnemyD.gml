@@ -29,7 +29,7 @@ b.image_xscale=2
 b.image_yscale=2
 b.speed=8
 b.direction=-spin
-sound_play("player_shoot")
+sound_play_single("player_shoot")
 alarm[0]=3
 #define Other_0
 /*"/*'/**//* YYD ACTION

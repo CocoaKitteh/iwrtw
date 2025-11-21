@@ -5,8 +5,7 @@ action_id=603
 applies_to=self
 */
 image_alpha=3
-sound_stop("PIM")
-sound_play("PIM")
+sound_play_single("PIM")
 #define Step_0
 /*"/*'/**//* YYD ACTION
 lib_id=1

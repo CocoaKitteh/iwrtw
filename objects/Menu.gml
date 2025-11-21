@@ -34,7 +34,7 @@ _h_input = input_check_pressed(key_menu_right) - input_check_pressed(key_menu_le
 if state == state_not_selected {
     if _h_input != 0 {
         current_file = modwrap(current_file + _h_input, 0, file_count);
-        sound_play("player_ground_jump");
+        sound_play_single("player_ground_jump");
     }
     save_select(current_file);
 

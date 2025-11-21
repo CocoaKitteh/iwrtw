@@ -49,7 +49,7 @@ for(i=0;i<360;i+=360/12){
     b.disspd=4
     b.angspd=-0.5
 }
-sound_play("player_shoot")
+sound_play_single("player_shoot")
 alarm[1]=25
 #define Alarm_2
 /*"/*'/**//* YYD ACTION

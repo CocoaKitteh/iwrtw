@@ -24,8 +24,8 @@ with(Player) {
     instance_create(x, y, BloodEmitter);
     sound_kind_pause(1)
     sound_kind_stop(0)
-    sound_play("player_death");
-    sound_play("ahh")
+    sound_play_single("player_death");
+    sound_play_single("ahh")
 
     instance_create(0, 0, GameOver);
     instance_destroy();

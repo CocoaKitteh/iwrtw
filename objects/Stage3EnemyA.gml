@@ -31,7 +31,7 @@ if(instance_exists(Player)){
     b.image_yscale=2
 }
 
-sound_play("player_shoot")
+sound_play_single("player_shoot")
 
 alarm[1]=25
 #define Alarm_2

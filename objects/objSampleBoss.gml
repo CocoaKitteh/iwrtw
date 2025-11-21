@@ -62,11 +62,11 @@ action_id=603
 applies_to=self
 */
 instance_destroy_other();
-sound_play("boss_hit");
+sound_play_single("boss_hit");
 
 hp -= 1;
 if hp <= 0 {
-    sound_play("player_death");
+    sound_play_single("player_death");
     instance_destroy();
     with(objSampleBossItem) {
         visible = true;

@@ -21,7 +21,7 @@ hp=800
 instance_create(0,0,Flashbang)
 instance_create(400,304,GustavBG)
 sound_volume("b1start",0.5)
-sound_play("b1start")
+sound_play_single("b1start")
 #define Step_0
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -46,8 +46,7 @@ if(active){
                     o.speed=8
                     o.direction=i+rnd
                 }
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t>=110 and t<125 and t mod 2==0){
@@ -55,8 +54,7 @@ if(active){
                 d.speed=12
                 d.direction=point_direction(x,y,Player.x,Player.y)+random_range(-1,1)
                 d.image_angle=d.direction
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t>=135 and t<150 and t mod 2==0){
@@ -64,8 +62,7 @@ if(active){
                 d.speed=12
                 d.direction=point_direction(x,y,Player.x,Player.y)+random_range(-1,1)
                 d.image_angle=d.direction
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t>=160 and t<175 and t mod 2==0){
@@ -73,8 +70,7 @@ if(active){
                 d.speed=12
                 d.direction=point_direction(x,y,Player.x,Player.y)+random_range(-1,1)
                 d.image_angle=d.direction
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t>=200 and t<350 and t mod 5==0){
@@ -111,8 +107,7 @@ if(active){
                 o.sprite_index=sprRedBall4
                 o.speed=8
                 o.direction=spin+315
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t>=400 and t<=500 and t mod 25==0){
@@ -150,8 +145,7 @@ if(active){
                         o.gravity=0.1
                     }
                 }
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t>=800 and t<=950 and (t+15) mod 30==0){
@@ -168,8 +162,7 @@ if(active){
                         o.gravity=0.1
                     }
                 }
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t>=1050 and t<1300 and t mod 30==0){
@@ -199,8 +192,7 @@ if(active){
                     o.angspd=-0.6
                     o.disspd=5
                 }
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
             }
 
             if(t==1400){
@@ -212,8 +204,7 @@ if(active){
                     o.direction=o.gravity_direction
                     o.gravity=-0.3
                 }
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
                 visible=false
             }
 
@@ -230,8 +221,7 @@ if(active){
                     o.direction=o.gravity_direction
                     o.gravity=-0.3
                 }
-                sound_stop("PIM")
-                sound_play("PIM")
+                sound_play_single("PIM")
                 visible=true
                 t=0
             }
@@ -250,12 +240,11 @@ if(active){
                         o.direction=o.gravity_direction
                         o.gravity=-0.3
                     }
-                    sound_stop("PIM")
-                    sound_play("PIM")
+                    sound_play_single("PIM")
                     visible=true
                 }
                 instance_create(x,y,Power)
-                sound_play("b1p2")
+                sound_play_single("b1p2")
                 phase=2
             }
         } else {
@@ -315,6 +304,7 @@ if(active){
                                 o.gravity=0.2
                             }
                         }
+                        sound_play_single("PIM")
                     }
                 }
             }
@@ -339,7 +329,7 @@ if(active){
             }
             d=instance_create(x,y,Boss4Dead)
             d.image_xscale=image_xscale
-            sound_play("gayser")
+            sound_play_single("gayser")
             Player.frozen=true
             music_stop()
             instance_destroy()
@@ -355,7 +345,7 @@ applies_to=self
 if(visible){
     if(active)
         hp-=1
-    sound_play("boss_hit")
+    sound_play_single("boss_hit")
     instance_destroy_other()
 }
 #define Draw_0

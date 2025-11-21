@@ -4,8 +4,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-sound_stop("gayser")
-sound_play("gayser")
+sound_play_single("gayser")
 image_yscale=544
 t=0
 #define Destroy_0

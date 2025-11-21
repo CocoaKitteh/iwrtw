@@ -34,8 +34,7 @@ if(t<10){
         b.image_xscale=2
         b.image_yscale=2
     }
-
-    sound_play("player_shoot")
+    sound_play_single("player_shoot")
 }
 
 if(t>20)

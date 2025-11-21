@@ -30,7 +30,7 @@ if(x>399 and x<401 and t mod 3==0){
         c.image_speed=1
     }
     image_xscale-=0.3
-    sound_play("player_shoot")
+    sound_play_single("player_shoot")
 }
 
 if(image_xscale<=0)

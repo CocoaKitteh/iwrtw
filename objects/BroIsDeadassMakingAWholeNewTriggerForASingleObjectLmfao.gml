@@ -6,5 +6,5 @@ applies_to=self
 */
 if(!NotReallyAKillerButWhatever.triggered){
     NotReallyAKillerButWhatever.triggered=true
-    sound_play("block_change")
+    sound_play_single("block_change")
 }

@@ -15,7 +15,7 @@ t+=1
 if(t>=200 and visible){
     instance_create(0,0,Flashbang)
     instance_create(0,0,ScreenShake)
-    sound_play("gayser")
+    sound_play_single("gayser")
     if(instance_exists(GustavBG)){
         with(GustavBG)
             instance_destroy()

@@ -40,7 +40,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-sound_play("death")
+sound_play_single("death")
 instance_destroy()
 #define Other_4
 /*"/*'/**//* YYD ACTION

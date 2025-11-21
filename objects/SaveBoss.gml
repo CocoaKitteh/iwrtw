@@ -58,7 +58,7 @@ if can_save && instance_exists(Player) && global.grav == grav {
         }
     }
 
-    sound_play("save")
+    sound_play_single("save")
 
     can_save = false;
 

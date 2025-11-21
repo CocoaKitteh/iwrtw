@@ -31,7 +31,7 @@ if !init {
 
 if !visible if collision_rectangle(bbox_left - 1, bbox_top - 1, bbox_right + 1, bbox_bottom + 1, Player, false, false) {
     visible = true;
-    sound_play("block_change");
+    sound_play_single("block_change");
 }
 
 if instance_exists(block) {
@@ -44,7 +44,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-sound_play(sound);
+sound_play_single(sound);
 instance_destroy();
 #define Other_4
 /*"/*'/**//* YYD ACTION

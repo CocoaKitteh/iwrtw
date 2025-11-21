@@ -11,6 +11,6 @@ else {
 }
 
 if(fart==254)
-    sound_play("qwertyuiopasdfghjklzxcvbnm")
+    sound_play_single("qwertyuiopasdfghjklzxcvbnm")
 else
-    sound_play("player_air_jump");
+    sound_play_single("player_air_jump");

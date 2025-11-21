@@ -50,8 +50,7 @@ actual_timer+=1
 if(string_length(cur_text)<string_length(txt) and actual_timer>=2){
     cur_text+=string_char_at(txt,string_length(cur_text)+1)
     actual_timer=0
-    sound_stop(snd)
-    sound_play(snd)
+    sound_play_single(snd)
 }
 
 draw_self()

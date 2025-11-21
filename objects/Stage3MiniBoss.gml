@@ -62,7 +62,7 @@ action_id=603
 applies_to=self
 */
 if(hp<=0){
-    sound_play("death")
+    sound_play_single("death")
     instance_create(0,0,Flashbang)
     with(Cherry)
         instance_destroy()
@@ -79,7 +79,7 @@ action_id=603
 applies_to=self
 */
 hp-=1
-sound_play("boss_hit")
+sound_play_single("boss_hit")
 instance_destroy_other()
 #define Draw_0
 /*"/*'/**//* YYD ACTION

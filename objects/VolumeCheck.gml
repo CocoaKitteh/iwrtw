@@ -16,7 +16,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-sound_play("ahh");
+sound_play_single("ahh");
 alarm[0] = shoot_delay;
 #define Step_0
 /*"/*'/**//* YYD ACTION

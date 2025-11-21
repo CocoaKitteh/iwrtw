@@ -13,7 +13,7 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-sound_play("qwertyuiopasdfghjklzxcvbnm")
+sound_play_single("qwertyuiopasdfghjklzxcvbnm")
 #define Alarm_1
 /*"/*'/**//* YYD ACTION
 lib_id=1

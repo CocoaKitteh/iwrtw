@@ -30,7 +30,7 @@ instance_create(0,0,ParticleSpawner)
 instance_create(0,0,StarSpawner)
 instance_create(x,y,Boss1Indicator)
 sound_volume("b1start",0.5)
-sound_play("b1start")
+sound_play_single("b1start")
 background_index[0]=bgBoss1
 background_index[1]=bgRedShit
 #define Alarm_0
@@ -43,7 +43,7 @@ cur_attack=0
 instance_create(x-52*image_xscale,y-60,BigBulletBoomBoom)
 sprite_index=sprSuedShootB
 image_speed=0.5
-sound_play("player_shoot")
+sound_play_single("player_shoot")
 if(image_index>2)
     image_index=2
 alarm[0]=150
@@ -92,7 +92,7 @@ for(i=0;i<360;i+=360/16){
     b2.sprite_index=sprBullet
     b2.image_speed=1
 }
-sound_play("player_shoot")
+sound_play_single("player_shoot")
 sprite_index=sprSuedShootA
 image_speed=0.5
 if(image_index>2)
@@ -127,7 +127,7 @@ if(instance_exists(Player)){
     b.direction=point_direction(b.x,b.y,Player.x,Player.y)
     b.sprite_index=sprBullet
     b.image_speed=1
-    sound_play("player_shoot")
+    sound_play_single("player_shoot")
 }
 
 sprite_index=sprSuedShootA
@@ -146,7 +146,7 @@ switching=false
 while(attack==cur_attack)
     attack=choose(0,1,2,6)
 alarm[attack]=1
-sound_play("block_change")
+sound_play_single("block_change")
 attacking=true
 #define Alarm_6
 /*"/*'/**//* YYD ACTION
@@ -173,7 +173,7 @@ b3.speed=6
 b3.direction=dir3
 b3.sprite_index=sprBullet
 b3.image_speed=1
-sound_play("player_shoot")
+sound_play_single("player_shoot")
 sprite_index=sprSuedShootA
 image_speed=1
 if(image_index>2)
@@ -221,7 +221,7 @@ if(active){
         switching=true
         timer=-1
         sprite_index=sprSuedIdle
-        sound_play("b1p2")
+        sound_play_single("b1p2")
         instance_create(x,y,Power)
     }
 
@@ -240,7 +240,7 @@ if(active){
             s.image_xscale=2
             s.image_yscale=2
         }
-        sound_play("player_shoot")
+        sound_play_single("player_shoot")
     }
 
     if(distance_to_object(Player)>96){
@@ -286,8 +286,8 @@ if(active){
         }
         instance_create(x,y,BloodEmitter)
         instance_create(0,0,ScreenShake)
-        sound_play("death")
-        sound_play("OOAA")
+        sound_play_single("death")
+        sound_play_single("OOAA")
         music_stop()
         instance_destroy()
     }
@@ -300,7 +300,7 @@ applies_to=self
 */
 if(active)
     hp-=1
-sound_play("boss_hit")
+sound_play_single("boss_hit")
 instance_destroy_other()
 #define Other_7
 /*"/*'/**//* YYD ACTION

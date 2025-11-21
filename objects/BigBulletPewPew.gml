@@ -22,7 +22,7 @@ if(t>=25){
         b.sprite_index=sprBullet
         b.image_speed=1
     }
-    sound_play("player_shoot")
+    sound_play_single("player_shoot")
     t=0
 }
 #define Other_0

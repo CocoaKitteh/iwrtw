@@ -26,7 +26,7 @@ instance_create(0,0,Flashbang)
 b=instance_create(-32,512,Block)
 b.image_yscale=2
 sound_volume("b1start",0.5)
-sound_play("b1start")
+sound_play_single("b1start")
 alarm[6]=1
 #define Alarm_0
 /*"/*'/**//* YYD ACTION
@@ -50,7 +50,7 @@ for(i=0;i<360;i+=360/12){
     c.disspd=4
 }
 
-sound_play("PIM")
+sound_play_single("PIM")
 
 if(alarm_timer>100)
     alarm[1]=1
@@ -100,7 +100,7 @@ for(i=offset;i<800;i+=80){
     s.gravity=-0.1
 }
 
-sound_play("PIM")
+sound_play_single("PIM")
 
 alarm[2]=25
 #define Alarm_3
@@ -128,7 +128,7 @@ c4=instance_create(x,y,Cherry)
 c4.direction=-spin+180
 c4.gravity_direction=-spin+180
 c4.gravity=0.1
-sound_play("player_shoot")
+sound_play_single("player_shoot")
 
 alarm[3]=5
 #define Alarm_4
@@ -163,7 +163,7 @@ s.direction=spin+270
 s=instance_create(x,y,Orb)
 s.speed=5
 s.direction=spin+315
-sound_play("PIM")
+sound_play_single("PIM")
 alarm[4]=10
 #define Alarm_5
 /*"/*'/**//* YYD ACTION
@@ -175,7 +175,7 @@ switching=false
 while(attack==cur_attack)
     attack=choose(0,2,3,4)
 alarm[attack]=1
-sound_play("block_change")
+sound_play_single("block_change")
 attacking=true
 #define Alarm_6
 /*"/*'/**//* YYD ACTION
@@ -284,8 +284,8 @@ if(active){
         instance_create(0,0,ScreenShake)
         with(SolidTileDisplay)
             instance_destroy()
-        sound_play("death")
-        sound_play("OOAA")
+        sound_play_single("death")
+        sound_play_single("OOAA")
         music_stop()
         instance_destroy()
     }
@@ -301,7 +301,7 @@ applies_to=self
 */
 if(active)
     hp-=1
-sound_play("boss_hit")
+sound_play_single("boss_hit")
 instance_destroy_other()
 #define Draw_0
 /*"/*'/**//* YYD ACTION

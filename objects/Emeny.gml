@@ -31,7 +31,7 @@ if(instance_exists(Player)){
         c.sprite_index=sprBullet
         c.image_speed=1
         c.depth=1
-        sound_play("player_shoot")
+        sound_play_single("player_shoot")
     }
 
     if(t mod 18==1 and t>100 and t<230){
@@ -41,7 +41,7 @@ if(instance_exists(Player)){
         c.sprite_index=sprBullet
         c.image_speed=1
         c.depth=1
-        sound_play("player_shoot")
+        sound_play_single("player_shoot")
     }
 
     if(t>=280)
@@ -59,7 +59,7 @@ if(instance_exists(Player)){
 }
 
 if(hp<=0){
-    sound_play("death")
+    sound_play_single("death")
     instance_create(x,y,BloodEmitter)
     instance_destroy()
 }
@@ -101,5 +101,5 @@ action_id=603
 applies_to=self
 */
 hp-=1
-sound_play("boss_hit")
+sound_play_single("boss_hit")
 instance_destroy_other()
