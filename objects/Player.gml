@@ -119,7 +119,7 @@ if !frozen {
     if input_check_released(key_jump) {
         player_release_jump();
     }
-    if input_check(key_shoot) and shoot_timer<=0 {
+    if input_check(key_shoot) and shoot_timer<0 {
         player_shoot();
         shoot_timer=4
     }

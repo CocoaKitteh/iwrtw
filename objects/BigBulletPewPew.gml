@@ -6,7 +6,7 @@ applies_to=self
 */
 image_xscale=4
 image_yscale=4
-t=0
+t=25
 #define Step_0
 /*"/*'/**//* YYD ACTION
 lib_id=1

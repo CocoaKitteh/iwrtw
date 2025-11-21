@@ -172,17 +172,31 @@ if(active){
             }
 
             if(t>=1050 and t<1300 and t mod 30==0){
-                for(i=0;i<360;i+=360/12){
+                for(i=0;i<360;i+=360/8){
                     o=instance_create(Player.x,200,Orb)
                     o.sprite_index=sprRedBall4
                     o.speed=5
                     o.direction=i
                 }
-                for(i=0;i<360;i+=360/16){
-                    o=instance_create(Player.x,200,Orb)
+                for(i=0;i<360;i+=360/12){
+                    o=instance_create(Player.x,200,OrbDirectionShmingWhatchamacallit)
                     o.sprite_index=sprRedBall4
-                    o.speed=10
-                    o.direction=i
+                    o.control=true
+                    o.xx=Player.x
+                    o.yy=200
+                    o.angle=i+t
+                    o.distance=0
+                    o.angspd=0.75
+                    o.disspd=5
+                    o=instance_create(Player.x,200,OrbDirectionShmingWhatchamacallit)
+                    o.sprite_index=sprRedBall4
+                    o.control=true
+                    o.xx=Player.x
+                    o.yy=200
+                    o.angle=i+t
+                    o.distance=0
+                    o.angspd=-0.75
+                    o.disspd=5
                 }
                 sound_stop("PIM")
                 sound_play("PIM")
