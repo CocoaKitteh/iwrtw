@@ -469,5 +469,12 @@ draw_sprite_ext(_draw_sprite, image_index, _draw_x, _draw_y, x_scale, _draw_y_sc
 
 // Draw the bow
 if has_bow {
-    draw_sprite_ext(sprPlayerBow, image_index, _draw_xprevious, _draw_yprevious, x_scale, image_yscale * global.grav, image_angle, image_blend, image_alpha);
+    if(sprite_index==sprPlayerIdle){
+        if(image_index>=1 and image_index<=2)
+            draw_sprite_ext(sprPlayerBow, 0, _draw_xprevious, _draw_yprevious+1, x_scale, image_yscale * global.grav, image_angle, image_blend, image_alpha);
+        else
+            draw_sprite_ext(sprPlayerBow, 0, _draw_xprevious, _draw_yprevious, x_scale, image_yscale * global.grav, image_angle, image_blend, image_alpha);
+    }
+    else
+        draw_sprite_ext(sprPlayerBow, 0, _draw_xprevious, _draw_yprevious, x_scale, image_yscale * global.grav, image_angle, image_blend, image_alpha);
 }
