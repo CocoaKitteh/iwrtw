@@ -8,7 +8,6 @@
 	|rSample
 	|rSampleTriggers
 	|rSampleBoss
-	|rSampleClear
 	|rTemplate
 	|rmWROOOOOOONG
 	|rmStage1
@@ -25,3 +24,4 @@
 	|rmStage4C
 	|rmBoss4
 	|rmAlmostEnd
+	|rSampleClear

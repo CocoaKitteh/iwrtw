@@ -19,6 +19,7 @@ if(room==rmBoss4){
     active=true
 hp=800
 instance_create(0,0,Flashbang)
+instance_create(400,304,GustavBG)
 sound_volume("b1start",0.5)
 sound_play("b1start")
 #define Step_0
@@ -136,7 +137,7 @@ if(active){
                 instance_create(Player.x,528,Warning)
 
             if(t>=800 and t<=950 and t mod 30==0){
-                for(i=352;i<512;i+=80){
+                for(i=272;i<512;i+=80){
                     if(Player.x<x){
                         o=instance_create(x,i+56,Orb)
                         o.sprite_index=sprRedBall4
@@ -154,7 +155,7 @@ if(active){
             }
 
             if(t>=800 and t<=950 and (t+15) mod 30==0){
-                for(i=352;i<512;i+=80){
+                for(i=272;i<512;i+=80){
                     if(Player.x<x){
                         o=instance_create(x,i+96,Orb)
                         o.sprite_index=sprRedBall4
@@ -172,10 +173,10 @@ if(active){
             }
 
             if(t>=1050 and t<1300 and t mod 30==0){
-                for(i=0;i<360;i+=360/8){
+                for(i=0;i<360;i+=360/12){
                     o=instance_create(Player.x,200,Orb)
                     o.sprite_index=sprRedBall4
-                    o.speed=5
+                    o.speed=8
                     o.direction=i
                 }
                 for(i=0;i<360;i+=360/12){
@@ -186,7 +187,7 @@ if(active){
                     o.yy=200
                     o.angle=i+t
                     o.distance=0
-                    o.angspd=0.75
+                    o.angspd=0.6
                     o.disspd=5
                     o=instance_create(Player.x,200,OrbDirectionShmingWhatchamacallit)
                     o.sprite_index=sprRedBall4
@@ -195,7 +196,7 @@ if(active){
                     o.yy=200
                     o.angle=i+t
                     o.distance=0
-                    o.angspd=-0.75
+                    o.angspd=-0.6
                     o.disspd=5
                 }
                 sound_stop("PIM")
@@ -206,8 +207,10 @@ if(active){
                 for(i=0;i<360;i+=360/16){
                     o=instance_create(x,y,Orb)
                     o.sprite_index=sprRedBall4
-                    o.speed=8
-                    o.direction=i+point_direction(x,y,Player.x,Player.y)
+                    o.speed=6
+                    o.gravity_direction=i+point_direction(x,y,Player.x,Player.y)
+                    o.direction=o.gravity_direction
+                    o.gravity=-0.3
                 }
                 sound_stop("PIM")
                 sound_play("PIM")
@@ -222,8 +225,10 @@ if(active){
                 for(i=0;i<360;i+=360/16){
                     o=instance_create(x,y,Orb)
                     o.sprite_index=sprRedBall4
-                    o.speed=8
-                    o.direction=i+point_direction(x,y,Player.x,Player.y)
+                    o.speed=6
+                    o.gravity_direction=i+point_direction(x,y,Player.x,Player.y)
+                    o.direction=o.gravity_direction
+                    o.gravity=-0.3
                 }
                 sound_stop("PIM")
                 sound_play("PIM")
@@ -240,8 +245,10 @@ if(active){
                     for(i=0;i<360;i+=360/16){
                         o=instance_create(x,y,Orb)
                         o.sprite_index=sprRedBall4
-                        o.speed=8
-                        o.direction=i+point_direction(x,y,Player.x,Player.y)
+                        o.speed=6
+                        o.gravity_direction=i+point_direction(x,y,Player.x,Player.y)
+                        o.direction=o.gravity_direction
+                        o.gravity=-0.3
                     }
                     sound_stop("PIM")
                     sound_play("PIM")
@@ -256,17 +263,17 @@ if(active){
             t2+=1
             if(t2>=100){
                 if(t2 mod 100==0){
-                    for(i=0;i<=800;i+=80)
+                    for(i=0;i<=800;i+=64)
                         instance_create(i,528,Warning)
                 }
 
                 if((t2+50) mod 100==0){
-                    for(i=40;i<=800;i+=80)
+                    for(i=32;i<=800;i+=64)
                         instance_create(i,528,Warning)
                 }
 
-                if((t2+25) mod 50==0){
-                    for(i=0;i<360;i+=360/12){
+                if((t2+25) mod 25==0){
+                    /* for(i=0;i<360;i+=360/12){
                         o=instance_create(Player.x,200,Orb)
                         o.sprite_index=sprRedBall4
                         o.speed=5
@@ -277,6 +284,37 @@ if(active){
                         o.sprite_index=sprRedBall4
                         o.speed=10
                         o.direction=i
+                    } */
+                    if((t2) mod 50==0){
+                        for(i=272;i<512;i+=80){
+                            if(Player.x<x){
+                                o=instance_create(x,i+56,Orb)
+                                o.sprite_index=sprRedBall4
+                                o.gravity_direction=180
+                                o.gravity=0.2
+                            } else {
+                                o=instance_create(x,i+56,Orb)
+                                o.sprite_index=sprRedBall4
+                                o.gravity_direction=0
+                                o.gravity=0.2
+                            }
+                        }
+                    }
+
+                    if((t2+25) mod 50==0){
+                        for(i=272;i<512;i+=80){
+                            if(Player.x<x){
+                                o=instance_create(x,i+96,Orb)
+                                o.sprite_index=sprRedBall4
+                                o.gravity_direction=180
+                                o.gravity=0.2
+                            } else {
+                                o=instance_create(x,i+96,Orb)
+                                o.sprite_index=sprRedBall4
+                                o.gravity_direction=0
+                                o.gravity=0.2
+                            }
+                        }
                     }
                 }
             }
