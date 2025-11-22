@@ -1,201 +1,201 @@
-﻿11/14/2025 14:43:40.838: dxgi.log created		(Special K  25.1.29.3,  Jan 29 2025)
+﻿11/22/2025 01:50:24.614: dxgi.log created		(Special K  25.1.29.3,  Jan 29 2025)
 -------------------------------------------------------------------------------------------
-11/14/2025 14:43:40.838: >> (g.exe) [dxgi.dll] <<
-11/14/2025 14:43:40.838: Loading user preferences from dxgi.ini... done! (  2.62 ms)
+11/22/2025 01:50:24.616: >> (g.exe) [dxgi.dll] <<
+11/22/2025 01:50:24.616: Loading user preferences from dxgi.ini... done! ( 10.35 ms)
 -------------------------------------------------------------------------------------------
-11/14/2025 14:43:40.841:  Working Directory:          C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay
-11/14/2025 14:43:40.841:  System Directory:           C:\Windows\SysWOW64
-11/14/2025 14:43:40.841:  Loading default dxgi.dll:  (C:\Windows\SysWOW64\dxgi.dll)
+11/22/2025 01:50:24.627:  Working Directory:          C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay
+11/22/2025 01:50:24.627:  System Directory:           C:\Windows\SysWOW64
+11/22/2025 01:50:24.627:  Loading default dxgi.dll:  (C:\Windows\SysWOW64\dxgi.dll)
 -------------------------------------------------------------------------------------------
-11/14/2025 14:43:40.898: [ThreadUtil] [!] > First Call:      SetThreadPriorityBoost_Detour
-11/14/2025 14:43:40.898: [DebugUtils] [!] > First Call:      ZwSetInformationThread_Detour
-11/14/2025 14:43:40.898: [ThreadUtil] [!] > First Call:       SetThreadAffinityMask_Detour
-11/14/2025 14:43:40.898: [ThreadUtil] [!] > First Call:           SetThreadPriority_Detour
-11/14/2025 14:43:40.901: [DebugUtils] [!] > First Call:            ZwCreateThreadEx_Detour
-11/14/2025 14:43:40.902: [   DXGI   ]  # DXGI QuickHook disabled because a local dxgi.dll or d3d11.dll is present...
-11/14/2025 14:43:40.903: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                  api-ms-win-appmodel-runtime-l1-1-2' <LoadLibraryExW> { 'SK_DXTex_LoadFromDDSFile' }
-11/14/2025 14:43:40.903: [ThreadUtil] [!] > First Call:        SetThreadDescription_Detour
-11/14/2025 14:43:40.903: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                  api-ms-win-appmodel-runtime-l1-1-2' <LoadLibraryExW> { 'SK_DXTex_LoadFromDDSFile' }
-11/14/2025 14:43:40.903: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                  api-ms-win-appmodel-runtime-l1-1-2' <LoadLibraryExW> { 'SK_DXTex_LoadFromDDSFile' }
-11/14/2025 14:43:40.904: [Window Mgr] [!] > First Call:            GetSystemMetrics_Detour
-11/14/2025 14:43:40.905: [Key Layout]  -( Keyboard Class:  QWERTY  *  [ W=11, Q=10, Y=15 ] )-
-11/14/2025 14:43:40.905: [Window Mgr] [!] > First Call:            GetGUIThreadInfo_Detour
-11/14/2025 14:43:40.906: [Window Mgr] [!] > First Call:              DefWindowProcW_Detour
-11/14/2025 14:43:40.906: [Window Mgr] [!] > First Call:              SetWindowLongW_Detour
-11/14/2025 14:43:40.911: [  Input   ]   >> Hooking XInput 1.4
-11/14/2025 14:43:40.912: [Window Mgr] [!] > First Call:    GetWindowThreadProcessId_Detour
-11/14/2025 14:43:40.912: [Window Mgr] [!] > First Call:                SetWindowPos_Detour
-11/14/2025 14:43:40.912: [Window Mgr] [!] > First Call:               SetClassLongW_Detour
-11/14/2025 14:43:40.914: [  Input   ] Game uses WinMM, installing input hooks...
-11/14/2025 14:43:40.914: [  Input   ] Game uses HID, installing input hooks...
-11/14/2025 14:43:40.915: [API Detect]  <!> [    Bootstrapping DXGI (dxgi.dll)    ] <!>	(Initialization tid=330c)
-11/14/2025 14:43:40.915: [   DXGI   ] Importing CreateDXGIFactory{1|2}
-11/14/2025 14:43:40.915: [   DXGI   ] ================================
-11/14/2025 14:43:40.915: [ DXGI 1.0 ]   CreateDXGIFactory:      ( C:\Windows\System32\dxgi.dll ) +  24040h
-11/14/2025 14:43:40.915: [ DXGI 1.1 ]   CreateDXGIFactory1:     ( C:\Windows\System32\dxgi.dll ) +  2b8e0h
-11/14/2025 14:43:40.915: [ DXGI 1.3 ]   CreateDXGIFactory2:     ( C:\Windows\System32\dxgi.dll ) +  286e0h
-11/14/2025 14:43:40.915: [ DXGI 1.3 ]   DXGIGetDebugInterface1: ( C:\Windows\System32\dxgi.dll ) +  70f80h
-11/14/2025 14:43:40.917: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                          DSound.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:40.919: [RenderBase] [!] > First Call:  DisplayConfigGetDeviceInfo_Detour
-11/14/2025 14:43:40.924: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                        olepro32.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:40.926: [Window Mgr] [!] > First Call:               GetWindowInfo_Detour
-11/14/2025 14:43:40.926: [  D3D 11  ] Importing D3D11CreateDevice[AndSwapChain]
-11/14/2025 14:43:40.926: [  D3D 11  ] =========================================
-11/14/2025 14:43:40.926: [  D3D 11  ]   D3D11CreateDevice:              ( C:\Windows\SYSTEM32\d3d11.dll ) +  300b0h  { Hooked }
-11/14/2025 14:43:40.926: [  D3D 11  ]   D3D11CreateDeviceAndSwapChain:  ( C:\Windows\SYSTEM32\d3d11.dll ) +  30120h  { Hooked }
-11/14/2025 14:43:40.944: [  Timing  ] Nominal Clock Frequency (P0): 1200 MHz; RDTSC ticks per-QPC tick: 120
-11/14/2025 14:43:40.944: [ FPU Mode ]   x87 FPU Control Word: Double Precision (53-bit)
-11/14/2025 14:43:40.944: [ FPU Mode ]  SSE2 FPU Control Word: Double Extended Precision (64-bit)
-11/14/2025 14:43:40.944: [  Timing  ] Kernel resolution.: 15.625000 ms
-11/14/2025 14:43:40.944: [  Timing  ] New resolution....: 0.500000 ms
-11/14/2025 14:43:40.944: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                        RICHED20.DLL' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:40.945: [   DXGI   ]   Installing Deferred DXGI / D3D11 / D3D12 Hooks
-11/14/2025 14:43:40.947: [   DXGI   ]   Disabling Windows 11 Dynamic Refresh Rate
+11/22/2025 01:50:24.726: [ThreadUtil] [!] > First Call:      SetThreadPriorityBoost_Detour
+11/22/2025 01:50:24.726: [DebugUtils] [!] > First Call:      ZwSetInformationThread_Detour
+11/22/2025 01:50:24.726: [ThreadUtil] [!] > First Call:       SetThreadAffinityMask_Detour
+11/22/2025 01:50:24.726: [ThreadUtil] [!] > First Call:           SetThreadPriority_Detour
+11/22/2025 01:50:24.729: [DebugUtils] [!] > First Call:            ZwCreateThreadEx_Detour
+11/22/2025 01:50:24.730: [   DXGI   ]  # DXGI QuickHook disabled because a local dxgi.dll or d3d11.dll is present...
+11/22/2025 01:50:24.732: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                  api-ms-win-appmodel-runtime-l1-1-2' <LoadLibraryExW> { 'SK_DXTex_LoadFromDDSFile' }
+11/22/2025 01:50:24.732: [ThreadUtil] [!] > First Call:        SetThreadDescription_Detour
+11/22/2025 01:50:24.732: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                  api-ms-win-appmodel-runtime-l1-1-2' <LoadLibraryExW> { 'SK_DXTex_LoadFromDDSFile' }
+11/22/2025 01:50:24.732: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                  api-ms-win-appmodel-runtime-l1-1-2' <LoadLibraryExW> { 'SK_DXTex_LoadFromDDSFile' }
+11/22/2025 01:50:24.733: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                  api-ms-win-appmodel-runtime-l1-1-2' <LoadLibraryExW> { 'SK_DXTex_LoadFromDDSFile' }
+11/22/2025 01:50:24.734: [Key Layout]  -( Keyboard Class:  QWERTY  *  [ W=11, Q=10, Y=15 ] )-
+11/22/2025 01:50:24.739: [  Input   ]   >> Hooking XInput 1.4
+11/22/2025 01:50:24.740: [Window Mgr] [!] > First Call:            GetSystemMetrics_Detour
+11/22/2025 01:50:24.742: [  Input   ] Game uses WinMM, installing input hooks...
+11/22/2025 01:50:24.742: [Window Mgr] [!] > First Call:            GetGUIThreadInfo_Detour
+11/22/2025 01:50:24.742: [  Input   ] Game uses HID, installing input hooks...
+11/22/2025 01:50:24.743: [API Detect]  <!> [    Bootstrapping DXGI (dxgi.dll)    ] <!>	(Initialization tid=8c8)
+11/22/2025 01:50:24.743: [Window Mgr] [!] > First Call:              DefWindowProcW_Detour
+11/22/2025 01:50:24.743: [   DXGI   ] Importing CreateDXGIFactory{1|2}
+11/22/2025 01:50:24.743: [Window Mgr] [!] > First Call:              SetWindowLongW_Detour
+11/22/2025 01:50:24.743: [   DXGI   ] ================================
+11/22/2025 01:50:24.743: [ DXGI 1.0 ]   CreateDXGIFactory:      ( C:\Windows\System32\dxgi.dll ) +  24040h
+11/22/2025 01:50:24.743: [ DXGI 1.1 ]   CreateDXGIFactory1:     ( C:\Windows\System32\dxgi.dll ) +  2b8e0h
+11/22/2025 01:50:24.743: [ DXGI 1.3 ]   CreateDXGIFactory2:     ( C:\Windows\System32\dxgi.dll ) +  286e0h
+11/22/2025 01:50:24.743: [ DXGI 1.3 ]   DXGIGetDebugInterface1: ( C:\Windows\System32\dxgi.dll ) +  70f80h
+11/22/2025 01:50:24.746: [RenderBase] [!] > First Call:  DisplayConfigGetDeviceInfo_Detour
+11/22/2025 01:50:24.748: [Window Mgr] [!] > First Call:    GetWindowThreadProcessId_Detour
+11/22/2025 01:50:24.748: [Window Mgr] [!] > First Call:                SetWindowPos_Detour
+11/22/2025 01:50:24.749: [Window Mgr] [!] > First Call:               SetClassLongW_Detour
+11/22/2025 01:50:24.753: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                          DSound.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:24.759: [  D3D 11  ] Importing D3D11CreateDevice[AndSwapChain]
+11/22/2025 01:50:24.759: [  D3D 11  ] =========================================
+11/22/2025 01:50:24.759: [  D3D 11  ]   D3D11CreateDevice:              ( C:\Windows\SYSTEM32\d3d11.dll ) +  300b0h  { Hooked }
+11/22/2025 01:50:24.759: [  D3D 11  ]   D3D11CreateDeviceAndSwapChain:  ( C:\Windows\SYSTEM32\d3d11.dll ) +  30120h  { Hooked }
+11/22/2025 01:50:24.773: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                        olepro32.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:24.773: [   DXGI   ]   Installing Deferred DXGI / D3D11 / D3D12 Hooks
+11/22/2025 01:50:24.774: [  Timing  ] Nominal Clock Frequency (P0): 1200 MHz; RDTSC ticks per-QPC tick: 120
+11/22/2025 01:50:24.774: [ FPU Mode ]   x87 FPU Control Word: Double Precision (53-bit)
+11/22/2025 01:50:24.774: [ FPU Mode ]  SSE2 FPU Control Word: Double Extended Precision (64-bit)
+11/22/2025 01:50:24.774: [  Timing  ] Kernel resolution.: 1.000000 ms
+11/22/2025 01:50:24.774: [  Timing  ] New resolution....: 0.500000 ms
+11/22/2025 01:50:24.779: [   DXGI   ]   Disabling Windows 11 Dynamic Refresh Rate
+11/22/2025 01:50:24.779: [   DXGI   ] [!] D3D11CreateDeviceAndSwapChain (Flags=0x0)                                                              -- [ d3d11.dll                 <             D3D11CreateDevice>, tid=0x0c80 ]
 ===========================================================================================
-11/14/2025 14:43:40.948: [  NvAPI   ] Initializing NVIDIA API           (NvAPI)...
-11/14/2025 14:43:40.949: [   DXGI   ] [!] D3D11CreateDeviceAndSwapChain (Flags=0x0)                                                              -- [ d3d11.dll                 <             D3D11CreateDevice>, tid=0x1fac ]
-11/14/2025 14:43:40.949: [  D3D 11  ]  <~> Preferred Feature Level(s): <4> -  11_1 11_0 10_1 10_0
-11/14/2025 14:43:40.949: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                                        cryptnet.dll' <LoadLibraryExW> { '                     ' }
-11/14/2025 14:43:40.949: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (05ef0820h, 0, 0856f410h)                                   -- [ d3d11.dll                 <         D3D11CoreCreateDevice>, tid=0x1fac ]
-11/14/2025 14:43:40.949: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:40.949: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
-11/14/2025 14:43:40.950: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                                        drvstore.dll' <LoadLibraryExW> { '                     ' }
-11/14/2025 14:43:40.950: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                                            wldp.dll' <LoadLibraryExW> { '                     ' }
-11/14/2025 14:43:40.952: [  NvAPI   ]              NvAPI Init         { Failed  }
-11/14/2025 14:43:40.952: [DisplayLib] Initializing AMD Display Library (ADL)...
-11/14/2025 14:43:40.953: [DisplayLib]              ADL   Init         { Failed  }
-11/14/2025 14:43:40.953: [Hybrid GPU]  NvOptimusEnablement..................: UNDEFINED
-11/14/2025 14:43:40.953: [Hybrid GPU]  AmdPowerXpressRequestHighPerformance.: UNDEFINED
+11/22/2025 01:50:24.780: [  NvAPI   ] Initializing NVIDIA API           (NvAPI)...
+11/22/2025 01:50:24.780: [  D3D 11  ]  <~> Preferred Feature Level(s): <4> -  11_1 11_0 10_1 10_0
+11/22/2025 01:50:24.780: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (05efc800h, 0, 087ef410h)                                   -- [ d3d11.dll                 <         D3D11CoreCreateDevice>, tid=0x0c80 ]
+11/22/2025 01:50:24.780: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:24.781: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
+11/22/2025 01:50:24.782: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                                        cryptnet.dll' <LoadLibraryExW> { '                     ' }
+11/22/2025 01:50:24.783: [Window Mgr] [!] > First Call:               GetWindowInfo_Detour
+11/22/2025 01:50:24.783: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                                        drvstore.dll' <LoadLibraryExW> { '                     ' }
+11/22/2025 01:50:24.784: [DLL Loader]   ( dxgi.dll                     ) loaded '                                                                                                            wldp.dll' <LoadLibraryExW> { '                     ' }
+11/22/2025 01:50:24.784: [  NvAPI   ]              NvAPI Init         { Failed  }
+11/22/2025 01:50:24.784: [DisplayLib] Initializing AMD Display Library (ADL)...
+11/22/2025 01:50:24.786: [DLL Loader]   ( igd10iumd32.dll              ) loaded '                      C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\igd10um32xe' <LoadLibraryExA> { '                     ' }
+11/22/2025 01:50:24.786: [DisplayLib]              ADL   Init         { Failed  }
+11/22/2025 01:50:24.786: [Hybrid GPU]  NvOptimusEnablement..................: UNDEFINED
+11/22/2025 01:50:24.786: [Hybrid GPU]  AmdPowerXpressRequestHighPerformance.: UNDEFINED
 ===========================================================================================
-11/14/2025 14:43:40.954: [Window Mgr] [!] > First Call:                    GetFocus_Detour
 -------------------------------------------------------------------------------------------
-11/14/2025 14:43:40.960: [ SpecialK ] === Initialization Finished! ===          (121.98 ms)
+11/22/2025 01:50:24.792: [ SpecialK ] === Initialization Finished! ===          (178.76 ms)
 -------------------------------------------------------------------------------------------
-11/14/2025 14:43:40.963: [DLL Loader]   ( igd10iumd32.dll              ) loaded '                      C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\igd10um32xe' <LoadLibraryExA> { '                     ' }
-11/14/2025 14:43:40.966: [DLL Loader]   ( igd10um32xe.DLL              ) loaded '            C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\IntelControlLib32.dll' <LoadLibraryExW> { '              ctlInit' }
-11/14/2025 14:43:40.969: [   DXGI   ] [!]                     CreateDXGIFactory1        (      IDXGIFactory, 08561e24h)                          -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.970: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0958a700h, 0, 08561e28h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.970: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:40.970: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
-11/14/2025 14:43:40.971: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0958a700h, 1, 08561e28h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.971: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:40.971: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
-11/14/2025 14:43:40.971: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0958a700h, 2, 08561e28h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.971: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
-11/14/2025 14:43:40.971: [   DXGI   ] [!]                     CreateDXGIFactory1        (      IDXGIFactory, 085620e0h)                          -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.972: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0958a700h, 0, 085620e4h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.972: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:40.972: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
-11/14/2025 14:43:40.972: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0958a700h, 1, 085620e4h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.972: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:40.972: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
-11/14/2025 14:43:40.972: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0958a700h, 2, 085620e4h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x1fac ]
-11/14/2025 14:43:40.972: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
-11/14/2025 14:43:40.974: [DLL Loader]   ( igd10um32xe.DLL              ) loaded '                     C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\igdgmm32.dll' <LoadLibraryExA> { '    QueryDesiredMode1' }
-11/14/2025 14:43:40.981: [DLL Loader]   ( igd10um32xe.DLL              ) loaded '                        C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\igc32.dll' <LoadLibraryExA> { '    QueryDesiredMode1' }
-11/14/2025 14:43:40.991: [Input Mgr.] [!] > First Call:                 CreateFileW_Detour
-11/14/2025 14:43:41.000: [Input Hook]  <Unicode>: Game module ( C:\Users\glorp\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe ) uses a Mouse Hook...
-11/14/2025 14:43:41.000: [Input Hook]  <Unicode>: Game module ( C:\Users\glorp\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe ) uses a Keyboard Hook...
-11/14/2025 14:43:41.003: [Input Mgr.] [!] > First Call:                GetCursorPos_Detour
-11/14/2025 14:43:41.022: [API Detect]  <!> [ Bootstrapping DirectDraw (ddraw.dll) ] <!>	(Initialization tid=7a8)
-11/14/2025 14:43:41.022: [   DDraw  ] Importing DirectDrawCreate{Ex}..
-11/14/2025 14:43:41.022: [   DDraw  ] ================================
-11/14/2025 14:43:41.023: [   DDraw  ]   DirectDrawCreate:   02883140h  { Hooked }
-11/14/2025 14:43:41.023: [   DDraw  ]   DirectDrawCreateEx: 02883120h  { Hooked }
-11/14/2025 14:43:41.030: [API Detect]  <!> [ Bootstrapping Direct3D 8 (d3d8.dll) ] <!>	(Initialization tid=7a8)
-11/14/2025 14:43:41.030: [   D3D8   ] Importing Direct3DCreate8.......
-11/14/2025 14:43:41.030: [   D3D8   ] ================================
-11/14/2025 14:43:41.030: [   D3D8   ]   Direct3DCreate8:   ( C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\d3d8.dll ) +  7980eh  { Hooked }
-11/14/2025 14:43:41.034: [Window Mgr] [!] > First Call:                  ShowWindow_Detour
-11/14/2025 14:43:41.036: [API Detect]  <!> [ Bootstrapping Direct3D 9 (d3d9.dll) ] <!>	(Initialization tid=7a8)
-11/14/2025 14:43:41.050: [Input Mgr.] [!] > First Call:            GetKeyboardState_Detour
-11/14/2025 14:43:41.057: [Input Mgr.] [!] > First Call:                    ReadFile_Detour
-11/14/2025 14:43:41.057: [Input Mgr.] [!] > First Call:         GetOverlappedResult_Detour
-11/14/2025 14:43:41.057: [Input Mgr.] [!] > First Call:       GetOverlappedResultEx_Detour
-11/14/2025 14:43:41.062: [Window Mgr] [!] > First Call:             GetActiveWindow_Detour
-11/14/2025 14:43:41.128: [   DXGI   ] [@]  Return: S_OK  -  < D3D11CreateDeviceAndSwapChain_Detour >
-11/14/2025 14:43:41.128: [  D3D 11  ]  >> Device = 060fc93ch (Feature Level: 11_1)
-11/14/2025 14:43:41.128: [ DXGI 1.4 ]   $ Spawning Memory Budget Change Thread..: tid=0x178c
-11/14/2025 14:43:41.129: [ DXGI 1.4 ]   % Setting up Budget Change Notification.: eid=0x00000828, cookie=1
-11/14/2025 14:43:41.129: [ DXGI 1.2 ] GPU Scheduling...: Pre-Emptive (Triangle)
-11/14/2025 14:43:41.129: [ DXGI 1.4 ] Local Memory.....:11/14/2025 14:43:41.129: [   DXGI   ] [!] > First Call: IDXGIAdapter3_QueryVideoMemoryInfo_Detour
+11/22/2025 01:50:24.793: [DLL Loader]   ( igd10um32xe.DLL              ) loaded '            C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\IntelControlLib32.dll' <LoadLibraryExW> { '              ctlInit' }
+11/22/2025 01:50:24.794: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                        RICHED20.DLL' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:24.795: [   DXGI   ] [!]                     CreateDXGIFactory1        (      IDXGIFactory, 087e1e24h)                          -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.795: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (060969f8h, 0, 087e1e28h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.795: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:24.795: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
+11/22/2025 01:50:24.795: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (060969f8h, 1, 087e1e28h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.795: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:24.795: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
+11/22/2025 01:50:24.795: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (060969f8h, 2, 087e1e28h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.795: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
+11/22/2025 01:50:24.795: [   DXGI   ] [!]                     CreateDXGIFactory1        (      IDXGIFactory, 087e20e0h)                          -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.796: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0603b2c8h, 0, 087e20e4h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.796: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:24.796: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
+11/22/2025 01:50:24.796: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0603b2c8h, 1, 087e20e4h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.796: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:24.796: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
+11/22/2025 01:50:24.796: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0603b2c8h, 2, 087e20e4h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0c80 ]
+11/22/2025 01:50:24.796: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
+11/22/2025 01:50:24.797: [DLL Loader]   ( igd10um32xe.DLL              ) loaded '                     C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\igdgmm32.dll' <LoadLibraryExA> { '    QueryDesiredMode1' }
+11/22/2025 01:50:24.804: [Window Mgr] [!] > First Call:                    GetFocus_Detour
+11/22/2025 01:50:24.806: [DLL Loader]   ( igd10um32xe.DLL              ) loaded '                        C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9741ef1f4093481f\igc32.dll' <LoadLibraryExA> { '    QueryDesiredMode1' }
+11/22/2025 01:50:24.815: [Input Mgr.] [!] > First Call:                 CreateFileW_Detour
+11/22/2025 01:50:24.834: [Input Hook]  <Unicode>: Game module ( C:\Users\glorp\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe ) uses a Mouse Hook...
+11/22/2025 01:50:24.834: [Input Hook]  <Unicode>: Game module ( C:\Users\glorp\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe ) uses a Keyboard Hook...
+11/22/2025 01:50:24.837: [Input Mgr.] [!] > First Call:                GetCursorPos_Detour
+11/22/2025 01:50:24.863: [API Detect]  <!> [ Bootstrapping DirectDraw (ddraw.dll) ] <!>	(Initialization tid=2c24)
+11/22/2025 01:50:24.863: [   DDraw  ] Importing DirectDrawCreate{Ex}..
+11/22/2025 01:50:24.863: [   DDraw  ] ================================
+11/22/2025 01:50:24.864: [   DDraw  ]   DirectDrawCreate:   02843140h  { Hooked }
+11/22/2025 01:50:24.864: [   DDraw  ]   DirectDrawCreateEx: 02843120h  { Hooked }
+11/22/2025 01:50:24.867: [Window Mgr] [!] > First Call:                  ShowWindow_Detour
+11/22/2025 01:50:24.872: [API Detect]  <!> [ Bootstrapping Direct3D 8 (d3d8.dll) ] <!>	(Initialization tid=2c24)
+11/22/2025 01:50:24.872: [   D3D8   ] Importing Direct3DCreate8.......
+11/22/2025 01:50:24.872: [   D3D8   ] ================================
+11/22/2025 01:50:24.872: [   D3D8   ]   Direct3DCreate8:   ( C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\d3d8.dll ) +  7980eh  { Hooked }
+11/22/2025 01:50:24.879: [Input Mgr.] [!] > First Call:                    ReadFile_Detour
+11/22/2025 01:50:24.879: [Input Mgr.] [!] > First Call:         GetOverlappedResult_Detour
+11/22/2025 01:50:24.879: [Input Mgr.] [!] > First Call:       GetOverlappedResultEx_Detour
+11/22/2025 01:50:24.880: [API Detect]  <!> [ Bootstrapping Direct3D 9 (d3d9.dll) ] <!>	(Initialization tid=2c24)
+11/22/2025 01:50:24.884: [Window Mgr] [!] > First Call:             GetActiveWindow_Detour
+11/22/2025 01:50:24.935: [   DXGI   ] [@]  Return: S_OK  -  < D3D11CreateDeviceAndSwapChain_Detour >
+11/22/2025 01:50:24.935: [  D3D 11  ]  >> Device = 093e6484h (Feature Level: 11_1)
+11/22/2025 01:50:24.935: [ DXGI 1.4 ]   $ Spawning Memory Budget Change Thread..: tid=0x29e0
+11/22/2025 01:50:24.936: [ DXGI 1.4 ]   % Setting up Budget Change Notification.: eid=0x00000798, cookie=1
+11/22/2025 01:50:24.936: [ DXGI 1.2 ] GPU Scheduling...: Pre-Emptive (Triangle)
+11/22/2025 01:50:24.936: [ DXGI 1.4 ] Local Memory.....:11/22/2025 01:50:24.936: [   DXGI   ] [!] > First Call: IDXGIAdapter3_QueryVideoMemoryInfo_Detour
  Node0       (Reserve:     0 /  1870 MiB - Budget:     1 /  3544 MiB)
-11/14/2025 14:43:41.129: [ DXGI 1.4 ] Non-Local Memory.: Node0       (Reserve:     0 /     0 MiB - Budget:     0 /     0 MiB)
-11/14/2025 14:43:41.129: [   DXGI   ] [!]      IDXGIFactory7::CreateSwapChain          (060fc93ch, 0856fe34h, 0856feech)                         -- [ dxgi.dll                  <DXGIReportAdapterConfiguration>, tid=0x1fac ]
-11/14/2025 14:43:41.129: [DXGI Util.] Ignoring SwapChain associated with Window Class: Special K Dummy Window Class
-11/14/2025 14:43:41.137: [   DXGI   ] [@]  Return: S_OK  -  < DXGIFactory_CreateSwapChain_Override >
-11/14/2025 14:43:41.137: [  D3D 11  ]   Hooking D3D11
-11/14/2025 14:43:41.169: [DLL Loader]   ( g.exe                        ) loaded '                                                            C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\D3DX8.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:42.388: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\gm82\gm82buf.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:42.391: [DLL Loader]   ( g.exe                        ) loaded '                                                    C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\gm82\gm82core.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:42.476: [DLL Loader]   ( g.exe                        ) loaded '                                                    C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\gm82\D3DX9_43.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:42.481: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\gm82\gm82dx9.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:42.505: [DLL Loader]   ( g.exe                        ) loaded '                                                    C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\gm82\gm82live.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:42.511: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\gm82\gm82net.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:42.689: [   DXGI   ] [!]                     CreateDXGIFactory1        (     IDXGIFactory1, 0fc99150h)                          -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.689: [   DXGI   ] [!]                     CreateDXGIFactory1        (     IDXGIFactory1, 0019fb38h)                          -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.689: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fc982b8h, 0, 0019fb3ch)                                   -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.689: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:42.689: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
-11/14/2025 14:43:42.689: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fc982b8h, 1, 0019fb3ch)                                   -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.689: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:42.689: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
-11/14/2025 14:43:42.689: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fc982b8h, 2, 0019fb3ch)                                   -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.689: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
-11/14/2025 14:43:42.689: [   DXGI   ] [!] > First Call:     IDXGIOutput6_GetDesc1_Override
-11/14/2025 14:43:42.689: [   DXGI   ] [!]        IDXGIOutput::FindClosestMatchingMode          (0FED55B8, 0019f970h, 0019f954h, 00000000h)       -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.689: [   DXGI   ] [?]  Desired Mode:  1920x1080@60.00 Hz, Format=DXGI_FORMAT_UNKNOWN, Scaling=DXGI_MODE_SCALING_UNSPECIFIED, Scanlines=DXGI_MODE_SCANLINE_ORDER_PROGRESSIVE
-11/14/2025 14:43:42.691: [   DXGI   ] [@]  Return: DXGI_ERROR_INVALID_CALL  -  < DXGIOutput_FindClosestMatchingMode_Override >
-11/14/2025 14:43:42.692: [   DXGI   ] [!] D3D11CreateDevice             (Flags=0x0)                                                              -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.692: [   DXGI   ] [!] D3D11CreateDeviceAndSwapChain (Flags=0x0)                                                              -- [ dxgi.dll                  <             D3D11CreateDevice>, tid=0x0710 ]
-11/14/2025 14:43:42.692: [  D3D 11  ]  <~> Preferred Feature Level(s): <3> -  11_0 10_1 10_0
-11/14/2025 14:43:42.693: [   DXGI   ] [!]                     CreateDXGIFactory1        (      IDXGIFactory, 00191e10h)                          -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0710 ]
-11/14/2025 14:43:42.693: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fefc7e0h, 0, 00191e14h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0710 ]
-11/14/2025 14:43:42.693: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:42.693: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
-11/14/2025 14:43:42.693: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fefc7e0h, 1, 00191e14h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0710 ]
-11/14/2025 14:43:42.693: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
-11/14/2025 14:43:42.693: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
-11/14/2025 14:43:42.693: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fefc7e0h, 2, 00191e14h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x0710 ]
-11/14/2025 14:43:42.693: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
-11/14/2025 14:43:42.703: [   DXGI   ] [@]  Return: S_OK  -  < D3D11CreateDeviceAndSwapChain_Detour >
-11/14/2025 14:43:42.703: [  D3D 11  ]  >> Device = 0ff053ach (Feature Level: 11_0)
-11/14/2025 14:43:42.745: [   DXGI   ] [!]        IDXGIOutput::FindClosestMatchingMode          (123C9B10, 0019fa80h, 0019fa64h, 00000000h)       -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.745: [   DXGI   ] [?]  Desired Mode:  0x0@nan Hz, Format=DXGI_FORMAT_R8G8B8A8_UNORM, Scaling=DXGI_MODE_SCALING_UNSPECIFIED, Scanlines=DXGI_MODE_SCANLINE_ORDER_PROGRESSIVE
-11/14/2025 14:43:42.745: [   DXGI   ] [@]  Return: S_OK  -  < DXGIOutput_FindClosestMatchingMode_Override >
-11/14/2025 14:43:42.745: [   DXGI   ] [#]  Closest Match: 1680x1050@60.00 Hz, Format=DXGI_FORMAT_R8G8B8A8_UNORM, Scaling=DXGI_MODE_SCALING_STRETCHED, Scanlines=DXGI_MODE_SCANLINE_ORDER_PROGRESSIVE
-11/14/2025 14:43:42.745: [   DXGI   ] [!] > First Call:  DXGIOutput_WaitForVBlank_Override
-11/14/2025 14:43:42.782: [   DXGI   ] [!]      IDXGIOutput::GetDisplayModeList        (123c9b10h, DXGI_FORMAT_R8G8B8A8_UNORM, Interlaced & Stretched, 0, 00000000h) -- [ dxgi.dll                  <    SKX_D3D11_EnableFullscreen>, tid=0x0710 ]
-11/14/2025 14:43:42.784: [   DXGI   ]      >> 70 modes (0 removed)
-11/14/2025 14:43:42.784: [   DXGI   ] [!]      IDXGIOutput::GetDisplayModeList        (123c9b10h, DXGI_FORMAT_R8G8B8A8_UNORM, Stretched, 70, 123cd4f8h) -- [ dxgi.dll                  <    SKX_D3D11_EnableFullscreen>, tid=0x0710 ]
-11/14/2025 14:43:42.785: [   DXGI   ]      >> 70 modes (0 removed)
-11/14/2025 14:43:42.786: [  D3D 11  ] [!] > First Call:  D3D11Dev_CreateTexture2D_Override
-11/14/2025 14:43:42.798: [  D3D 11  ] [!] > First Call:                D3D11_Draw_Override
-11/14/2025 14:43:42.800: [   DXGI   ] [!]      IDXGIFactory7::CreateSwapChain          (0ff053ach, 0019f710h, 124e36ech)                         -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.800: [Swap Chain]  { ORIGINAL }
+11/22/2025 01:50:24.936: [ DXGI 1.4 ] Non-Local Memory.: Node0       (Reserve:     0 /     0 MiB - Budget:     0 /     0 MiB)
+11/22/2025 01:50:24.936: [   DXGI   ] [!]      IDXGIFactory7::CreateSwapChain          (093e6484h, 087efe34h, 087efeech)                         -- [ dxgi.dll                  <DXGIReportAdapterConfiguration>, tid=0x0c80 ]
+11/22/2025 01:50:24.936: [DXGI Util.] Ignoring SwapChain associated with Window Class: Special K Dummy Window Class
+11/22/2025 01:50:24.939: [   DXGI   ] [@]  Return: S_OK  -  < DXGIFactory_CreateSwapChain_Override >
+11/22/2025 01:50:24.939: [  D3D 11  ]   Hooking D3D11
+11/22/2025 01:50:24.973: [DLL Loader]   ( g.exe                        ) loaded '                                                            C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\D3DX8.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:26.258: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\gm82\gm82buf.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:26.260: [DLL Loader]   ( g.exe                        ) loaded '                                                    C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\gm82\gm82core.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:26.335: [DLL Loader]   ( g.exe                        ) loaded '                                                    C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\gm82\D3DX9_43.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:26.338: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\gm82\gm82dx9.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:26.359: [DLL Loader]   ( g.exe                        ) loaded '                                                    C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\gm82\gm82live.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:26.363: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\gm82\gm82net.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:26.551: [   DXGI   ] [!]                     CreateDXGIFactory1        (     IDXGIFactory1, 0fcc9f80h)                          -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.551: [   DXGI   ] [!]                     CreateDXGIFactory1        (     IDXGIFactory1, 0019fb38h)                          -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.551: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fca9370h, 0, 0019fb3ch)                                   -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.551: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:26.551: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
+11/22/2025 01:50:26.551: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fca9370h, 1, 0019fb3ch)                                   -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.551: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:26.551: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
+11/22/2025 01:50:26.551: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fca9370h, 2, 0019fb3ch)                                   -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.551: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
+11/22/2025 01:50:26.551: [   DXGI   ] [!] > First Call:     IDXGIOutput6_GetDesc1_Override
+11/22/2025 01:50:26.552: [   DXGI   ] [!]        IDXGIOutput::FindClosestMatchingMode          (0FF0DB80, 0019f970h, 0019f954h, 00000000h)       -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.552: [   DXGI   ] [?]  Desired Mode:  1920x1080@60.00 Hz, Format=DXGI_FORMAT_UNKNOWN, Scaling=DXGI_MODE_SCALING_UNSPECIFIED, Scanlines=DXGI_MODE_SCANLINE_ORDER_PROGRESSIVE
+11/22/2025 01:50:26.552: [   DXGI   ] [@]  Return: DXGI_ERROR_INVALID_CALL  -  < DXGIOutput_FindClosestMatchingMode_Override >
+11/22/2025 01:50:26.552: [   DXGI   ] [!] D3D11CreateDevice             (Flags=0x0)                                                              -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.552: [   DXGI   ] [!] D3D11CreateDeviceAndSwapChain (Flags=0x0)                                                              -- [ dxgi.dll                  <             D3D11CreateDevice>, tid=0x41c0 ]
+11/22/2025 01:50:26.552: [  D3D 11  ]  <~> Preferred Feature Level(s): <3> -  11_0 10_1 10_0
+11/22/2025 01:50:26.553: [   DXGI   ] [!]                     CreateDXGIFactory1        (      IDXGIFactory, 00191e10h)                          -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x41c0 ]
+11/22/2025 01:50:26.553: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fca6dc0h, 0, 00191e14h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x41c0 ]
+11/22/2025 01:50:26.553: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:26.553: [   DXGI   ]  @ Returned Adapter 0: '           Intel(R) UHD Graphics' (LUID: 00000000:0000E006) <Hardware>
+11/22/2025 01:50:26.553: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fca6dc0h, 1, 00191e14h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x41c0 ]
+11/22/2025 01:50:26.553: [   DXGI   ] [@]  Return: S_OK  -  < EnumAdapters1_Override >
+11/22/2025 01:50:26.553: [   DXGI   ]  @ Returned Adapter 1: '   Microsoft Basic Render Driver' (LUID: 00000000:0000E393) <Software>
+11/22/2025 01:50:26.553: [   DXGI   ] [!]      IDXGIFactory7::EnumAdapters1          (0fca6dc0h, 2, 00191e14h)                                   -- [ IntelControlLib32.dll     <            ctlpvtTestFunction>, tid=0x41c0 ]
+11/22/2025 01:50:26.553: [   DXGI   ] [@]  Return: DXGI_ERROR_NOT_FOUND  -  < EnumAdapters1_Override >
+11/22/2025 01:50:26.562: [   DXGI   ] [@]  Return: S_OK  -  < D3D11CreateDeviceAndSwapChain_Detour >
+11/22/2025 01:50:26.562: [  D3D 11  ]  >> Device = 0ff48444h (Feature Level: 11_0)
+11/22/2025 01:50:26.594: [   DXGI   ] [!]        IDXGIOutput::FindClosestMatchingMode          (124BB1D8, 0019fa80h, 0019fa64h, 00000000h)       -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.594: [   DXGI   ] [?]  Desired Mode:  0x0@nan Hz, Format=DXGI_FORMAT_R8G8B8A8_UNORM, Scaling=DXGI_MODE_SCALING_UNSPECIFIED, Scanlines=DXGI_MODE_SCANLINE_ORDER_PROGRESSIVE
+11/22/2025 01:50:26.594: [   DXGI   ] [@]  Return: S_OK  -  < DXGIOutput_FindClosestMatchingMode_Override >
+11/22/2025 01:50:26.594: [   DXGI   ] [#]  Closest Match: 1680x1050@60.00 Hz, Format=DXGI_FORMAT_R8G8B8A8_UNORM, Scaling=DXGI_MODE_SCALING_STRETCHED, Scanlines=DXGI_MODE_SCANLINE_ORDER_PROGRESSIVE
+11/22/2025 01:50:26.594: [   DXGI   ] [!] > First Call:  DXGIOutput_WaitForVBlank_Override
+11/22/2025 01:50:26.639: [   DXGI   ] [!]      IDXGIOutput::GetDisplayModeList        (124bb1d8h, DXGI_FORMAT_R8G8B8A8_UNORM, Interlaced & Stretched, 0, 00000000h) -- [ dxgi.dll                  <    SKX_D3D11_EnableFullscreen>, tid=0x41c0 ]
+11/22/2025 01:50:26.643: [   DXGI   ]      >> 70 modes (0 removed)
+11/22/2025 01:50:26.643: [   DXGI   ] [!]      IDXGIOutput::GetDisplayModeList        (124bb1d8h, DXGI_FORMAT_R8G8B8A8_UNORM, Stretched, 70, 124bebc0h) -- [ dxgi.dll                  <    SKX_D3D11_EnableFullscreen>, tid=0x41c0 ]
+11/22/2025 01:50:26.644: [   DXGI   ]      >> 70 modes (0 removed)
+11/22/2025 01:50:26.646: [  D3D 11  ] [!] > First Call:  D3D11Dev_CreateTexture2D_Override
+11/22/2025 01:50:26.659: [  D3D 11  ] [!] > First Call:                D3D11_Draw_Override
+11/22/2025 01:50:26.662: [   DXGI   ] [!]      IDXGIFactory7::CreateSwapChain          (0ff48444h, 0019f710h, 1262fffch)                         -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.663: [Swap Chain]  { ORIGINAL }
   +-------------+-------------------------------------------------------------------------+
   | Resolution. |     1x   1 @   0.00 Hz                                                  |
   | Format..... |  DXGI_FORMAT_R8G8B8A8_UNORM                                             |
   | Buffers.... |  2                                                                      |
   | MSAA....... |  Not Used (or Offscreen)                                                |
   | Mode....... |  Windowed                                                               |
-  | Window..... |  0x002d056e                                                             |
+  | Window..... |  0x012d0474                                                             |
   | WindowClass |  TRunnerForm                                                            |
   | Scaling.... |  Unspecified                                                            |
   | Scanlines.. |  Unspecified                                                            |
   | Flags...... |   0x002:  Allow Fullscreen Mode Switch                                  |
   | SwapEffect. |  Flip Discard                                                           |
   +-------------+-------------------------------------------------------------------------+
-11/14/2025 14:43:42.800: [ DXGI 1.5 ]  >> Tearing Option : Enable  (Override)
-11/14/2025 14:43:42.800: [   DXGI   ]   >> Will Not Clear SwapChain Backbuffer After Present
-11/14/2025 14:43:42.800: [Swap Chain]  { SPECIAL K OVERRIDES APPLIED }
+11/22/2025 01:50:26.663: [ DXGI 1.5 ]  >> Tearing Option : Enable  (Override)
+11/22/2025 01:50:26.663: [   DXGI   ]   >> Will Not Clear SwapChain Backbuffer After Present
+11/22/2025 01:50:26.663: [Swap Chain]  { SPECIAL K OVERRIDES APPLIED }
   +-------------+-------------------------------------------------------------------------+
   | Resolution. |     1x   1 @   0.00 Hz                                                  |
   | Format..... |  DXGI_FORMAT_R8G8B8A8_UNORM                                             |
   | Buffers.... |  2                                                                      |
   | MSAA....... |  Not Used (or Offscreen)                                                |
   | Mode....... |  Windowed                                                               |
-  | Window..... |  0x002d056e                                                             |
+  | Window..... |  0x012d0474                                                             |
   | WindowClass |  TRunnerForm                                                            |
   | Scaling.... |  Unspecified                                                            |
   | Scanlines.. |  Unspecified                                                            |
@@ -203,43 +203,43 @@
   | Flags [1].. |   0x800:  Supports Tearing in Windowed Mode                             |
   | SwapEffect. |  Flip Discard                                                           |
   +-------------+-------------------------------------------------------------------------+
-11/14/2025 14:43:42.801: [  D3D 11  ] [!] > First Call: D3D11Dev_CreateTexture2D1_Override
-11/14/2025 14:43:42.806: [   DXGI   ] [@]  Return: S_OK  -  < DXGIFactory_CreateSwapChain_Override >
-11/14/2025 14:43:42.811: [Window Mgr] Hooking the Window Procedure for Unicode Window Class ('TRunnerForm' - "" * 2d056e)
-11/14/2025 14:43:42.811: [Window Mgr]  $ ClassProc:  ( C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe ) +  b7a14h
-11/14/2025 14:43:42.811: [Window Mgr]  $ WndProc:    ( #Extremely#Invalid.dll# ) + 6ad0fc9h
-11/14/2025 14:43:42.812: [Window Mgr]  >> Hooked ClassProc.
-11/14/2025 14:43:42.812: [Window Mgr] [!] > First Call:                  ClipCursor_Detour
-11/14/2025 14:43:42.813: [   DXGI   ] Promoted IDXGISwapChain to IDXGISwapChain4
-11/14/2025 14:43:42.813: [IDXGI Wrap] [!] > First Call: IWrapDXGISwapChain::SetPrivateDataInterface
-11/14/2025 14:43:42.813: [   DXGI   ] [!] > First Call: DXGIDevice1_GetMaximumFrameLatency_Override
-11/14/2025 14:43:42.813: [   DXGI   ]  + SwapChain <IDXGISwapChain> (124e43b0h) wrapped using D3D11 Device
-11/14/2025 14:43:42.813: [IDXGI Wrap] Redundant Fullscreen Mode Change Ignored  ( Windowed )
-11/14/2025 14:43:42.813: [   DXGI   ] [!]      IDXGIFactory7::CreateSwapChain          (0ff053ach, 0019f758h, 124e36ech)                         -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x0710 ]
-11/14/2025 14:43:42.813: [Swap Chain]  { ORIGINAL }
+11/22/2025 01:50:26.663: [  D3D 11  ] [!] > First Call: D3D11Dev_CreateTexture2D1_Override
+11/22/2025 01:50:26.664: [   DXGI   ] [@]  Return: S_OK  -  < DXGIFactory_CreateSwapChain_Override >
+11/22/2025 01:50:26.670: [Window Mgr] Hooking the Window Procedure for Unicode Window Class ('TRunnerForm' - "" * 12d0474)
+11/22/2025 01:50:26.670: [Window Mgr]  $ ClassProc:  ( C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe ) +  b7a14h
+11/22/2025 01:50:26.670: [Window Mgr]  $ WndProc:    ( #Extremely#Invalid.dll# ) + 6ae0fc9h
+11/22/2025 01:50:26.670: [Window Mgr]  >> Hooked ClassProc.
+11/22/2025 01:50:26.670: [Window Mgr] [!] > First Call:                  ClipCursor_Detour
+11/22/2025 01:50:26.671: [   DXGI   ] Promoted IDXGISwapChain to IDXGISwapChain4
+11/22/2025 01:50:26.671: [IDXGI Wrap] [!] > First Call: IWrapDXGISwapChain::SetPrivateDataInterface
+11/22/2025 01:50:26.671: [   DXGI   ] [!] > First Call: DXGIDevice1_GetMaximumFrameLatency_Override
+11/22/2025 01:50:26.671: [   DXGI   ]  + SwapChain <IDXGISwapChain> (12632cd0h) wrapped using D3D11 Device
+11/22/2025 01:50:26.671: [IDXGI Wrap] Redundant Fullscreen Mode Change Ignored  ( Windowed )
+11/22/2025 01:50:26.671: [   DXGI   ] [!]      IDXGIFactory7::CreateSwapChain          (0ff48444h, 0019f758h, 1262fffch)                         -- [ d3d9.dll                  <              D3DPERF_EndEvent>, tid=0x41c0 ]
+11/22/2025 01:50:26.671: [Swap Chain]  { ORIGINAL }
   +-------------+-------------------------------------------------------------------------+
   | Resolution. |   800x 608 @  60.00 Hz                                                  |
   | Format..... |  DXGI_FORMAT_R8G8B8A8_UNORM                                             |
   | Buffers.... |  2                                                                      |
   | MSAA....... |  Not Used (or Offscreen)                                                |
   | Mode....... |  Windowed                                                               |
-  | Window..... |  0x002d056e                                                             |
+  | Window..... |  0x012d0474                                                             |
   | WindowClass |  TRunnerForm                                                            |
   | Scaling.... |  Unspecified                                                            |
   | Scanlines.. |  Unspecified                                                            |
   | Flags...... |   0x002:  Allow Fullscreen Mode Switch                                  |
   | SwapEffect. |  Flip Discard                                                           |
   +-------------+-------------------------------------------------------------------------+
-11/14/2025 14:43:42.813: [ DXGI 1.5 ]  >> Tearing Option : Enable  (Override)
-11/14/2025 14:43:42.813: [   DXGI   ]   >> Will Not Clear SwapChain Backbuffer After Present
-11/14/2025 14:43:42.813: [Swap Chain]  { SPECIAL K OVERRIDES APPLIED }
+11/22/2025 01:50:26.671: [ DXGI 1.5 ]  >> Tearing Option : Enable  (Override)
+11/22/2025 01:50:26.671: [   DXGI   ]   >> Will Not Clear SwapChain Backbuffer After Present
+11/22/2025 01:50:26.671: [Swap Chain]  { SPECIAL K OVERRIDES APPLIED }
   +-------------+-------------------------------------------------------------------------+
   | Resolution. |   800x 608 @  60.00 Hz                                                  |
   | Format..... |  DXGI_FORMAT_R8G8B8A8_UNORM                                             |
   | Buffers.... |  2                                                                      |
   | MSAA....... |  Not Used (or Offscreen)                                                |
   | Mode....... |  Windowed                                                               |
-  | Window..... |  0x002d056e                                                             |
+  | Window..... |  0x012d0474                                                             |
   | WindowClass |  TRunnerForm                                                            |
   | Scaling.... |  Unspecified                                                            |
   | Scanlines.. |  Unspecified                                                            |
@@ -247,11 +247,13 @@
   | Flags [1].. |   0x800:  Supports Tearing in Windowed Mode                             |
   | SwapEffect. |  Flip Discard                                                           |
   +-------------+-------------------------------------------------------------------------+
-11/14/2025 14:43:42.815: [Swap Chain] (-) Releasing wrapped SwapChain (124E43B0h)... device=0FF053ACh, hwnd=002D056Eh
-11/14/2025 14:43:42.817: [RenderBase]  ( Generic PnP Monitor (\\.\DISPLAY1\Monitor0) ) :: PixelClock= 138.8 MHz, vSyncFreq= 60.001 Hz, hSyncFreq= 66.721 kHz, activeSize=(1920x1080), totalSize=(2080x1112), Standard=D3DKMDT_VSS_VESA_DMT
-11/14/2025 14:43:42.818: [   DXGI   ] [@]  Return: S_OK  -  < DXGIFactory_CreateSwapChain_Override >
-11/14/2025 14:43:42.818: [   DXGI   ] Promoted IDXGISwapChain to IDXGISwapChain4
-11/14/2025 14:43:42.818: [Output Dev]
+11/22/2025 01:50:26.674: [Swap Chain] (-) Releasing wrapped SwapChain (12632CD0h)... device=0FF48444h, hwnd=012D0474h
+11/22/2025 01:50:26.675: [   DXGI   ] [@]  Return: S_OK  -  < DXGIFactory_CreateSwapChain_Override >
+11/22/2025 01:50:26.675: [   DXGI   ] Promoted IDXGISwapChain to IDXGISwapChain4
+11/22/2025 01:50:26.675: [   DXGI   ]  + SwapChain <IDXGISwapChain> (12635a18h) wrapped using D3D11 Device
+11/22/2025 01:50:26.675: [IDXGI Wrap] Redundant Fullscreen Mode Change Ignored  ( Windowed )
+11/22/2025 01:50:26.675: [RenderBase]  ( Generic PnP Monitor (\\.\DISPLAY1\Monitor0) ) :: PixelClock= 138.8 MHz, vSyncFreq= 60.001 Hz, hSyncFreq= 66.721 kHz, activeSize=(1920x1080), totalSize=(2080x1112), Standard=D3DKMDT_VSS_VESA_DMT
+11/22/2025 01:50:26.676: [Output Dev]
   +------------------+---------------------------------------------------------------------
   | EDID Device Name |   -<+>- UNKNOWN 0
   | GDI  Device Name |  \\.\DISPLAY1 (HMONITOR: 00010001)
@@ -267,126 +269,127 @@
   | Max Luminance... |   270.00000 cd/m²   
   | Max FullFrame... |   270.00000 cd/m²   
   +------------------+---------------------------------------------------------------------
-11/14/2025 14:43:42.818: [   DXGI   ]  + SwapChain <IDXGISwapChain> (124e43b0h) wrapped using D3D11 Device
-11/14/2025 14:43:42.818: [   DXGI   ] * Monitor 1: [ 1920x1080 | (    0,    0) ]                  :: SDR
-11/14/2025 14:43:42.818: [IDXGI Wrap] Redundant Fullscreen Mode Change Ignored  ( Windowed )
-11/14/2025 14:43:42.819: [Window Mgr] [!] > First Call:                PeekMessageW_Detour
-11/14/2025 14:43:42.819: [Window Mgr] [!] > First Call:                 GetMessageW_Detour
-11/14/2025 14:43:42.819: [Window Mgr] [!] > First Call:             GetDpiForSystem_Detour
-11/14/2025 14:43:42.819: [Window Mgr] [!] > First Call:      GetSystemMetricsForDpi_Detour
-11/14/2025 14:43:42.819: [Input Mgr.] [!] > First Call:      RoGetActivationFactory_Detour
-11/14/2025 14:43:43.245: [Window Mgr] [!] > First Call:                PostMessageW_Detour
-11/14/2025 14:43:43.247: [Window Mgr] [!] > First Call:                SendMessageW_Detour
-11/14/2025 14:43:43.250: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,117,8,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)             -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x0710 ]
-11/14/2025 14:43:43.250: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:43:43.251: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:43:43.252: [FrameLimit]  Framerate Limiter Created to Track SwapChain (124E43B0h)
-11/14/2025 14:43:43.252: [  D3D 11  ] Active D3D11 Device Context Established on first Presented Frame
-11/14/2025 14:43:43.255: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:43.385: [RenderBack] SwapChain Presentation Thread has Priority=18
-11/14/2025 14:43:43.419: [DLL Loader]   ( g.exe                        ) loaded '                                                         C:\Users\*****\AppData\Local\Temp\gm82 dll cache\fmodex.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:43.421: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_23123\gm82\gm82snd.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:43.988: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                        imagehlp.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:44.014: [Window Mgr] [!] > First Call: SetThreadDpiAwarenessContext_Detour
-11/14/2025 14:43:44.022: [Window Mgr] [!] > First Call:  SystemParametersInfoForDpi_Detour
-11/14/2025 14:43:48.680: [DLL Loader]   ( imjptip.dll                  ) loaded '                                                                           C:\Windows\SysWOW64\IME\IMEJP\imjpapi.dll' <  LoadLibraryW> { '                     ' }
-11/14/2025 14:43:48.706: [DLL Loader]   ( imetip.dll                   ) loaded '                                                                           C:\Windows\SysWOW64\IME\shared\imecfm.dll' <LoadLibraryExW> { '  DllUnregisterServer' }
-11/14/2025 14:43:48.720: [Window Mgr] [!] > First Call:         GetForegroundWindow_Detour
-11/14/2025 14:43:49.352: [Window Mgr] [!] > First Call:             SetActiveWindow_Detour
-11/14/2025 14:43:49.781: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,640,480,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x0710 ]
-11/14/2025 14:43:49.781: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:43:49.781: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:49.798: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:43:49.798: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:49.814: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,668,532,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x0710 ]
-11/14/2025 14:43:49.814: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:43:49.814: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:49.816: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:43:49.816: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:49.826: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,1920,1080,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)         -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x0710 ]
-11/14/2025 14:43:49.826: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:43:49.826: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:49.828: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:43:49.828: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:49.860: [  WASAPI  ] Current Audio Mixing Latency: 10.0 ms @ 48 kHz
-11/14/2025 14:43:49.860: [  WASAPI  ] Minimum Audio Mixing Latency: 10.0 ms @ 48 kHz
-11/14/2025 14:43:49.902: [Input Mgr.] [!] > First Call:                 GetKeyState_Detour
-11/14/2025 14:43:49.920: [  D3D 11  ] [!] > First Call:         D3D11_DrawIndexed_Override
-11/14/2025 14:43:50.822: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,1892,1028,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)         -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x0710 ]
-11/14/2025 14:43:50.822: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:43:50.822: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:50.823: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:43:50.824: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:50.854: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,640,480,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x0710 ]
-11/14/2025 14:43:50.854: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:43:50.854: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:50.860: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:43:50.860: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:52.746: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,800,608,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x0710 ]
-11/14/2025 14:43:52.746: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:43:52.746: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:43:52.748: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:43:52.748: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:44:32.756: [Input Mgr.] [!] > First Call:                 CreateFileA_Detour
-11/14/2025 14:44:33.738: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,828,660,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ graphics-hook32.dll                                       , tid=0x0710 ]
-11/14/2025 14:44:33.738: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:44:33.738: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:44:33.740: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:44:33.740: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:44:33.754: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,1920,1080,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)         -- [ graphics-hook32.dll                                       , tid=0x0710 ]
-11/14/2025 14:44:33.754: [ DXGI 1.5 ]  >> Tearing Option:  Enable
-11/14/2025 14:44:33.754: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 14:44:33.755: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
-11/14/2025 14:44:33.756: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff053ach, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=002d056eh}
-11/14/2025 15:00:15.926: [DebugUtils] Software Is Ending With Exit Code (0)
-11/14/2025 15:00:15.926: [Perf Stats] At shutdown:    0.00 seconds and    0.19 MiB of CPU->GPU I/O avoided by 5 texture cache hits.
+11/22/2025 01:50:26.676: [   DXGI   ] * Monitor 1: [ 1920x1080 | (    0,    0) ]                  :: SDR
+11/22/2025 01:50:26.676: [Window Mgr] [!] > First Call:                PeekMessageW_Detour
+11/22/2025 01:50:26.676: [Window Mgr] [!] > First Call:                 GetMessageW_Detour
+11/22/2025 01:50:26.677: [Window Mgr] [!] > First Call:             GetDpiForSystem_Detour
+11/22/2025 01:50:26.677: [Window Mgr] [!] > First Call:      GetSystemMetricsForDpi_Detour
+11/22/2025 01:50:26.677: [Input Mgr.] [!] > First Call:      RoGetActivationFactory_Detour
+11/22/2025 01:50:26.988: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,117,8,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)             -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:26.988: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:26.989: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:26.990: [FrameLimit]  Framerate Limiter Created to Track SwapChain (12635A18h)
+11/22/2025 01:50:26.990: [  D3D 11  ] Active D3D11 Device Context Established on first Presented Frame
+11/22/2025 01:50:26.993: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:27.131: [RenderBack] SwapChain Presentation Thread has Priority=18
+11/22/2025 01:50:27.135: [Window Mgr] [!] > First Call:             SetActiveWindow_Detour
+11/22/2025 01:50:27.136: [Window Mgr] [!] > First Call:                SendMessageW_Detour
+11/22/2025 01:50:27.164: [DLL Loader]   ( g.exe                        ) loaded '                                                         C:\Users\*****\AppData\Local\Temp\gm82 dll cache\fmodex.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:27.166: [DLL Loader]   ( g.exe                        ) loaded '                                                     C:\Users\*****\AppData\Local\Temp\gm_ttt_36638\gm82\gm82snd.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:28.092: [DLL Loader]   ( g.exe                        ) loaded '                                                                                                        imagehlp.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:28.122: [Window Mgr] [!] > First Call: SetThreadDpiAwarenessContext_Detour
+11/22/2025 01:50:28.129: [Window Mgr] [!] > First Call:  SystemParametersInfoForDpi_Detour
+11/22/2025 01:50:29.272: [Input Mgr.] [!] > First Call:            GetKeyboardState_Detour
+11/22/2025 01:50:29.284: [DLL Loader]   ( imjptip.dll                  ) loaded '                                                                           C:\Windows\SysWOW64\IME\IMEJP\imjpapi.dll' <  LoadLibraryW> { '                     ' }
+11/22/2025 01:50:29.311: [DLL Loader]   ( imetip.dll                   ) loaded '                                                                           C:\Windows\SysWOW64\IME\shared\imecfm.dll' <LoadLibraryExW> { '  DllUnregisterServer' }
+11/22/2025 01:50:29.312: [Window Mgr] [!] > First Call:                PostMessageW_Detour
+11/22/2025 01:50:29.326: [Window Mgr] [!] > First Call:         GetForegroundWindow_Detour
+11/22/2025 01:50:29.770: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,640,480,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:29.770: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:29.770: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:29.773: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:29.774: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:29.873: [Input Mgr.] [!] > First Call:                 GetKeyState_Detour
+11/22/2025 01:50:29.887: [  D3D 11  ] [!] > First Call:         D3D11_DrawIndexed_Override
+11/22/2025 01:50:29.919: [  WASAPI  ] Current Audio Mixing Latency: 10.0 ms @ 48 kHz
+11/22/2025 01:50:29.919: [  WASAPI  ] Minimum Audio Mixing Latency: 10.0 ms @ 48 kHz
+11/22/2025 01:50:31.223: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,800,608,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:31.223: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:31.223: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:31.225: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:31.225: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:33.941: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,828,660,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:33.941: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:33.941: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:33.946: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:33.946: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:33.962: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,1920,1080,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)         -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:33.962: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:33.962: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:33.963: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:33.963: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:34.249: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,1892,1028,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)         -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:34.249: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:34.249: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:34.251: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:34.253: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:34.279: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,800,608,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:34.279: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:34.279: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:34.281: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:34.281: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:40.078: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,828,660,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)           -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:40.078: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:40.078: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:40.079: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:40.080: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:40.091: [   DXGI   ] [!]     IDXGISwapChain::ResizeBuffers          (2,1920,1080,DXGI_FORMAT_R8G8B8A8_UNORM,0x00000002)         -- [ dxgi.dll                  <             SKX_SetPluginName>, tid=0x41c0 ]
+11/22/2025 01:50:40.091: [ DXGI 1.5 ]  >> Tearing Option:  Enable
+11/22/2025 01:50:40.091: [D3D11BkEnd] (-) Releasing D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:40.094: [   DXGI   ] [@]  Return: S_OK  -  < SK_DXGI_SwapChain_ResizeBuffers_Impl >
+11/22/2025 01:50:40.094: [D3D11BkEnd] (+) Acquiring D3D11 Render Context: Device=0ff48444h, SwapChain: {2 x DXGI_FORMAT_R8G8B8A8_UNORM, HWND=012d0474h}
+11/22/2025 01:50:50.791: [Input Mgr.] [!] > First Call:                 CreateFileA_Detour
+11/22/2025 01:52:28.248: [DebugUtils] Software Is Ending With Exit Code (0)
+11/22/2025 01:52:28.248: [Perf Stats] At shutdown:    0.00 seconds and    0.00 MiB of CPU->GPU I/O avoided by 1 texture cache hits.
 ================================================================== (List Unloads) ==================================================================
-11/14/2025 15:00:15.927: [00] Unloaded '        resourcepolicyclient.dll' [ (0x71D40000) : (0x71D50000) ]
-11/14/2025 15:00:15.927: [00]  * Ver.:  Resource Policy Client  10.0.22621.3527 (WinBuild.160101.0800)
-11/14/2025 15:00:15.927: [01] Unloaded '                       D3DX8.dll' [ (0x06170000) : (0x061ED000) ]
-11/14/2025 15:00:15.928: [02] Unloaded '                     gm82buf.dll' [ (0x70EC0000) : (0x70F15000) ]
-11/14/2025 15:00:15.928: [03] Unloaded '                    gm82core.dll' [ (0x69C80000) : (0x69CAE000) ]
-11/14/2025 15:00:15.928: [04] Unloaded '                     gm82dx9.dll' [ (0x699F0000) : (0x69A72000) ]
-11/14/2025 15:00:15.929: [05] Unloaded '                    D3DX9_43.dll' [ (0x69A80000) : (0x69C7F000) ]
-11/14/2025 15:00:15.931: [05]  * Ver.:  Direct3D 9 Extensions  9.29.952.3111
-11/14/2025 15:00:15.931: [06] Unloaded '                    gm82live.dll' [ (0x699A0000) : (0x699ED000) ]
-11/14/2025 15:00:15.931: [07] Unloaded '                VCRUNTIME140.dll' [ (0x69980000) : (0x69995000) ]
-11/14/2025 15:00:15.931: [07]  * Ver.:  Microsoft® C Runtime Library  14.42.34438.0
-11/14/2025 15:00:15.932: [08] Unloaded '                     gm82net.dll' [ (0x69920000) : (0x69979000) ]
-11/14/2025 15:00:15.932: [09] Unloaded '                     gm82snd.dll' [ (0x694E0000) : (0x69524000) ]
-11/14/2025 15:00:15.932: [10] Unloaded '                      fmodex.dll' [ (0x69550000) : (0x696F5000) ]
-11/14/2025 15:00:15.932: [11] Unloaded '                    olepro32.dll' [ (0x71760000) : (0x7177C000) ]
-11/14/2025 15:00:15.932: [11]  * Ver.:  OLEPRO32.DLL  10.0.22621.3235 (WinBuild.160101.0800)
-11/14/2025 15:00:15.933: [12] Unloaded '                    RICHED20.DLL' [ (0x71480000) : (0x714FD000) ]
-11/14/2025 15:00:15.933: [12]  * Ver.:  Rich Text Edit Control, v3.1  5.31.23.1231
-11/14/2025 15:00:15.933: [13] Unloaded '                       USP10.dll' [ (0x71430000) : (0x71447000) ]
-11/14/2025 15:00:15.933: [13]  * Ver.:  Uniscribe Unicode script processor  10.0.22621.1 (WinBuild.160101.0800)
-11/14/2025 15:00:15.934: [14] Unloaded '                      msls31.dll' [ (0x71450000) : (0x7147C000) ]
-11/14/2025 15:00:15.934: [14]  * Ver.:  Microsoft Line Services library file  3.10.349.0
-11/14/2025 15:00:15.934: [15] Unloaded '                      imecfm.dll' [ (0x68880000) : (0x688B6000) ]
-11/14/2025 15:00:15.935: [16] Unloaded '                         wer.dll' [ (0x687C0000) : (0x6887F000) ]
-11/14/2025 15:00:15.935: [16]  * Ver.:  Windows Error Reporting DLL  10.0.22621.5983 (WinBuild.160101.0800)
-11/14/2025 15:00:15.935: [17] Unloaded '      DiagnosticDataSettings.dll' [ (0x687B0000) : (0x687BC000) ]
-11/14/2025 15:00:15.936: [17]  * Ver.:  Microsoft Windows Diagnostic Data Settings  10.0.22621.5124 (WinBuild.160101.0800)
-11/14/2025 15:00:15.936: [18] Unloaded '                      imetip.dll' [ (0x68A30000) : (0x68B11000) ]
-11/14/2025 15:00:15.936: [19] Unloaded '                       DUI70.dll' [ (0x688C0000) : (0x68A29000) ]
-11/14/2025 15:00:15.937: [19]  * Ver.:  Windows DirectUI Engine  10.0.22621.6060 (WinBuild.160101.0800)
-11/14/2025 15:00:15.937: [20] Unloaded '                     imjptip.dll' [ (0x68FE0000) : (0x6927A000) ]
-11/14/2025 15:00:15.938: [21] Unloaded '                      OLEACC.dll' [ (0x68F50000) : (0x68FB0000) ]
-11/14/2025 15:00:15.938: [21]  * Ver.:  Active Accessibility Core Component  7.2.22621.5840 (WinBuild.160101.0800)
-11/14/2025 15:00:15.938: [22] Unloaded '                     ieframe.dll' [ (0x69E50000) : (0x6A4B0000) ]
-11/14/2025 15:00:15.939: [22]  * Ver.:  Internet Browser  11.00.22621.6060 (WinBuild.160101.0800)
-11/14/2025 15:00:15.939: [23] Unloaded '                     WINHTTP.dll' [ (0x74710000) : (0x747E6000) ]
-11/14/2025 15:00:15.939: [23]  * Ver.:  Windows HTTP Services  10.0.22621.4830 (WinBuild.160101.0800)
+11/22/2025 01:52:28.250: [00] Unloaded '        resourcepolicyclient.dll' [ (0x70D70000) : (0x70D80000) ]
+11/22/2025 01:52:28.250: [00]  * Ver.:  Resource Policy Client  10.0.22621.3527 (WinBuild.160101.0800)
+11/22/2025 01:52:28.251: [01] Unloaded '                       D3DX8.dll' [ (0x060F0000) : (0x0616D000) ]
+11/22/2025 01:52:28.251: [02] Unloaded '                     gm82buf.dll' [ (0x6CFC0000) : (0x6D015000) ]
+11/22/2025 01:52:28.251: [03] Unloaded '                    gm82core.dll' [ (0x70630000) : (0x7065E000) ]
+11/22/2025 01:52:28.252: [04] Unloaded '                     gm82dx9.dll' [ (0x6CD30000) : (0x6CDB2000) ]
+11/22/2025 01:52:28.252: [05] Unloaded '                    D3DX9_43.dll' [ (0x6CDC0000) : (0x6CFBF000) ]
+11/22/2025 01:52:28.254: [05]  * Ver.:  Direct3D 9 Extensions  9.29.952.3111
+11/22/2025 01:52:28.254: [06] Unloaded '                    gm82live.dll' [ (0x6CCE0000) : (0x6CD2D000) ]
+11/22/2025 01:52:28.254: [07] Unloaded '                VCRUNTIME140.dll' [ (0x728C0000) : (0x728D5000) ]
+11/22/2025 01:52:28.255: [07]  * Ver.:  Microsoft® C Runtime Library  14.42.34438.0
+11/22/2025 01:52:28.255: [08] Unloaded '                     gm82net.dll' [ (0x6CC80000) : (0x6CCD9000) ]
+11/22/2025 01:52:28.255: [09] Unloaded '                    fwpuclnt.dll' [ (0x72510000) : (0x7256E000) ]
+11/22/2025 01:52:28.255: [09]  * Ver.:  FWP/IPsec User-Mode API  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:52:28.255: [10] Unloaded '                     gm82snd.dll' [ (0x6C850000) : (0x6C894000) ]
+11/22/2025 01:52:28.256: [11] Unloaded '                      fmodex.dll' [ (0x6C8C0000) : (0x6CA65000) ]
+11/22/2025 01:52:28.256: [12] Unloaded '                    olepro32.dll' [ (0x72700000) : (0x7271C000) ]
+11/22/2025 01:52:28.256: [12]  * Ver.:  OLEPRO32.DLL  10.0.22621.3235 (WinBuild.160101.0800)
+11/22/2025 01:52:28.256: [13] Unloaded '                    RICHED20.DLL' [ (0x71BE0000) : (0x71C5D000) ]
+11/22/2025 01:52:28.256: [13]  * Ver.:  Rich Text Edit Control, v3.1  5.31.23.1231
+11/22/2025 01:52:28.256: [14] Unloaded '                       USP10.dll' [ (0x726C0000) : (0x726D7000) ]
+11/22/2025 01:52:28.257: [14]  * Ver.:  Uniscribe Unicode script processor  10.0.22621.1 (WinBuild.160101.0800)
+11/22/2025 01:52:28.257: [15] Unloaded '                      msls31.dll' [ (0x71BB0000) : (0x71BDC000) ]
+11/22/2025 01:52:28.257: [15]  * Ver.:  Microsoft Line Services library file  3.10.349.0
+11/22/2025 01:52:28.257: [16] Unloaded '                      imecfm.dll' [ (0x6BC60000) : (0x6BC96000) ]
+11/22/2025 01:52:28.257: [17] Unloaded '                         wer.dll' [ (0x6BBA0000) : (0x6BC5F000) ]
+11/22/2025 01:52:28.257: [17]  * Ver.:  Windows Error Reporting DLL  10.0.22621.5983 (WinBuild.160101.0800)
+11/22/2025 01:52:28.257: [18] Unloaded '      DiagnosticDataSettings.dll' [ (0x6BB90000) : (0x6BB9C000) ]
+11/22/2025 01:52:28.257: [18]  * Ver.:  Microsoft Windows Diagnostic Data Settings  10.0.22621.5124 (WinBuild.160101.0800)
+11/22/2025 01:52:28.258: [19] Unloaded '                      imetip.dll' [ (0x6BE10000) : (0x6BEF1000) ]
+11/22/2025 01:52:28.258: [20] Unloaded '                       DUI70.dll' [ (0x6BCA0000) : (0x6BE09000) ]
+11/22/2025 01:52:28.258: [20]  * Ver.:  Windows DirectUI Engine  10.0.22621.6060 (WinBuild.160101.0800)
+11/22/2025 01:52:28.258: [21] Unloaded '                     imjptip.dll' [ (0x6C360000) : (0x6C5FA000) ]
+11/22/2025 01:52:28.259: [22] Unloaded '                      OLEACC.dll' [ (0x729D0000) : (0x72A30000) ]
+11/22/2025 01:52:28.259: [22]  * Ver.:  Active Accessibility Core Component  7.2.22621.5840 (WinBuild.160101.0800)
+11/22/2025 01:52:28.259: [23] Unloaded '                     ieframe.dll' [ (0x71EB0000) : (0x72510000) ]
+11/22/2025 01:52:28.259: [23]  * Ver.:  Internet Browser  11.00.22621.6060 (WinBuild.160101.0800)
+11/22/2025 01:52:28.259: [24] Unloaded '                     WINHTTP.dll' [ (0x74710000) : (0x747E6000) ]
+11/22/2025 01:52:28.259: [24]  * Ver.:  Windows HTTP Services  10.0.22621.4830 (WinBuild.160101.0800)
 ================================================================== (End  Unloads) ==================================================================
-11/14/2025 15:00:15.940: [ SpecialK ] *** Initiating DLL Shutdown ***
-11/14/2025 15:00:15.940: [ ETWTrace ] Shutting down ETW Trace Providers...         done! (   0 ms)
-11/14/2025 15:00:15.940: [ SpecialK ] Saving user preferences to       dxgi.ini... done! (   4 ms)
-11/14/2025 15:00:15.945: [   ImGui  ] Shutting down ImGui...                       done! (   2 ms)
-11/14/2025 15:00:15.948: [ DXGI 1.4 ] Shutting down Memory Budget Change Thread... done! (   0 ms)
-11/14/2025 15:00:15.959: [ GPU Stat ] Shutting down Performance Monitor Thread...  done! (   0 ms)
-11/14/2025 15:00:15.981: [ WMI Perf ] Shutting down WMI WbemLocator...             done! (   1 ms)
-11/14/2025 15:00:15.981: [ SpecialK ] Shutting down SteamAPI integration...        done! (   0 ms)
-11/14/2025 15:00:15.981: [ SpecialK ] Shutting down MinHook...                     done! (   0 ms)
-11/14/2025 15:00:15.981: [ SpecialK ] Closing secondary logs...                    done! (   0 ms)
-11/14/2025 15:00:15.981: [ SpecialK ] Custom dxgi.dll Detached (pid=0x1174)
+11/22/2025 01:52:28.260: [ SpecialK ] *** Initiating DLL Shutdown ***
+11/22/2025 01:52:28.260: [ ETWTrace ] Shutting down ETW Trace Providers...         done! (   0 ms)
+11/22/2025 01:52:28.260: [ SpecialK ] Saving user preferences to       dxgi.ini... done! (   2 ms)
+11/22/2025 01:52:28.262: [   ImGui  ] Shutting down ImGui...                       done! (   3 ms)
+11/22/2025 01:52:28.265: [ DXGI 1.4 ] Shutting down Memory Budget Change Thread... done! (   1 ms)
+11/22/2025 01:52:28.274: [ GPU Stat ] Shutting down Performance Monitor Thread...  done! (   0 ms)
+11/22/2025 01:52:28.297: [ WMI Perf ] Shutting down WMI WbemLocator...             done! (   0 ms)
+11/22/2025 01:52:28.297: [ SpecialK ] Shutting down SteamAPI integration...        done! (   0 ms)
+11/22/2025 01:52:28.297: [ SpecialK ] Shutting down MinHook...                     done! (   0 ms)
+11/22/2025 01:52:28.297: [ SpecialK ] Closing secondary logs...                    done! (   0 ms)
+11/22/2025 01:52:28.297: [ SpecialK ] Custom dxgi.dll Detached (pid=0x3aec)

@@ -1,200 +1,197 @@
-﻿11/14/2025 14:43:40.973: [ Module ]  ( 00400000h + 05595136 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe
-11/14/2025 14:43:40.973: [File Ver]      1.0.0.0
+﻿11/22/2025 01:50:24.807: [ Module ]  ( 00400000h + 05595136 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\g.exe
+11/22/2025 01:50:24.807: [File Ver]      1.0.0.0
 
-11/14/2025 14:43:40.973: [ Module ]  ( 77BC0000h + 01777664 )                                                         C:\Windows\SYSTEM32\ntdll.dll
-11/14/2025 14:43:40.974: [File Ver]    NT Layer DLL  10.0.22621.6060 (WinBuild.160101.0800)
+11/22/2025 01:50:24.807: [ Module ]  ( 77BC0000h + 01777664 )                                                         C:\Windows\SYSTEM32\ntdll.dll
+11/22/2025 01:50:24.809: [File Ver]    NT Layer DLL  10.0.22621.6060 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.974: [ Module ]  ( 772A0000h + 00983040 )                                                         C:\Windows\System32\KERNEL32.DLL
-11/14/2025 14:43:40.975: [File Ver]    Windows NT BASE API Client DLL  10.0.22621.5415 (WinBuild.160101.0800)
+11/22/2025 01:50:24.810: [ Module ]  ( 772A0000h + 00983040 )                                                         C:\Windows\System32\KERNEL32.DLL
+11/22/2025 01:50:24.810: [File Ver]    Windows NT BASE API Client DLL  10.0.22621.5415 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.975: [ Module ]  ( 77000000h + 02711552 )                                                         C:\Windows\System32\KERNELBASE.dll
-11/14/2025 14:43:40.976: [File Ver]    Windows NT BASE API Client DLL  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.811: [ Module ]  ( 77000000h + 02711552 )                                                         C:\Windows\System32\KERNELBASE.dll
+11/22/2025 01:50:24.811: [File Ver]    Windows NT BASE API Client DLL  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.977: [ Module ]  ( 737A0000h + 00679936 )                                                         C:\Windows\SYSTEM32\apphelp.dll
-11/14/2025 14:43:40.978: [File Ver]    Application Compatibility Client Library  10.0.22621.5983 (WinBuild.160101.0800)
+11/22/2025 01:50:24.812: [ Module ]  ( 737A0000h + 00679936 )                                                         C:\Windows\SYSTEM32\apphelp.dll
+11/22/2025 01:50:24.813: [File Ver]    Application Compatibility Client Library  10.0.22621.5983 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.978: [ Module ]  ( 75F50000h + 00643072 )                                                         C:\Windows\System32\oleaut32.dll
-11/14/2025 14:43:40.979: [File Ver]    OLEAUT32.DLL  10.0.22621.5697 (WinBuild.160101.0800)
+11/22/2025 01:50:24.814: [ Module ]  ( 75F50000h + 00643072 )                                                         C:\Windows\System32\oleaut32.dll
+11/22/2025 01:50:24.814: [File Ver]    OLEAUT32.DLL  10.0.22621.5697 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.979: [ Module ]  ( 77670000h + 00495616 )                                                         C:\Windows\System32\msvcp_win.dll
-11/14/2025 14:43:40.979: [File Ver]    Microsoft® C Runtime Library  10.0.22621.3374 (WinBuild.160101.0800)
+11/22/2025 01:50:24.814: [ Module ]  ( 77670000h + 00495616 )                                                         C:\Windows\System32\msvcp_win.dll
+11/22/2025 01:50:24.815: [File Ver]    Microsoft® C Runtime Library  10.0.22621.3374 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.980: [ Module ]  ( 76660000h + 01122304 )                                                         C:\Windows\System32\ucrtbase.dll
-11/14/2025 14:43:40.980: [File Ver]    Microsoft® C Runtime Library  10.0.22621.3593 (WinBuild.160101.0800)
+11/22/2025 01:50:24.815: [ Module ]  ( 76660000h + 01122304 )                                                         C:\Windows\System32\ucrtbase.dll
+11/22/2025 01:50:24.816: [File Ver]    Microsoft® C Runtime Library  10.0.22621.3593 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.981: [ Module ]  ( 76160000h + 02633728 )                                                         C:\Windows\System32\combase.dll
-11/14/2025 14:43:40.982: [File Ver]    Microsoft COM for Windows  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.816: [ Module ]  ( 76160000h + 02633728 )                                                         C:\Windows\System32\combase.dll
+11/22/2025 01:50:24.816: [File Ver]    Microsoft COM for Windows  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.982: [ Module ]  ( 75850000h + 00770048 )                                                         C:\Windows\System32\RPCRT4.dll
-11/14/2025 14:43:40.983: [File Ver]    Remote Procedure Call Runtime  10.0.22621.5840 (WinBuild.160101.0800)
+11/22/2025 01:50:24.817: [ Module ]  ( 75850000h + 00770048 )                                                         C:\Windows\System32\RPCRT4.dll
+11/22/2025 01:50:24.818: [File Ver]    Remote Procedure Call Runtime  10.0.22621.5840 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.983: [ Module ]  ( 778A0000h + 00516096 )                                                         C:\Windows\System32\advapi32.dll
-11/14/2025 14:43:40.983: [File Ver]    Advanced Windows 32 Base API  10.0.22621.5909 (WinBuild.160101.0800)
+11/22/2025 01:50:24.819: [ Module ]  ( 778A0000h + 00516096 )                                                         C:\Windows\System32\advapi32.dll
+11/22/2025 01:50:24.819: [File Ver]    Advanced Windows 32 Base API  10.0.22621.5909 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.984: [ Module ]  ( 76420000h + 00802816 )                                                         C:\Windows\System32\msvcrt.dll
-11/14/2025 14:43:40.984: [File Ver]    Windows NT CRT DLL  7.0.22621.2506 (WinBuild.160101.0800)
+11/22/2025 01:50:24.820: [ Module ]  ( 76420000h + 00802816 )                                                         C:\Windows\System32\msvcrt.dll
+11/22/2025 01:50:24.820: [File Ver]    Windows NT CRT DLL  7.0.22621.2506 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.984: [ Module ]  ( 760C0000h + 00540672 )                                                         C:\Windows\System32\sechost.dll
-11/14/2025 14:43:40.984: [File Ver]    Host for SCM/SDDL/LSA Lookup APIs  10.0.22621.5909 (WinBuild.160101.0800)
+11/22/2025 01:50:24.820: [ Module ]  ( 760C0000h + 00540672 )                                                         C:\Windows\System32\sechost.dll
+11/22/2025 01:50:24.821: [File Ver]    Host for SCM/SDDL/LSA Lookup APIs  10.0.22621.5909 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.985: [ Module ]  ( 77430000h + 00106496 )                                                         C:\Windows\System32\bcrypt.dll
-11/14/2025 14:43:40.986: [File Ver]    Windows Cryptographic Primitives Library (Wow64)  10.0.22621.4746 (WinBuild.160101.0800)
+11/22/2025 01:50:24.821: [ Module ]  ( 77430000h + 00106496 )                                                         C:\Windows\System32\bcrypt.dll
+11/22/2025 01:50:24.821: [File Ver]    Windows Cryptographic Primitives Library (Wow64)  10.0.22621.4746 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.986: [ Module ]  ( 776F0000h + 01753088 )                                                         C:\Windows\System32\user32.dll
-11/14/2025 14:43:40.986: [File Ver]    Multi-User Windows USER API Client DLL  10.0.22621.6199 (WinBuild.160101.0800)
+11/22/2025 01:50:24.822: [ Module ]  ( 776F0000h + 01753088 )                                                         C:\Windows\System32\user32.dll
+11/22/2025 01:50:24.823: [File Ver]    Multi-User Windows USER API Client DLL  10.0.22621.6199 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.987: [ Module ]  ( 75910000h + 00106496 )                                                         C:\Windows\System32\win32u.dll
-11/14/2025 14:43:40.987: [File Ver]    Win32u  10.0.22621.6060 (WinBuild.160101.0800)
+11/22/2025 01:50:24.824: [ Module ]  ( 75910000h + 00106496 )                                                         C:\Windows\System32\win32u.dll
+11/22/2025 01:50:24.824: [File Ver]    Win32u  10.0.22621.6060 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.988: [ Module ]  ( 756C0000h + 00139264 )                                                         C:\Windows\System32\GDI32.dll
-11/14/2025 14:43:40.989: [File Ver]    GDI Client DLL  10.0.22621.5697 (WinBuild.160101.0800)
+11/22/2025 01:50:24.824: [ Module ]  ( 756C0000h + 00139264 )                                                         C:\Windows\System32\GDI32.dll
+11/22/2025 01:50:24.824: [File Ver]    GDI Client DLL  10.0.22621.5697 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.989: [ Module ]  ( 77450000h + 00942080 )                                                         C:\Windows\System32\gdi32full.dll
-11/14/2025 14:43:40.990: [File Ver]    GDI Client DLL  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.824: [ Module ]  ( 77450000h + 00942080 )                                                         C:\Windows\System32\gdi32full.dll
+11/22/2025 01:50:24.825: [File Ver]    GDI Client DLL  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.990: [ Module ]  ( 756F0000h + 01380352 )                                                         C:\Windows\System32\ole32.dll
-11/14/2025 14:43:40.990: [File Ver]    Microsoft OLE for Windows  10.0.22621.6199 (WinBuild.160101.0800)
+11/22/2025 01:50:24.825: [ Module ]  ( 756F0000h + 01380352 )                                                         C:\Windows\System32\ole32.dll
+11/22/2025 01:50:24.825: [File Ver]    Microsoft OLE for Windows  10.0.22621.6199 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.991: [ Module ]  ( 76930000h + 07135232 )                                                         C:\Windows\System32\shell32.dll
-11/14/2025 14:43:40.991: [File Ver]    Windows Shell Common Dll  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.826: [ Module ]  ( 76930000h + 07135232 )                                                         C:\Windows\System32\shell32.dll
+11/22/2025 01:50:24.826: [File Ver]    Windows Shell Common Dll  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.992: [ Module ]  ( 75FF0000h + 00815104 )                                                         C:\Windows\System32\wintypes.dll
-11/14/2025 14:43:40.993: [File Ver]    Windows Base Types DLL  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.826: [ Module ]  ( 73AB0000h + 00032768 )                                                         C:\Windows\SYSTEM32\version.dll
+11/22/2025 01:50:24.826: [File Ver]    Version Checking and File Installation Libraries  10.0.22621.1 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.993: [ Module ]  ( 74120000h + 00024576 )                                                         C:\Windows\SYSTEM32\msimg32.dll
-11/14/2025 14:43:40.994: [File Ver]    GDIEXT Client DLL  10.0.22621.2506 (WinBuild.160101.0800)
+11/22/2025 01:50:24.827: [ Module ]  ( 74820000h + 00102400 )                                                         C:\Windows\SYSTEM32\mpr.dll
+11/22/2025 01:50:24.828: [File Ver]    Multiple Provider Router DLL  10.0.22621.1 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.994: [ Module ]  ( 77AE0000h + 00774144 )                                                         C:\Windows\System32\comdlg32.dll
-11/14/2025 14:43:40.994: [File Ver]    Common Dialogs DLL  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.828: [ Module ]  ( 75FF0000h + 00815104 )                                                         C:\Windows\System32\wintypes.dll
+11/22/2025 01:50:24.829: [File Ver]    Windows Base Types DLL  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.994: [ Module ]  ( 77A10000h + 00843776 )                                                         C:\Windows\System32\shcore.dll
-11/14/2025 14:43:40.995: [File Ver]    SHCORE  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.829: [ Module ]  ( 73250000h + 02289664 )                                                         C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.6060_none_6ec0247887fefb51\comctl32.dll
+11/22/2025 01:50:24.830: [File Ver]    User Experience Controls Library  6.10 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.995: [ Module ]  ( 74820000h + 00102400 )                                                         C:\Windows\SYSTEM32\mpr.dll
-11/14/2025 14:43:40.995: [File Ver]    Multiple Provider Router DLL  10.0.22621.1 (WinBuild.160101.0800)
+11/22/2025 01:50:24.830: [ Module ]  ( 77AE0000h + 00774144 )                                                         C:\Windows\System32\comdlg32.dll
+11/22/2025 01:50:24.830: [File Ver]    Common Dialogs DLL  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.995: [ Module ]  ( 73AB0000h + 00032768 )                                                         C:\Windows\SYSTEM32\version.dll
-11/14/2025 14:43:40.996: [File Ver]    Version Checking and File Installation Libraries  10.0.22621.1 (WinBuild.160101.0800)
+11/22/2025 01:50:24.830: [ Module ]  ( 77A10000h + 00843776 )                                                         C:\Windows\System32\shcore.dll
+11/22/2025 01:50:24.831: [File Ver]    SHCORE  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.996: [ Module ]  ( 764F0000h + 00344064 )                                                         C:\Windows\System32\SHLWAPI.dll
-11/14/2025 14:43:40.996: [File Ver]    Shell Light-weight Utility Library  10.0.22621.5983 (WinBuild.160101.0800)
+11/22/2025 01:50:24.832: [ Module ]  ( 74120000h + 00024576 )                                                         C:\Windows\SYSTEM32\msimg32.dll
+11/22/2025 01:50:24.832: [File Ver]    GDIEXT Client DLL  10.0.22621.2506 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.996: [ Module ]  ( 71A80000h + 02289664 )                                                         C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.6060_none_6ec0247887fefb51\comctl32.dll
-11/14/2025 14:43:40.996: [File Ver]    User Experience Controls Library  6.10 (WinBuild.160101.0800)
+11/22/2025 01:50:24.833: [ Module ]  ( 764F0000h + 00344064 )                                                         C:\Windows\System32\SHLWAPI.dll
+11/22/2025 01:50:24.833: [File Ver]    Shell Light-weight Utility Library  10.0.22621.5983 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.997: [ Module ]  ( 76820000h + 01064960 )                                                         C:\Windows\System32\Crypt32.dll
-11/14/2025 14:43:40.997: [File Ver]    Crypto API32  10.0.22621.5983 (WinBuild.160101.0800)
+11/22/2025 01:50:24.834: [ Module ]  ( 76820000h + 01064960 )                                                         C:\Windows\System32\Crypt32.dll
+11/22/2025 01:50:24.834: [File Ver]    Crypto API32  10.0.22621.5983 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.998: [ Module ]  ( 744E0000h + 00200704 )                                                         C:\Windows\SYSTEM32\winmm.dll
-11/14/2025 14:43:40.998: [File Ver]    MCI API DLL  10.0.22621.5415 (WinBuild.160101.0800)
+11/22/2025 01:50:24.835: [ Module ]  ( 72B60000h + 00520192 )                                                         C:\Windows\SYSTEM32\winspool.drv
+11/22/2025 01:50:24.835: [File Ver]    Windows Spooler Driver  10.0.22621.5415 (WinBuild.160101.0800)
 
-11/14/2025 14:43:40.998: [ Module ]  ( 71CB0000h + 00520192 )                                                         C:\Windows\SYSTEM32\winspool.drv
-11/14/2025 14:43:40.999: [File Ver]    Windows Spooler Driver  10.0.22621.5415 (WinBuild.160101.0800)
+11/22/2025 01:50:24.835: [ Module ]  ( 74500000h + 00200704 )                                                         C:\Windows\SYSTEM32\winmm.dll
+11/22/2025 01:50:24.835: [File Ver]    MCI API DLL  10.0.22621.5415 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.000: [ Module ]  ( 73050000h + 00032768 )                                                         C:\Windows\SYSTEM32\wsock32.dll
-11/14/2025 14:43:41.000: [File Ver]    Windows Socket 32-Bit DLL  10.0.22621.1 (WinBuild.160101.0800)
+11/22/2025 01:50:24.836: [ Module ]  ( 70D10000h + 00032768 )                                                         C:\Windows\SYSTEM32\wsock32.dll
+11/22/2025 01:50:24.836: [File Ver]    Windows Socket 32-Bit DLL  10.0.22621.1 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.000: [ Module ]  ( 73060000h + 01523712 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\d3d8.dll
-11/14/2025 14:43:41.000: [File Ver]    dgVoodoo 2.82.5 - Direct3D8  4.8.2.134
+11/22/2025 01:50:24.837: [ Module ]  ( 71A90000h + 00962560 )                                                         C:\Windows\SYSTEM32\ddraw.dll
+11/22/2025 01:50:24.838: [File Ver]    Microsoft DirectDraw  10.0.22621.1 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.001: [ Module ]  ( 77610000h + 00389120 )                                                         C:\Windows\System32\WS2_32.dll
-11/14/2025 14:43:41.001: [File Ver]    Windows Socket 2.0 32-Bit DLL  10.0.22621.4746 (WinBuild.160101.0800)
+11/22/2025 01:50:24.838: [ Module ]  ( 77610000h + 00389120 )                                                         C:\Windows\System32\WS2_32.dll
+11/22/2025 01:50:24.839: [File Ver]    Windows Socket 2.0 32-Bit DLL  10.0.22621.4746 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.001: [ Module ]  ( 72F60000h + 00962560 )                                                         C:\Windows\SYSTEM32\ddraw.dll
-11/14/2025 14:43:41.002: [File Ver]    Microsoft DirectDraw  10.0.22621.1 (WinBuild.160101.0800)
+11/22/2025 01:50:24.839: [ Module ]  ( 726B0000h + 00028672 )                                                         C:\Windows\SYSTEM32\DCIMAN32.dll
+11/22/2025 01:50:24.839: [File Ver]    DCI Manager  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.002: [ Module ]  ( 72F50000h + 00028672 )                                                         C:\Windows\SYSTEM32\DCIMAN32.dll
-11/14/2025 14:43:41.002: [File Ver]    DCI Manager  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.839: [ Module ]  ( 71910000h + 01523712 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\d3d8.dll
+11/22/2025 01:50:24.839: [File Ver]    dgVoodoo 2.82.5 - Direct3D8  4.8.2.134
 
-11/14/2025 14:43:41.003: [ Module ]  ( 6FA10000h + 21688320 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\dxgi.dll
-11/14/2025 14:43:41.004: [File Ver]    Special K Modding System  25.1.29.3
+11/22/2025 01:50:24.839: [ Module ]  ( 6F090000h + 21688320 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\dxgi.dll
+11/22/2025 01:50:24.840: [File Ver]    Special K Modding System  25.1.29.3
 
-11/14/2025 14:43:41.004: [ Module ]  ( 72F20000h + 00184320 )                                                         C:\Windows\SYSTEM32\dxcore.dll
-11/14/2025 14:43:41.004: [File Ver]    DXCore  10.0.22621.5415 (WinBuild.160101.0800)
+11/22/2025 01:50:24.840: [ Module ]  ( 718E0000h + 00184320 )                                                         C:\Windows\SYSTEM32\dxcore.dll
+11/22/2025 01:50:24.840: [File Ver]    DXCore  10.0.22621.5415 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.005: [ Module ]  ( 76150000h + 00024576 )                                                         C:\Windows\System32\PSAPI.DLL
-11/14/2025 14:43:41.005: [File Ver]    Process Status Helper  10.0.22621.1 (WinBuild.160101.0800)
+11/22/2025 01:50:24.841: [ Module ]  ( 76150000h + 00024576 )                                                         C:\Windows\System32\PSAPI.DLL
+11/22/2025 01:50:24.842: [File Ver]    Process Status Helper  10.0.22621.1 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.005: [ Module ]  ( 763F0000h + 00151552 )                                                         C:\Windows\System32\IMM32.dll
-11/14/2025 14:43:41.005: [File Ver]    Multi-User Windows IMM32 API Client DLL  10.0.22621.5697 (WinBuild.160101.0800)
+11/22/2025 01:50:24.842: [ Module ]  ( 763F0000h + 00151552 )                                                         C:\Windows\System32\IMM32.dll
+11/22/2025 01:50:24.843: [File Ver]    Multi-User Windows IMM32 API Client DLL  10.0.22621.5697 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.006: [ Module ]  ( 75AA0000h + 04444160 )                                                         C:\Windows\System32\SETUPAPI.dll
-11/14/2025 14:43:41.006: [File Ver]    Windows Setup API  10.0.22621.2506 (WinBuild.160101.0800)
+11/22/2025 01:50:24.843: [ Module ]  ( 75AA0000h + 04444160 )                                                         C:\Windows\System32\SETUPAPI.dll
+11/22/2025 01:50:24.844: [File Ver]    Windows Setup API  10.0.22621.2506 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.006: [ Module ]  ( 77540000h + 00417792 )                                                         C:\Windows\System32\WINTRUST.dll
-11/14/2025 14:43:41.006: [File Ver]    Microsoft Trust Verification APIs  10.0.22621.6060 (WinBuild.160101.0800)
+11/22/2025 01:50:24.844: [ Module ]  ( 72DC0000h + 04775936 )                                                         C:\Windows\SYSTEM32\WININET.dll
+11/22/2025 01:50:24.845: [File Ver]    Internet Extensions for Win32  11.00.22621.5547 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.006: [ Module ]  ( 72A10000h + 00479232 )                                                         C:\Windows\SYSTEM32\tdh.dll
-11/14/2025 14:43:41.007: [File Ver]    Event Trace Helper Library  10.0.22621.2506 (WinBuild.160101.0800)
+11/22/2025 01:50:24.845: [ Module ]  ( 71860000h + 00479232 )                                                         C:\Windows\SYSTEM32\tdh.dll
+11/22/2025 01:50:24.845: [File Ver]    Event Trace Helper Library  10.0.22621.2506 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.008: [ Module ]  ( 74520000h + 00126976 )                                                         C:\Windows\SYSTEM32\USERENV.dll
-11/14/2025 14:43:41.008: [File Ver]    Userenv  10.0.22621.3527 (WinBuild.160101.0800)
+11/22/2025 01:50:24.846: [ Module ]  ( 77540000h + 00417792 )                                                         C:\Windows\System32\WINTRUST.dll
+11/22/2025 01:50:24.847: [File Ver]    Microsoft Trust Verification APIs  10.0.22621.6060 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.008: [ Module ]  ( 72A00000h + 00040960 )                                                         C:\Windows\SYSTEM32\Secur32.dll
-11/14/2025 14:43:41.009: [File Ver]    Security Support Provider Interface  10.0.22621.1 (WinBuild.160101.0800)
+11/22/2025 01:50:24.847: [ Module ]  ( 726E0000h + 00126976 )                                                         C:\Windows\SYSTEM32\USERENV.dll
+11/22/2025 01:50:24.848: [File Ver]    Userenv  10.0.22621.3527 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.009: [ Module ]  ( 72A90000h + 04775936 )                                                         C:\Windows\SYSTEM32\WININET.dll
-11/14/2025 14:43:41.009: [File Ver]    Internet Extensions for Win32  11.00.22621.5547 (WinBuild.160101.0800)
+11/22/2025 01:50:24.849: [ Module ]  ( 726A0000h + 00040960 )                                                         C:\Windows\SYSTEM32\Secur32.dll
+11/22/2025 01:50:24.849: [File Ver]    Security Support Provider Interface  10.0.22621.1 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.009: [ Module ]  ( 729B0000h + 00282624 )                                                         C:\Windows\SYSTEM32\POWRPROF.dll
-11/14/2025 14:43:41.009: [File Ver]    Power Profile Helper DLL  10.0.22621.3958 (WinBuild.160101.0800)
+11/22/2025 01:50:24.850: [ Module ]  ( 727F0000h + 00282624 )                                                         C:\Windows\SYSTEM32\POWRPROF.dll
+11/22/2025 01:50:24.850: [File Ver]    Power Profile Helper DLL  10.0.22621.3958 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.010: [ Module ]  ( 72970000h + 00229376 )                                                         C:\Windows\SYSTEM32\bthprops.cpl
-11/14/2025 14:43:41.010: [File Ver]    Bluetooth Control Panel Applet  10.0.22621.5415 (WinBuild.160101.0800)
+11/22/2025 01:50:24.851: [ Module ]  ( 71820000h + 00229376 )                                                         C:\Windows\SYSTEM32\bthprops.cpl
+11/22/2025 01:50:24.851: [File Ver]    Bluetooth Control Panel Applet  10.0.22621.5415 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.010: [ Module ]  ( 72740000h + 00147456 )                                                         C:\Windows\SYSTEM32\dwmapi.dll
-11/14/2025 14:43:41.010: [File Ver]    Microsoft Desktop Window Manager API  10.0.22621.5697 (WinBuild.160101.0800)
+11/22/2025 01:50:24.851: [ Module ]  ( 71C60000h + 02084864 )                                                         C:\Windows\SYSTEM32\twinapi.appcore.dll
+11/22/2025 01:50:24.852: [File Ver]    twinapi.appcore  10.0.22621.5840 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.010: [ Module ]  ( 726F0000h + 00266240 )                                                         C:\Windows\SYSTEM32\pdh.dll
-11/14/2025 14:43:41.011: [File Ver]    Windows Performance Data Helper DLL  10.0.22621.4391 (WinBuild.160101.0800)
+11/22/2025 01:50:24.853: [ Module ]  ( 71B80000h + 00147456 )                                                         C:\Windows\SYSTEM32\dwmapi.dll
+11/22/2025 01:50:24.853: [File Ver]    Microsoft Desktop Window Manager API  10.0.22621.5697 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.011: [ Module ]  ( 72770000h + 02084864 )                                                         C:\Windows\SYSTEM32\twinapi.appcore.dll
-11/14/2025 14:43:41.011: [File Ver]    twinapi.appcore  10.0.22621.5840 (WinBuild.160101.0800)
+11/22/2025 01:50:24.853: [ Module ]  ( 728E0000h + 00266240 )                                                         C:\Windows\SYSTEM32\pdh.dll
+11/22/2025 01:50:24.854: [File Ver]    Windows Performance Data Helper DLL  10.0.22621.4391 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.012: [ Module ]  ( 74990000h + 00155648 )                                                         C:\Windows\SYSTEM32\SSPICLI.DLL
-11/14/2025 14:43:41.012: [File Ver]    Security Support Provider Interface  10.0.22621.5909 (WinBuild.160101.0800)
+11/22/2025 01:50:24.854: [ Module ]  ( 74990000h + 00155648 )                                                         C:\Windows\SYSTEM32\SSPICLI.DLL
+11/22/2025 01:50:24.855: [File Ver]    Security Support Provider Interface  10.0.22621.5909 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.012: [ Module ]  ( 73450000h + 00172032 )                                                         C:\Windows\SYSTEM32\bluetoothapis.dll
-11/14/2025 14:43:41.012: [File Ver]    Bluetooth Usermode Api host  10.0.22621.5840 (WinBuild.160101.0800)
+11/22/2025 01:50:24.855: [ Module ]  ( 717F0000h + 00172032 )                                                         C:\Windows\SYSTEM32\bluetoothapis.dll
+11/22/2025 01:50:24.855: [File Ver]    Bluetooth Usermode Api host  10.0.22621.5840 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.012: [ Module ]  ( 74E40000h + 00249856 )                                                         C:\Windows\SYSTEM32\cfgmgr32.dll
-11/14/2025 14:43:41.013: [File Ver]    Configuration Manager DLL  10.0.22621.2506 (WinBuild.160101.0800)
+11/22/2025 01:50:24.856: [ Module ]  ( 74E40000h + 00249856 )                                                         C:\Windows\SYSTEM32\cfgmgr32.dll
+11/22/2025 01:50:24.856: [File Ver]    Configuration Manager DLL  10.0.22621.2506 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.013: [ Module ]  ( 73420000h + 00147456 )                                                         C:\Windows\SYSTEM32\DEVOBJ.dll
-11/14/2025 14:43:41.014: [File Ver]    Device Information Set DLL  10.0.22621.2506 (WinBuild.160101.0800)
+11/22/2025 01:50:24.856: [ Module ]  ( 717C0000h + 00147456 )                                                         C:\Windows\SYSTEM32\DEVOBJ.dll
+11/22/2025 01:50:24.857: [File Ver]    Device Information Set DLL  10.0.22621.2506 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.014: [ Module ]  ( 73410000h + 00057344 )                                                         C:\Windows\SYSTEM32\UMPDC.dll
-11/14/2025 14:43:41.015: [File Ver]    User Mode Power Dependency Coordinator  10.0.22621.5124 (WinBuild.160101.0800)
+11/22/2025 01:50:24.857: [ Module ]  ( 72720000h + 00057344 )                                                         C:\Windows\SYSTEM32\UMPDC.dll
+11/22/2025 01:50:24.858: [File Ver]    User Mode Power Dependency Coordinator  10.0.22621.5124 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.016: [ Module ]  ( 74A10000h + 00057344 )                                                         C:\Windows\SYSTEM32\MSASN1.dll
-11/14/2025 14:43:41.016: [File Ver]    ASN.1 Runtime APIs  10.0.22621.2506 (WinBuild.160101.0800)
+11/22/2025 01:50:24.858: [ Module ]  ( 74A10000h + 00057344 )                                                         C:\Windows\SYSTEM32\MSASN1.dll
+11/22/2025 01:50:24.858: [File Ver]    ASN.1 Runtime APIs  10.0.22621.2506 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.016: [ Module ]  ( 74FB0000h + 07389184 )                                                         C:\Windows\SYSTEM32\windows.storage.dll
-11/14/2025 14:43:41.017: [File Ver]    Microsoft WinRT Storage API  10.0.22621.6133 (WinBuild.160101.0800)
+11/22/2025 01:50:24.858: [ Module ]  ( 74FB0000h + 07389184 )                                                         C:\Windows\SYSTEM32\windows.storage.dll
+11/22/2025 01:50:24.859: [File Ver]    Microsoft WinRT Storage API  10.0.22621.6133 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.017: [ Module ]  ( 74EA0000h + 00114688 )                                                         C:\Windows\SYSTEM32\profapi.dll
-11/14/2025 14:43:41.018: [File Ver]    User Profile Basic API  10.0.22621.5840 (WinBuild.160101.0800)
+11/22/2025 01:50:24.859: [ Module ]  ( 74EA0000h + 00114688 )                                                         C:\Windows\SYSTEM32\profapi.dll
+11/22/2025 01:50:24.859: [File Ver]    User Profile Basic API  10.0.22621.5840 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.018: [ Module ]  ( 73270000h + 01683456 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\d3d9.dll
-11/14/2025 14:43:41.019: [File Ver]    dgVoodoo 2.82.5 - Direct3D9  4.9.0.904
+11/22/2025 01:50:24.859: [ Module ]  ( 71620000h + 01683456 )                                                         C:\Users\*****\OneDrive\Desktop\ultra gaymer xD\gaygay\d3d9.dll
+11/22/2025 01:50:24.860: [File Ver]    dgVoodoo 2.82.5 - Direct3D9  4.9.0.904
 
-11/14/2025 14:43:41.019: [ Module ]  ( 72510000h + 01929216 )                                                         C:\Users\*****\OneDrive\Documents\My Mods\SpecialK\Drivers\Dbghelp\dbghelp_sk32.dll
-11/14/2025 14:43:41.019: [File Ver]    Windows Image Helper  10.0.22621.5471 (WinBuild.160101.0800)
+11/22/2025 01:50:24.861: [ Module ]  ( 71440000h + 01929216 )                                                         C:\Users\*****\OneDrive\Documents\My Mods\SpecialK\Drivers\Dbghelp\dbghelp_sk32.dll
+11/22/2025 01:50:24.861: [File Ver]    Windows Image Helper  10.0.22621.5471 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.020: [ Module ]  ( 72440000h + 00827392 )                                                         C:\Windows\System32\dxgi.dll
-11/14/2025 14:43:41.021: [File Ver]    DirectX Graphics Infrastructure  10.0.22621.5415 (WinBuild.160101.0800)
+11/22/2025 01:50:24.861: [ Module ]  ( 71370000h + 00827392 )                                                         C:\Windows\System32\dxgi.dll
+11/22/2025 01:50:24.862: [File Ver]    DirectX Graphics Infrastructure  10.0.22621.5415 (WinBuild.160101.0800)
 
-11/14/2025 14:43:41.021: [ Module ]  ( 75EE0000h + 00405504 )                                                         C:\Windows\System32\bcryptPrimitives.dll
-11/14/2025 14:43:41.021: [File Ver]    Windows Cryptographic Primitives Library  10.0.22621.4317 (WinBuild.160101.0800)
+11/22/2025 01:50:24.862: [ Module ]  ( 75EE0000h + 00405504 )                                                         C:\Windows\System32\bcryptPrimitives.dll
+11/22/2025 01:50:24.862: [File Ver]    Windows Cryptographic Primitives Library  10.0.22621.4317 (WinBuild.160101.0800)
 
 ================================================================== (End Preloads) ==================================================================
 
-11/14/2025 14:43:41.040: [ Module ]  ( 74F90000h + 00077824 )                                                         C:\Windows\SYSTEM32\kernel.appcore.dll
-11/14/2025 14:43:41.040: [File Ver]    AppModel API Host  10.0.22621.3958 (WinBuild.160101.0800)
-
-11/14/2025 14:43:41.041: [ Module ]  ( 73CF0000h + 00540672 )                                                         C:\Windows\system32\uxtheme.dll
-11/14/2025 14:43:41.041: [File Ver]    Microsoft UxTheme Library  10.0.22621.5983 (WinBuild.160101.0800)
+11/22/2025 01:50:24.882: [ Module ]  ( 74F90000h + 00077824 )                                                         C:\Windows\SYSTEM32\kernel.appcore.dll
+11/22/2025 01:50:24.882: [File Ver]    AppModel API Host  10.0.22621.3958 (WinBuild.160101.0800)
 
 ================================================================== (List Unloads) ==================================================================
-11/14/2025 14:43:41.042: [00] Unloaded '        resourcepolicyclient.dll' [ (0x71D40000) : (0x71D50000) ]
-11/14/2025 14:43:41.043: [00]  * Ver.:  Resource Policy Client  10.0.22621.3527 (WinBuild.160101.0800)
+11/22/2025 01:50:24.883: [00] Unloaded '        resourcepolicyclient.dll' [ (0x70D70000) : (0x70D80000) ]
+11/22/2025 01:50:24.884: [00]  * Ver.:  Resource Policy Client  10.0.22621.3527 (WinBuild.160101.0800)
