@@ -6,7 +6,7 @@ switch(room) {
     case rOptions:
     case rSample:
     case rSampleTriggers:
-        return "guy_rock";
+        return "tititititititititititititititi";
 
     case rSampleBoss:
     case rmWROOOOOOONG:
