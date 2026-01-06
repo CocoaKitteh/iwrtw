@@ -8,6 +8,7 @@ if(instance_exists(Bullet)){
     with(Bullet)
         instance_destroy()
 }
+image_speed=0.2
 t=0
 t2=0
 spin=0

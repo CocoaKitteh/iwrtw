@@ -1,1 +1,1 @@
-xx=704;yy=496;inst=BroSkippedBoss3
+xx=704;yy=502;inst=BroSkippedBoss3
