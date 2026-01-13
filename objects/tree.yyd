@@ -19,6 +19,7 @@
 	|DialogBox
 	|Bubble
 	|NotATruck
+	|ExclamationPoint
 +Player
 	|PlayerStart
 	|Player

@@ -30,6 +30,7 @@ if(instance_exists(Player)){
             c.speed=spd
             c.direction=random_range(225,315)
             c.image_angle=c.direction
+            c.sprite_index=sprBoshySpikeCentered
         }
     }
 }

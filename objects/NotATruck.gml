@@ -50,6 +50,9 @@ if(room==rmPreStage3){
             e.spd=4
         }
 
+        if(t==275 or t==625 or t==975 or t==1725)
+            instance_create(x+48,y-64,ExclamationPoint)
+
         if(t>350 and t<450)
             x+=4
 

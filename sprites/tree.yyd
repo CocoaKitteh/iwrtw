@@ -17,6 +17,7 @@
 	|sprDialogBox
 	|sprBubble
 	|sprThisWasSupposedToBeATruckAtFirstButVerveEngineIsFuckingDogshitAndDoesntLetYouUseMovingBlocksIfTheHitboxesArentRectangles
+	|sprExclamationPoint
 	+Trigger makers
 		|sprTriggerMaker
 		|sprTriggerMakerRed
@@ -83,6 +84,7 @@
 	|sprSpikeRight
 	|sprSpikeRightStage4
 	|sprSpikeCentered
+	|sprBoshySpikeCentered
 	|sprSpikeDown
 	|sprSpikeDownStage4
 	|sprSpikeLeft
